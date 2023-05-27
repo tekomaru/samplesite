@@ -12,7 +12,7 @@ return (
         </div>
         <div className={`${styles.Company_companyWrapper___7XfP} animate__animated animate__fadeInUp`}>
             <div className={styles.Company_companyText__kqkJK}>
-                <span>WorldHacksでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</span>
+                <span>XXXXXXXXXでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</span>
                 <span>様々なニーズに合わせて、それぞれの事業フェーズ・課題に応じた支援が可能です。</span>
                 <span>私たちと一緒に世界をハックするサービスを生み出しましょう。</span>
                 </div>
@@ -21,7 +21,7 @@ return (
                     <Link className={styles.Company_circle__QD60S} href="/company/">
                         <span className={styles.Company_arrow__fhvtz}></span>
                         </Link>
-                        <div>WorldHacksについて</div>
+                        <div>会社について</div>
                         </div>
                         </>
                         </section>
