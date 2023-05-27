@@ -16,9 +16,9 @@ return (
                 
             </div>
             <style jsx>{'.Recruit_scrollCircle__Gp1AW {max-height: 3000px; width: 1475.21px; height: 1475.21px; top: calc(50% - 737.606px); left: calc(50% - 737.606px); opacity: 187.065;}'}</style>
-            <span className={styles.Recruit_joinWorldHacks__gjkR6}>JOIN WorldHacks</span>
+            <span className={styles.Recruit_joinWorldHacks__gjkR6}>JOIN XXXXXXXXX</span>
             <div className={styles.Recruit_recruitWrapper__kXmCr}>
-                <span className={`${styles.undefined} animate__animated animate__fadeInUp`}>WorldHacksではインターン、業界未経験からのポテンシャル採用、中途採用と幅広くご用意しております。 挑戦を恐れず積極的に事業を推し進めていける方を募集しております。</span>
+                <span className={`${styles.undefined} animate__animated animate__fadeInUp`}>XXXXXXではインターン、業界未経験からのポテンシャル採用、中途採用と幅広くご用意しております。 挑戦を恐れず積極的に事業を推し進めていける方を募集しております。</span>
                 <span className={`${styles.undefined} animate__animated animate__fadeInUp`}>チャレンジしたい方は是非お待ちしております。</span>
             </div>
         </div>
