@@ -1,16 +1,16 @@
-.OpenPosition_wrapper__qc6cf {
+.OpenPosition_wrapper {
     margin-top: 60px;
     padding: 100px 13%;
     background-color: #3e3e3e;
 }
-.OpenPosition_wrapper__qc6cf div:first-child {
+.OpenPosition_wrapper div:first-child {
     animation-delay: .2s;
 }
-.OpenPosition_wrapper__qc6cf div:nth-child(2) {
+.OpenPosition_wrapper div:nth-child(2) {
     animation-delay: .3s;
 }
 
-.Headline_headline__tn7LE {
+.Headline_headline {
     font-family: Montserrat;
     font-weight: 600;
     font-size: 40px;
@@ -21,7 +21,7 @@
     margin-bottom: 119px;
     position: relative;
 }
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+.Headline_headline .Headline_mainHeadline {
     cursor: pointer;
     white-space: nowrap;
     display: inline-block;
@@ -32,13 +32,13 @@
     transform-origin: top left;
     position: relative;
 }
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA:after {
+.Headline_headline__tn7LE .Headline_mainHeadline:after {
     content: "";
     border-bottom: 1px solid #f5f5f5;
     width: 0;
     transition: all .6s;
 }
-.Headline_headline__tn7LE span {
+.Headline_headline span {
     font-family: Zen Kaku Gothic Antique;
     font-weight: 300;
     font-size: 18px;
@@ -54,23 +54,23 @@
     transform-origin: top left;
     opacity: 0;
 }
-.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper__ZDB_d .OpenPosition_positionBox__2VJik {
+.OpenPosition_wrapper .OpenPosition_positionWrapper .OpenPosition_positionBox {
     position: relative;
     width: 381px;
     height: 180px;
     border: 1px solid #f5f5f5;
     cursor: pointer;
 }
-.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper__ZDB_d .OpenPosition_positionBox__2VJik img {
+.OpenPosition_wrapper .OpenPosition_positionWrapper .OpenPosition_positionBox img {
     position: absolute;
     top: 4%;
     right: 3%;
 }
-.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper__ZDB_d .OpenPosition_positionBox__2VJik .OpenPosition_positionContent__ZkuOu {
+.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper .OpenPosition_positionBox .OpenPosition_positionContent {
     padding-top: 65px;
     padding-left: 30px;
 }
-.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper__ZDB_d .OpenPosition_positionBox__2VJik h3 {
+.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper .OpenPosition_positionBox h3 {
     font-family: Zen Kaku Gothic Antique;
     font-weight: 500;
     font-size: 32px;
@@ -79,7 +79,7 @@
     color: #f5f5f5;
     margin-bottom: 6px;
 }
-.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper__ZDB_d .OpenPosition_positionBox__2VJik span {
+.OpenPosition_wrapper__qc6cf .OpenPosition_positionWrapper .OpenPosition_positionBox span {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 14px;
@@ -87,6 +87,6 @@
     letter-spacing: .01em;
     color: #f5f5f5;
 }
-.OpenPosition_wrapper__qc6cf div:nth-child(3) {
+.OpenPosition_wrapper div:nth-child(3) {
     animation-delay: .4s;
 }
