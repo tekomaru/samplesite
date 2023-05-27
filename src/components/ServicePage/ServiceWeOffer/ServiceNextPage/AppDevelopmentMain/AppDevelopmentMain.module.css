@@ -1,0 +1,74 @@
+.AppDevMain_wrapper__Q2kKN {
+    margin-top: 50px;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_pageTitle__95a_p {
+    padding: 0 13%;
+}
+.PageTitle_wrapper__d3y0q .PageTitle_transparent__FD1Cq {
+    animation-name: PageTitle_fadeUpLeftAnime__Mjq9a;
+}
+.PageTitle_wrapper__d3y0q h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 190px;
+    line-height: 120px;
+    letter-spacing: .01em;
+    color: transparent;
+    animation-duration: 1.1s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevWrapper__cHzO9 {
+    position: relative;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevMainContent__MS9pp {
+    background-color: #3e3e3e;
+    margin-top: 40px;
+    padding: 40px 13% 30px;
+    -webkit-clip-path: polygon(0 100%,0 0,82.5% 0,100% 100%);
+    clip-path: polygon(0 100%,0 0,82.5% 0,100% 100%);
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevMainContent__MS9pp .AppDevMain_grayArea__DnSKQ {
+    display: none;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevMainContent__MS9pp .AppDevMain_textArea__52if7 {
+    font-family: Zen Kaku Gothic Antique;
+    color: #f5f5f5;
+    letter-spacing: .02em;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevMainContent__MS9pp .AppDevMain_textArea__52if7 h2 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 27px;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevMainContent__MS9pp .AppDevMain_textArea__52if7 p {
+    max-width: 500px;
+    width: 45vw;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 88px;
+}
+.AppDevMain_wrapper__Q2kKN .AppDevMain_appDevWrapper__cHzO9.AppDevMain_smartPhoneApp__NibG0:after {
+    content: url(/img/appdev/rectangle.png);
+}
+AppDevMain_wrapper__Q2kKN .AppDevMain_appDevWrapper__cHzO9.AppDevMain_inHouseDev__yNb3M:after, .AppDevMain_wrapper__Q2kKN .AppDevMain_appDevWrapper__cHzO9.AppDevMain_smartPhoneApp__NibG0:after, .AppDevMain_wrapper__Q2kKN .AppDevMain_appDevWrapper__cHzO9.AppDevMain_webApp__mSB_G:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    overflow: hidden;
+    width: 40vw;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    background-size: cover;
+}
+@keyframes PageTitle_fadeUpLeftAnime__Mjq9a {
+    0% {
+        transform: translateX(-250px);
+    }
+    100% {
+        transform: translateX(0);
+        color: hsla(0,0%,100%,.2);
+    }
+}

@@ -1,0 +1,65 @@
+.ServiceMain_wrapper___yDuj {
+    margin-top: 80px;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe {
+    position: relative;
+    height:485px;/* 背景画像の分です */
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe img {
+    width: 100vw;
+    height: 485px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe .ServiceMain_serviceTitle__DWIh0 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 190px;
+    letter-spacing: .01em;
+    padding: 0 13%;
+    line-height: 220px;
+    top: 0;
+    left: 0;
+    animation-name: ServiceMain_fadeUpLeftAnime__kZBJm;
+    animation-duration: 1.1s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 {
+    margin: 82px auto 0;
+    max-width: 1200px;
+    color: #f5f5f5;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:first-child {
+    font-family: Zen Kaku Gothic Antique;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: .02em;
+    text-align: center;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:last-child {
+    font-family: Zen Kaku Gothic Antique;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: .03em;
+}
+.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 .ServiceMain_scrollDown__7jqtz {
+    height: 127px;
+    width: 1px;
+    background-color: #f5f5f5;
+    margin: 30px auto;
+}
+
+@keyframes ServiceMain_fadeUpLeftAnime__kZBJm {
+    0% {
+        transform: translateX(-250px);
+    }
+    100% {
+        transform: translateX(0);
+        color: hsla(0,0%,100%,.2);
+    }
+}

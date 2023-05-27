@@ -1,0 +1,67 @@
+.WebSystemDevelopment_wrapper__OyXix {
+    padding: 0 10%;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr {
+    margin-top: 185px;
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 905px;
+    background-color: #3e3e3e;
+    padding: 45px 13%;
+    animation-delay: 1s;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    animation-delay: .5s;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X {
+    width: 33%;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X p {
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #fbfbfb;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X span {
+    display: inline-block;
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #fbfbfb;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_grid__27ULC {
+    width: 67%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 45px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_grid__27ULC .WebSystemDevelopment_imgWrapper__EA9JM {
+    display: flex;
+    align-items: center;
+    padding: 3px 0 3px 14px;
+    border-left: 1px solid #ce0606;
+    gap: 10px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_grid__27ULC .WebSystemDevelopment_imgWrapper__EA9JM p {
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 18px;
+    height: 30px;
+    line-height: 21px;
+    letter-spacing: 1.68px;
+    color: #fbfbfb;
+    margin-top: 7px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD:nth-child(2) {
+    border-top: 1px solid #fff;
+    padding-top: 80px;
+}

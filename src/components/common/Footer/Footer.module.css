@@ -1,0 +1,91 @@
+.Footer_wrapper__RlMTC {
+    padding: 0 10%;
+    margin: 54px auto 0;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG {
+    width: 30%;
+    position: relative;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerLogo__pfHjk {
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: -30px;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG {
+    width: 30%;
+    position: relative;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG span {
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: .01em;
+    color: #a6a6a6;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG span:before {
+    content: "";
+    border: 1px solid #6b6b6b;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    transform: translateY(-31px);
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG ul {
+    margin-top: 0;
+    padding: 0 0 20px 50px;
+    list-style: none;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG ul li {
+    margin-top: 4px;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG ul li a {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: .01em;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG span {
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: .01em;
+    color: #a6a6a6;
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_copyright__GHIKt {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 0;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .01em;
+}
+
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG span:before {
+    content: "";
+    border: 1px solid #6b6b6b;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    transform: translateY(-31px);
+}
+.Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG .Footer_snsWrapper__UNIgD {
+    display: flex;
+    gap: 20px;
+    margin-top: 12px;
+}
+
+.Footer_wrapper__RlMTC .Footer_spFooterWrapper__cclRy {
+    display: none;
+}

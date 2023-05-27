@@ -1,0 +1,53 @@
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl {
+    margin-top: 185px;
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 320px;
+    background-color: #3e3e3e;
+    padding: 45px 13%;
+    animation-delay: 1s;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplicationTitle__wA9L7 p {
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #fbfbfb;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_iosAndroid__ndhPh {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 33%;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW span {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 1.68px;
+    color: #fbfbfb;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t {
+    width: 67%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 45px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t p {
+    font-family: Zen Kaku Gothic Antique;
+    font-size: 18px;
+    height: 30px;
+    line-height: 21px;
+    letter-spacing: 1.68px;
+    color: #fbfbfb;
+    margin-top: 7px;
+    padding: 3px 0 3px 17px;
+    border-left: 1px solid #ce0606;
+}

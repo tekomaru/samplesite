@@ -1,0 +1,23 @@
+.Breadcrumb_wrapper {
+  position: relative;
+    padding: 120px 15% 0;
+    z-index: 1;
+   
+  }
+.Breadcrumb_wrapper .Breadcrumb_breadcrumb{
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 31px;
+  letter-spacing: .03em;
+  cursor:pointer;
+}
+.container {
+  margin: 0 5px;
+}
+.link {
+  margin: 0 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
