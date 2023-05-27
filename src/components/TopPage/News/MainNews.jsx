@@ -17,7 +17,7 @@ return (
                             <div className={styles.News_leftTopCard__e9Py1}>
                                 <span>ニュース</span>
                             </div>
-                            <Image src="/img/news/defaultImg.png" alt="記事" width={270} height={287} className={styles.News_defaultImg__SV9HJ} />
+                            <img src="/img/news/defaultImg.png" alt="記事" width={270} height={287} className={styles.News_defaultImg__SV9HJ} />
                         </div>
                         <div className={styles.News_blogContent___pEgF}>
                             <p>コーポレートサイトをリニューアルしました。</p>
