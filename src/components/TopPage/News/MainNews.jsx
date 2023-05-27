@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/Image'
 import styles from './MainNews.module.css'
 import 'animate.css'
 
