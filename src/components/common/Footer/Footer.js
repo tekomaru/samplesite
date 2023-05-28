@@ -40,7 +40,55 @@ export default function Footer(){
                 </div>
                 <style jsx>{'.Footer_copyright__GHIKt {color: rgb(245, 245, 245);} '}</style>
             </div>
-           
+            <div className={styles.Footer_spFooterWrapper__cclRy}>
+                <div className={styles.Footer_spMenuWrapper__NM_bo}>
+                    <span>MENU</span>
+                    <div className={styles.Footer_spMenus__3e4s1}>
+                        <a href="/">HOME</a>
+                        <a href="/company/">COMPANY</a>
+                        <a href="/service/">SERVICE</a>
+                        <a href="/recruit/">RECRUIT</a>
+                        <a href="/news/page/1/">NEWS</a>
+                        <a href="/contact/">CONTACT</a>
+                    <style jsx>{`
+                    .Footer_spMenus__3e4s1 a {
+                        color:rgb(245, 245, 245);
+                    }
+                    `}
+                    </style>
+                    </div>
+                </div>
+                <div className={styles.Footer_spSocialWrapper___kSQT}>
+                    <span>SOCIAL</span>
+                    <div className={styles.Footer_spSocials__QHJtd}>
+                        <a href="https://line.me/R/ti/p/@564hwchb">
+                            <img src="/img/line.svg" alt="line" /></a>
+                            <a href="https://twitter.com/WorldHacks_Inc">
+                            <img src="/img/twitter.svg" alt="twitter" /></a>
+                            <a href="https://www.facebook.com/worldhacks20220324">
+                            <img src="/img/facebook.svg" alt="facebook" /></a>
+                    </div>
+                </div>
+                <div className={styles.Footer_spImgAndPrivacyPolicy__rIuHW}>
+                    <img src="/img/footerLogo.png" alt="worldHacks" />
+                        <span>
+                            <a href="/privacy_policy/">Privacy Policy</a>
+                            <style jsx>{`
+                            .Footer_spImgAndPrivacyPolicy__rIuHW span {
+                                color:rgb(245, 245, 245);
+                            }`}
+                            </style>
+                        </span>
+                    </div>
+                    <div className={styles.Footer_spCopyright__5zZNi}>
+                        <span>© WorldHacks Corporation. All rights reserved.</span>
+                        <style jsx>{`
+                        .Footer_spCopyright__5zZNi span {
+                            color:rgb(245, 245, 245);
+                        }`}
+                        </style>
+                    </div>
+                </div>
             </footer>
 )
 }

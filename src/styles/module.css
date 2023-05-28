@@ -1176,61 +1176,6 @@ body,html {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .Main_canvas__HD016 {
-        top:50%;
-        margin-top: 150px;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ {
-        top: 120px;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ .Main_hacktheworld__4bpnN {
-        margin-left: -10px;
-        font-size: 80px;
-        line-height: 55px;
-        transform: scaleY(1.116);
-        text-align: left;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ .Main_titleBlock__9viph {
-        padding-top: 20px;
-        padding-bottom: 4px;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ .Main_subTitle__cP_DX {
-        font-size: 19px;
-        line-height: 50px;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ .Main_subTitle__cP_DX .Main_fadeUp4__KyRn0 {
-        margin-top: 10px;
-        margin-left: 0;
-    }
-
-    .Main_leftScroll__yLeNd {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .Main_mainTitleSection__ZKQ4_ .Main_hacktheworld__4bpnN {
-        font-size:80px;
-        line-height: 60px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .Main_mainTitleSection__ZKQ4_ .Main_hacktheworld__4bpnN {
-        font-size:70px;
-        line-height: 45px;
-    }
-
-    .Main_mainTitleSection__ZKQ4_ .Main_subTitle__cP_DX {
-        font-size: 15px;
-    }
-}
 
 .Navbar_navbar__oeail {
     position: fixed;

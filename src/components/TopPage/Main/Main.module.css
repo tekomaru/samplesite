@@ -1,4 +1,4 @@
-.Main_canvas__HD016 {
+.canvas__HD016 {
     position: relative;
     outline: none;
     overflow: hidden;
@@ -27,7 +27,7 @@
 .fadeUp1 {
     display: inline-block;
     margin-left: 20px;
-    animation-name: Main_fadeUpAnime;
+    animation-name: fadeUpAnime;
     animation-duration: 1.1s;
     animation-delay: .1s;
     animation-fill-mode: forwards;
@@ -36,7 +36,7 @@
 .fadeUp2 {
     display: inline-block;
     margin-left: 20px;
-    animation-name: Main_fadeUpAnime;
+    animation-name: fadeUpAnime;
     animation-delay: .2s;
     animation-duration: 1.1s;
     animation-fill-mode: forwards;
@@ -46,7 +46,7 @@
     display: inline-block;
     margin-left: 20px;
     animation-delay: .3s;
-    animation-name: Main_fadeUpAnime;
+    animation-name: fadeUpAnime;
     animation-duration: 1.1s;
     animation-fill-mode: forwards;
     transform-origin: top left;
@@ -54,7 +54,7 @@
 .fadeUp4 {
     display: inline-block;
     margin-left: 20px;
-    animation-name: Main_fadeUpAnimeSub;
+    animation-name: fadeUpAnimeSub;
     animation-duration: 1.1s;
     animation-delay: .4s;
     animation-fill-mode: forwards;
@@ -72,7 +72,7 @@
     margin-left: 15px;
     overflow: hidden;
 }
-@keyframes Main_fadeUpAnime {
+@keyframes fadeUpAnime {
     0% {
         transform: translateY(150px) rotate(40deg);
     }
@@ -81,7 +81,7 @@
         text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, -1px -1px 0 #fff;
     }
 }
-@keyframes Main_fadeUpAnimeSub {
+@keyframes fadeUpAnimeSub {
     0% {
         transform: translateY(150px) rotate(40deg);
     }
@@ -116,4 +116,59 @@
     height: 60px;
     background: #fff;
     animation: 1.4s ease-in-out infinite;
+}
+@media screen and (max-width: 768px) {
+    .Main_canvas__HD016 {
+        top:50%;
+        margin-top: 150px;
+    }
+
+    .mainTitleSection {
+        top: 120px;
+    }
+
+    .mainTitleSection .hacktheworld {
+        margin-left: -10px;
+        font-size: 80px;
+        line-height: 55px;
+        transform: scaleY(1.116);
+        text-align: left;
+    }
+
+    .mainTitleSection .titleBlock {
+        padding-top: 20px;
+        padding-bottom: 4px;
+    }
+
+    .mainTitleSection .subTitle {
+        font-size: 19px;
+        line-height: 50px;
+    }
+
+    .mainTitleSection .subTitle .fadeUp4 {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .leftScroll {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mainTitleSection .hacktheworld {
+        font-size:80px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .mainTitleSection .hacktheworld {
+        font-size:70px;
+        line-height: 45px;
+    }
+
+    .mainTitleSection .subTitle {
+        font-size: 15px;
+    }
 }
