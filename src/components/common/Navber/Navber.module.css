@@ -82,7 +82,7 @@
     font-weight: 400;
 }
 .navbarInner .spAllCover {
-    display: none;
+    display:none;
 }
 @media screen and (max-width: 992px) {
     .navbarInner nav {
@@ -123,22 +123,18 @@
     .navbarInner .openHambugerMenu .blackMenuBar {
         background: #000;
     }
-
     .navbarInner .spAllCover {
+        display:none;
+    }
+    .navbarInner .open{
+        background: linear-gradient(144.85deg,#222 12.38%,#262626 37.36%,#272727 37.37%,#404040 87.13%);
+        width: 100%;
+        height: 110vh;
         position: absolute;
         top: -120%;
         left: 0;
         z-index: 9999;
-        background: linear-gradient(144.85deg,#222 12.38%,#262626 37.36%,#272727 37.37%,#404040 87.13%);
-        width: 100%;
-        height: 110vh;
-    }
-
-    .navbarInner .spAllCover .sp {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 40px;
+        display:block;
     }
     .navbarInner .spAllCover .spNavbar {
         display: flex;
@@ -146,11 +142,11 @@
         justify-content: space-around;
         margin-top: 40px;
     }
-    .navbarInner .spAllCover .sp .closeMenuWrapper {
+    .navbarInner .spAllCover .spNavbar .closeMenuWrapper {
         cursor: pointer;
     }
 
-    .navbarInner .spAllCover .sp .closeMenuWrapper .closeMenuBar {
+    .navbarInner .spAllCover .spNavbar .closeMenuWrapper .closeMenuBar {
         display: inline-block;
         width: 29px;
         height: 1px;

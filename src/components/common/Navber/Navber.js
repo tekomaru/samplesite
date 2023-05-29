@@ -4,10 +4,10 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const Navber = () =>{
-  // const[openMenu,setOpenMenu] = useState(false);
-  // const handleMenuOpen = () => {
-  //   setOpenMenu(!openMenu);
-  // };
+  const[openMenu,setOpenMenu] = useState(false);
+  const menuFunction = () => {
+    setOpenMenu(!openMenu);
+  }
   return ( 
     <>
        <div className={`${styles.oeail} animate__animated animate__fadeInUp`}>
@@ -25,19 +25,19 @@ const Navber = () =>{
                                     <li><Link href="/page/contact/">CONTACT</Link></li>
                                 </ul>
                             </nav>
-                            <div className={styles.openHambugerMenu} >
+                            <div className={styles.openHambugerMenu} onClick={() => menuFunction()}>
                               <span className={styles.topMenuBar}></span>
                               <span className={styles.bottomMenuBar}></span>
                               </div>
-                            <div className={`${styles.spAllCover} animate__animated animate__fadeInLeft`}>
+                            <div className={`${ styles.spAllCover} ${openMenu? styles.open: undefined} animate__animated animate__fadeInLeft`}>
                               <div className={styles.spNavbar}>
                                 <a href="/">
                                 <img src="/img/worldHacksLogo.png" alt="WorldHacks" /></a>
-                                <div className={styles.closeMenuWrapper}>
+                                <div className={styles.closeMenuWrapper} onClick={() => menuFunction()}>
                                   <span>CLOSE</span>
                                   <span className={styles.closeMenuBar}></span>
                                 </div>
-                            </div>
+                              </div>
                               <nav className={styles.spNavigation}>
                                 <ul>
                                   <li class="animate__animated animate__fadeInUp">
