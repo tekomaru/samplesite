@@ -1,13 +1,10 @@
-import styles from './About.module.css'
-import Image from 'next/image'
+import styles from './About.module.css';
 
 export default function About() {
     return (
-        <>
-        
         <div className={styles.About_wrapper___P5b4}>
             <div className={styles.About_background__4_MBK}>
-                <div className={`${styles.undefined} ${styles.PageTitle_wrapper__d3y0q}`}>
+                <div className={styles.PageTitle_wrapper__d3y0q}>
                     <h2 className={styles.PageTitle_gray__1L4xT}>ABOUT</h2>
                 </div>
                 <div className={styles.About_aboutContent__vJ5m0}>
@@ -22,6 +19,5 @@ export default function About() {
                 <img src="/img/slick03.png" alt="" />
             </div>
         </div>
-        </>
     )
 }

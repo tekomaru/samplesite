@@ -51,3 +51,54 @@
     padding: 3px 0 3px 17px;
     border-left: 1px solid #ce0606;
 }
+@media screen and (max-width: 768px){
+.SmartPhoneAppDevelopment_wrapper__jUaJz {
+    padding: 0 10%;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl {
+    margin-top: 75px;
+    height: 510px;
+    padding: 45px 10%;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplicationTitle__wA9L7 p {
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplicationTitle__wA9L7 span {
+    margin-top: 0;
+    font-size: 14px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW {
+    margin-top: 55px;
+    flex-direction: column;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_iosAndroid__ndhPh {
+    width: 100%;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t {
+    width: 100%;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+}
+
+
+@media screen and (max-width: 390px){
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplicationTitle__wA9L7 p {
+    font-size: 20px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplicationTitle__wA9L7 span {
+    font-size: 12px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t p, .SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_iosAndroid__ndhPh span {
+    font-size: 14px;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t {
+    margin-left: 0;
+}
+.SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_enabledApplicationsGrid__uPi6t p, .SmartPhoneAppDevelopment_wrapper__jUaJz .SmartPhoneAppDevelopment_enabledApplicationsWrapper__VaAkl .SmartPhoneAppDevelopment_enabledApplications__wqjPW .SmartPhoneAppDevelopment_iosAndroid__ndhPh span {
+    font-size: 14px;
+}
+}

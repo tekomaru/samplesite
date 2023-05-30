@@ -77,3 +77,49 @@
         opacity: 1;
     }
 }
+@media screen and (max-width: 1200px){
+.TechnologyStacks_wrapper__bysQW {
+    padding: 0 10%;
+}
+}
+
+@media screen and (max-width: 768px){
+.TechnologyStacks_wrapper__bysQW {
+    padding: 0 9%;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+    font-size: 24px;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA:hover:after {
+    width: 100px;
+}
+.Headline_headline__tn7LE span {
+    font-size: 14px;
+    left: 140px;
+}
+.TechnologyStacks_wrapper__bysQW .TechnologyStacks_technologyStacksGridWrapper__tE9k_ {
+    grid-template-columns: 1fr;
+}
+.TechnologyStacks_wrapper__bysQW .TechnologyStacks_technologyStacksGridWrapper__tE9k_ img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 576px){
+.Headline_headline__tn7LE {
+    margin-bottom: 19px;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+    font-size: 20px;
+}
+.Headline_headline__tn7LE span {
+    font-size: 12px;
+    top: -25%;
+    left: 0;
+}
+}
+
+@media screen and (max-width: 390px){
+.TechnologyStacks_wrapper__bysQW {
+    padding: 0 8%;
+}
+}

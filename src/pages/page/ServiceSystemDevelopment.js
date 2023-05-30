@@ -5,7 +5,7 @@ import WebSystemDevelopment from '@/components/ServicePage/ServiceWeOffer/Servic
 import Layout from '../../components/common/Layout'
 import SystemDevelopmentMain from '../../components/ServicePage/ServiceWeOffer/ServiceNextPage/SystemDevelopmentMain/SystemDevelopmentMain'
 
-export default function PageSystemDevelopment() {
+export default function ServiceSystemDevelopment() {
     return(
         <Layout>
             <main>

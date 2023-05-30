@@ -33,3 +33,26 @@
         color: hsla(0,0%,100%,.2);
     }
 }
+@media screen and (max-width: 1200px){
+.PageTitle_wrapper__d3y0q h2 {
+    font-size: 140px;
+}
+}
+
+@media screen and (max-width: 768px){
+.PageTitle_wrapper__d3y0q h2 {
+    font-size: 60px;
+    line-height: 50px;
+}
+.ContactText_wrapper p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fbfbfb;
+}
+}
+@media screen and (max-width: 390px){
+.ContactText_wrapper h2 {
+    font-size: 45px;
+}
+
+}

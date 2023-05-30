@@ -61,3 +61,29 @@
         color: rgba(0,0,0,.1);
     }
 }
+@media screen and (max-width: 1200px){
+.About_wrapper___P5b4 .About_background__4_MBK {
+    padding: 60px 10% 0;
+}
+.PageTitle_wrapper__d3y0q h2 {
+    font-size: 140px;
+}
+}
+
+@media screen and (max-width: 768px){
+.PageTitle_wrapper__d3y0q h2 {
+    font-size: 60px;
+    line-height: 50px;
+}
+.About_wrapper___P5b4 .About_aboutContent__vJ5m0 {
+    margin: 26px auto 0;
+}
+.About_wrapper___P5b4 .About_aboutContent__vJ5m0 h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+}
+.About_loopWrap__xgNTZ {
+    height: 200px;
+}
+}

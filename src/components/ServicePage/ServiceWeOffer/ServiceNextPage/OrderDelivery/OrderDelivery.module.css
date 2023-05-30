@@ -181,3 +181,71 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 992px){
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 {
+    height: 200px;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_orderContentWrapper__tgiEk p {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 768px){
+.OrderDelivery_wrapper__QvuO4 {
+    margin-top: 120px;
+    padding: 0 10%;
+    margin-bottom: 100px;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+    font-size: 24px;
+}
+.Headline_headline__tn7LE span {
+    font-size: 14px;
+    left: 140px;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu {
+    display: block;
+    margin: 0 auto;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 {
+    padding: 13px 25px;
+    height: auto;
+    min-height: 200px;
+    margin-top: 70px;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_stepWrapper__1VS24 {
+    width: 12%;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_orderContentWrapper__tgiEk {
+    width: 80%;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_orderContentWrapper__tgiEk p:first-child {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_orderContentWrapper__tgiEk p {
+    font-size: 16px;
+    line-height: 27px;
+}
+.OrderDelivery_wrapper__QvuO4 .OrderDelivery_orderDeliveryWrapper__wArky .OrderDelivery_delivery__vwtfu .OrderDelivery_deliveryBox__MHq45 .OrderDelivery_orderContentWrapper__tgiEk p {
+    font-size: 16px;
+    line-height: 27px;
+}
+}
+
+@media screen and (max-width: 576px){
+.Headline_headline__tn7LE {
+    margin-bottom: 19px;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+    font-size: 20px;
+}
+.Headline_headline__tn7LE span {
+    font-size: 12px;
+    top: -25%;
+    left: 0;
+}
+
+}

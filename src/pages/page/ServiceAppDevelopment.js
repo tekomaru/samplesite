@@ -4,7 +4,7 @@ import Layout from '../../components/common/Layout'
 import Contact from '../../components/common/Contact/Contact'
 import OrderDelivery from '@/components/ServicePage/ServiceWeOffer/ServiceNextPage/OrderDelivery/OrderDelivery'
 
-export default function PageAppDevelopment() {
+export default function ServiceAppDevelopment() {
     return(
         <Layout>
             <main>

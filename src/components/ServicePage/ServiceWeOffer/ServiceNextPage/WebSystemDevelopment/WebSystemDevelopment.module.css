@@ -65,3 +65,41 @@
     border-top: 1px solid #fff;
     padding-top: 80px;
 }
+
+@media screen and (max-width: 768px){
+.WebSystemDevelopment_wrapper__OyXix {
+    padding: 0 10%;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr {
+    margin-top: 105px;
+    height: 1705px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD {
+    flex-direction: column;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X {
+    width: 100%;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X p {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: -60px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_grid__27ULC {
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+}
+}
+
+@media screen and (max-width: 390px){
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X p {
+    font-size: 20px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_title__9Dt3X span {
+    font-size: 12px;
+}
+.WebSystemDevelopment_wrapper__OyXix .WebSystemDevelopment_systemWrapper__yzlbr .WebSystemDevelopment_systemItem__mtuUD .WebSystemDevelopment_grid__27ULC .WebSystemDevelopment_imgWrapper__EA9JM p {
+    font-size: 14px;
+}
+}

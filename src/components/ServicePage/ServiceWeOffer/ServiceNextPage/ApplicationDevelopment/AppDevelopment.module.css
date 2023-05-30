@@ -122,3 +122,49 @@
         opacity: 1;
     }
 }
+@media screen and (max-width: 768px){
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+        font-size: 24px;
+    }
+.Headline_headline__tn7LE span {
+        font-size: 14px;
+        left: 140px;
+}
+.ApplicationDevelopment_wrapper__ccbM9 {
+    margin-top: 120px;
+    padding: 0 10%;
+}
+.ApplicationDevelopment_wrapper__ccbM9 .ApplicationDevelopment_applicationDevelopments__bP83y {
+    flex-direction: column;
+    gap: 30px;
+}
+.ApplicationDevelopment_wrapper__ccbM9 .ApplicationDevelopment_applicationDevelopments__bP83y div {
+    padding: 0;
+}
+.ApplicationDevelopment_wrapper__ccbM9 .ApplicationDevelopment_applicationDevelopments__bP83y .ApplicationDevelopment_applicationDevelopment__IBYvR p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.ApplicationDevelopment_wrapper__ccbM9 .ApplicationDevelopment_applicationDevelopments__bP83y div:nth-child(2) {
+    border: none;
+}
+
+}
+
+@media screen and (max-width: 576px){
+.Headline_headline__tn7LE {
+    margin-bottom: 19px;
+}
+.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+    font-size: 20px;
+}
+.Headline_headline__tn7LE span {
+    font-size: 12px;
+    top: -25%;
+    left: 0;
+}
+.ApplicationDevelopment_wrapper__ccbM9 .ApplicationDevelopment_applicationDevelopments__bP83y .ApplicationDevelopment_applicationDevelopment__IBYvR p {
+    max-width: 100%;
+}
+}

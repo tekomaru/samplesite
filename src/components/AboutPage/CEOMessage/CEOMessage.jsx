@@ -1,6 +1,6 @@
-import styles from './CEOMessage.module.css'
-import Link from 'next/link'
-import 'animate.css'
+import styles from './CEOMessage.module.css';
+import Link from 'next/link';
+import 'animate.css';
 
 export default function CEOMessage(){
     return (

@@ -32,7 +32,7 @@
 //     });
 
 
-//     const　openPositionEmployee = (e: React.MouseEvent<HTMLElement, MouseEvent>) {
+//     const openPositionEmployee = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
 //         setPosition(RECRUIT.EMPLOYEE);
 //         openModal(e);
 //     }
@@ -52,14 +52,14 @@
 
 //     useEffect(() => {
 //         return () => {
-//             document.removeEventListener('click',closeModal);
+//             document.removeEventListener('click', closeModal);
 //         };
 //     }, [closeModal]);
 
 //     const openModal: (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
-//         setIsOpenModal()
+//         setIsOpenModal(true);
 //         document.addEventListener('click',closeModal);
-//         (e).stopPropagetion();
+//         e.stopPropagetion();
 //     };
 
 

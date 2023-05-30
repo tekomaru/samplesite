@@ -3,7 +3,7 @@ import OwnServiceMain from "@/components/ServicePage/ServiceWeOffer/ServiceNextP
 import Contact from '../../components/common/Contact/Contact'
 import Layout from '../../components/common/Layout'
 
-export default function PageOwnService() {
+export default function ServiceOwnService() {
     return(
         <Layout>
             <main>

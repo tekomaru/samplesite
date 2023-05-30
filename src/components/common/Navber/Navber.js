@@ -41,15 +41,15 @@ const Navber = () =>{
                               <nav className={styles.spNavigation}>
                                 <ul>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/company/">ABOUT</a>
+                                    <a href="/page/about/">ABOUT</a>
                                     <span>WorldHacksについて</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/service/">SERVICE</a>
+                                    <a href="/page/service/">SERVICE</a>
                                     <span>WorldHacksのサービス内容</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/recruit/">RECRUIT</a>
+                                    <a href="/page/recruit/">RECRUIT</a>
                                     <span>採用情報</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
@@ -57,7 +57,7 @@ const Navber = () =>{
                                     <span>ニュース</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/contact/">CONTACT</a>
+                                    <a href="/page/contact/">CONTACT</a>
                                     <span>お問い合わせ</span>
                                   </li>
                                 </ul>
