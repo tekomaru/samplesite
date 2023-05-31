@@ -20,7 +20,6 @@ const Navber = () =>{
                                     <li><Link href="/">HOME</Link></li>
                                     <li><Link href="/page/about/">ABOUT</Link></li>
                                     <li><Link href="/page/service/">SERVICE</Link></li>
-                                    <li><Link href="/page/recruit/">RECRUIT</Link></li>
                                     <li><Link href="/page/news/page/1/">NEWS</Link></li>
                                     <li><Link href="/page/contact/">CONTACT</Link></li>
                                 </ul>
@@ -48,10 +47,7 @@ const Navber = () =>{
                                     <a href="/page/service/">SERVICE</a>
                                     <span>WorldHacksのサービス内容</span>
                                   </li>
-                                  <li class="animate__animated animate__fadeInUp">
-                                    <a href="/page/recruit/">RECRUIT</a>
-                                    <span>採用情報</span>
-                                  </li>
+                              
                                   <li class="animate__animated animate__fadeInUp">
                                     <a href="/news/page/1/">NEWS</a>
                                     <span>ニュース</span>

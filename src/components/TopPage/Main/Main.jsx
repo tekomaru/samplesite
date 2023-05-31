@@ -8,13 +8,13 @@ export default function Main() {
         <div className={styles.mainTitleSection}>
             <div className={styles.hacktheworld}>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp1}>HACK</span>
+                    <span className={styles.fadeUp1}>XXXXX</span>
                 </div>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp2}>THE</span>
+                    <span className={styles.fadeUp2}>XXXX</span>
                 </div>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp3}>WORLD</span>
+                    <span className={styles.fadeUp3}>XXXXX</span>
                 </div>
                 <div className={styles.subTitle}>
                 <span className={styles.fadeUp4}>テキストテキストテキスト</span>

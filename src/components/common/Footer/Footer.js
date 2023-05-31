@@ -16,7 +16,6 @@ export default function Footer(){
                         <li><Link href="/" >HOME</Link></li>
                         <li><Link href="/page/company/">ABOUT</Link></li>
                         <li><Link href="/page/service/">SERVICE</Link></li>
-                        <li><Link href="/page/recruit/">RECRUIT</Link></li>
                         <li><Link href="/page/news/page/1/">NEWS</Link></li>
                         <li><Link href="/page/contact/">CONTACT</Link></li>
                     </ul>
@@ -47,7 +46,6 @@ export default function Footer(){
                         <a href="/">HOME</a>
                         <a href="/company/">COMPANY</a>
                         <a href="/service/">SERVICE</a>
-                        <a href="/recruit/">RECRUIT</a>
                         <a href="/news/page/1/">NEWS</a>
                         <a href="/contact/">CONTACT</a>
                     <style jsx>{`
