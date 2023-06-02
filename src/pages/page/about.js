@@ -3,6 +3,7 @@ import About from '../../components/AboutPage/About/About';
 import Company from '../../components/AboutPage/Company/Company';
 import CEOMessage from '../../components/AboutPage/CEOMessage/CEOMessage';
 import { BreadCrumb } from '@/components/common/BreadCrumb/BreadCrumb';
+import Contact from '@/components/common/Contact/Contact';
 
 
 export default function about() {
@@ -13,6 +14,7 @@ export default function about() {
         <About />
         <Company />
         <CEOMessage />
+        <Contact />
       </div>
     </Layout>
   );

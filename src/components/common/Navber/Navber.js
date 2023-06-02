@@ -41,11 +41,11 @@ const Navber = () =>{
                                 <ul>
                                   <li class="animate__animated animate__fadeInUp">
                                     <a href="/page/about/">ABOUT</a>
-                                    <span>WorldHacksについて</span>
+                                    <span>XXXXXXについて</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
                                     <a href="/page/service/">SERVICE</a>
-                                    <span>WorldHacksのサービス内容</span>
+                                    <span>サービス内容</span>
                                   </li>
                               
                                   <li class="animate__animated animate__fadeInUp">

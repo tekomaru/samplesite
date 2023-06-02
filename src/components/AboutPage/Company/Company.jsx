@@ -9,12 +9,12 @@ export default function Company(){
             <span>COMPANY</span>
             <dl className="animate__animated animate__fadeInUp">
                 <dt>会社名</dt>
-                <dd>株式会社WorldHacks <br className={styles.CompanyIntro_spNewLine__kYpIZ} />（WorldHacks Inc.）</dd>
-                <dt>設立</dt><dd>2022年3月24日</dd><dt>所在地</dt>
-                <dd>〒150-0002<br />
-                    <p className={styles.CompanyIntro_address__FKAGp}>東京都渋谷区渋谷2-19-15 <br className={styles.CompanyIntro_spNewLine__kYpIZ} />宮益坂ビルディング609</p></dd>
+                <dd>株式会社 <br className={styles.CompanyIntro_spNewLine__kYpIZ} />（WorldHacks Inc.）</dd>
+                <dt>設立</dt><dd>2022年月日</dd><dt>所在地</dt>
+                <dd>〒000-0000<br />
+                    <p className={styles.CompanyIntro_address__FKAGp}> <br className={styles.CompanyIntro_spNewLine__kYpIZ} />宮益坂ビルディング609</p></dd>
                 <dt>代表取締役</dt>
-                <dd>森下 浬</dd>
+                <dd>テキスト</dd>
                 <dt>資本金</dt>
                 <dd>1,000万円</dd>
                 <dt>事業内容</dt>
