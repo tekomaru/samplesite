@@ -1,15 +1,24 @@
 import Link from 'next/link'
 import styles from './ServiceWeOffer.module.css'
 import 'animate.css'
+import { useInView } from 'react-intersection-observer';
 
 export default function ServiceWeOffer() {
+    const { ref, inView } = useInView({
+        // オプション
+        rootMargin: '-80px', 
+        triggerOnce: true, // 最初の一度だけ実行
+      });
     return (
 
-        <div className={styles.ServiceWeOffer_wrapper__tN43d}>
+        <div className={styles.ServiceWeOffer_wrapper__tN43d} ref={ref}>
+            {inView && (
             <div className={styles.Headline_headline__tn7LE}>
                 <div className={styles.Headline_mainHeadline__GKrWA}>Service we offer</div>
                     <span>提供サービス</span>
                 </div>
+            )}
+                {inView &&(
                 <div className={styles.ServiceWeOffer_serviceWeOffers__eQUrZ}>
                     <div className={`${styles.ServiceWeOffer_offerContent__q4vdh} animate__animated animate__fadeInUp`}>
                         <p>Webシステム開発</p>
@@ -36,6 +45,8 @@ export default function ServiceWeOffer() {
                         </div>
                     </div>
                 </div>
+                )}
             </div>
+                
     )
 }

@@ -2363,7 +2363,7 @@ body,html {
     }
 }
 
-.Loading_wrapper__njbYk {
+.Loading_wrapper {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -2373,26 +2373,26 @@ body,html {
     background: #000;
 }
 
-.Loading_wrapper__njbYk .Loading_logoWrapper__ku_8a {
+.Loading_wrapper .Loading_logoWrapper {
     overflow: hidden;
     position: relative;
-    animation: Loading_noneImg__EpX26 .1s forwards;
+    animation: Loading_noneImg .1s forwards;
     animation-delay: 2.5s;
 }
 
-.Loading_wrapper__njbYk .Loading_logoWrapper__ku_8a img {
+.Loading_wrapper .Loading_logoWrapper img {
     width: 480px;
     -o-object-fit: cover;
     object-fit: cover;
 }
 
-@keyframes Loading_noneImg__EpX26 {
+@keyframes Loading_noneImg {
     to {
         opacity: 0;
     }
 }
 
-.Loading_wrapper__njbYk .Loading_logoWrapper__ku_8a:before {
+.Loading_wrapper .Loading_logoWrapper:before {
     animation: Loading_img-wrap__SPzr2 3s cubic-bezier(.4,0,.2,1) forwards;
     background: #000;
     bottom: 0;
@@ -2405,7 +2405,7 @@ body,html {
     z-index: 1;
 }
 
-.Loading_wrapper__njbYk .Loading_mask__LKys_ {
+.Loading_wrapper .Loading_mask {
     position: fixed;
     z-index: 999;
     top: 0;
@@ -2426,7 +2426,7 @@ body,html {
     }
 }
 
-.Loading_wrapper__njbYk .Loading_square__zOOAt {
+.Loading_wrapper .Loading_square__zOOAt {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -2439,7 +2439,7 @@ body,html {
     animation-delay: 2.6s;
 }
 
-.Loading_wrapper__njbYk .Loading_square2__wAs_F {
+.Loading_wrapper .Loading_square2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -2476,29 +2476,29 @@ body,html {
 }
 
 @media screen and (max-width: 768px) {
-    .Loading_wrapper__njbYk {
+    .Loading_wrapper {
         margin-left:0;
     }
 
-    .Loading_wrapper__njbYk .Loading_logoWrapper__ku_8a {
+    .Loading_wrapper .Loading_logoWrapper {
         margin-top: -100px;
     }
 
-    .Loading_wrapper__njbYk .Loading_logoWrapper__ku_8a img {
+    .Loading_wrapper .Loading_logoWrapper img {
         width: 380px;
     }
 
-    .Loading_wrapper__njbYk .Loading_mask__LKys_ {
+    .Loading_wrapper .Loading_mask {
         left: -10px;
     }
 
-    .Loading_wrapper__njbYk .Loading_square__zOOAt {
+    .Loading_wrapper .Loading_square {
         background: #fff;
         animation: Loading_square-open__Ak9CP .7s linear forwards;
         animation-delay: 2.6s;
     }
 
-    .Loading_wrapper__njbYk .Loading_square2__wAs_F {
+    .Loading_wrapper .Loading_square2 {
         background: #fff;
     }
 

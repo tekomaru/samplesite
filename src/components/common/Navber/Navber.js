@@ -20,7 +20,7 @@ const Navber = () =>{
                                     <li><Link href="/">HOME</Link></li>
                                     <li><Link href="/page/about/">ABOUT</Link></li>
                                     <li><Link href="/page/service/">SERVICE</Link></li>
-                                    <li><Link href="/page/news/page/1/">NEWS</Link></li>
+                                    <li><Link href="/page/news/">NEWS</Link></li>
                                     <li><Link href="/page/contact/">CONTACT</Link></li>
                                 </ul>
                             </nav>
@@ -49,7 +49,7 @@ const Navber = () =>{
                                   </li>
                               
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/news/page/1/">NEWS</a>
+                                    <a href="/page/news/">NEWS</a>
                                     <span>ニュース</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
