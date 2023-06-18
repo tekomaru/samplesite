@@ -10,19 +10,9 @@ import { useEffect } from 'react'
 import Loading from '@/components/TopPage/loading/loading'
 
 export default function Home(){
-  const [isShowLoading,setIsShowLoading] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() =>{
-      setIsShowLoading(true);
-
-    },3000);
-  });
-
+  
   return (
-    <><div>
-      <Loading isShow={isShowLoading} />
-    </div>
+    
         <Layout>
           <div>
             <Main />
@@ -32,5 +22,5 @@ export default function Home(){
             <Contact />
           </div>
         </Layout>
-      </>
+    
   )}

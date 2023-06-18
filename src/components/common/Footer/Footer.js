@@ -8,7 +8,7 @@ export default function Footer(){
         <footer className={styles.Footer_wrapper__RlMTC}>
             <div className={styles.Footer_footerWrapper__MYxan}>
                 <div className={styles.Footer_footerBox__MDesG}>
-                    <Image src="/img/footerLogo.png" alt="worldHacks" className={styles.Footer_footerLogo__pfHjk} width={345} height={60} />
+                    <Image src="/techtonix_logo.jpg" alt="TechTonix" className={styles.Footer_footerLogo__pfHjk} width={345} height={60} />
                 </div>
                 <div className={styles.Footer_footerBox__MDesG}>
                     <span>MENU</span>
