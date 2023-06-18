@@ -5,7 +5,6 @@ export default function Contact() {
     return (
         <div className={styles.Contact_wrapper__F1Fby}>
             <div className={`${styles.animate__animated} animate__fadeInUp}`}>
-                <div className={styles.Contact_worldMap03__7I7Zp}></div>
                 <div className={styles.Contact_contactContent__5LDWC}>
                     <div className={styles.Contact_contactLeftContent__WJ1dY}>
                         <div className={styles.Contact_contactTitle__fuoH7}>
@@ -20,9 +19,6 @@ export default function Contact() {
                         <Link className={styles.Contact_contactCircle__0vuZB} href="/contact/">
                             <span>CONTACT</span>
                         </Link>
-                    <div className={styles.Contact_arrow__2IyRu}>
-                        <img src="/img/contact/arrow.svg" alt="" width={204} height={32} className={styles.Contact_arrowimg__3H_My} />
-                    </div>
                     </div>
                 </div>
             </div>

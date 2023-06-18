@@ -18,10 +18,10 @@ const Navber = () =>{
                             <nav className={styles.pcNavigation}>
                                 <ul>
                                     <li><Link href="/">HOME</Link></li>
-                                    <li><Link href="/page/about/">ABOUT</Link></li>
-                                    <li><Link href="/page/service/">SERVICE</Link></li>
-                                    <li><Link href="/page/news/">NEWS</Link></li>
-                                    <li><Link href="/page/contact/">CONTACT</Link></li>
+                                    <li><Link href="/about/">ABOUT</Link></li>
+                                    <li><Link href="/service/">SERVICE</Link></li>
+                                    <li><Link href="/news/">NEWS</Link></li>
+                                    <li><Link href="/contact/">CONTACT</Link></li>
                                 </ul>
                             </nav>
                             <div className={styles.openHambugerMenu} onClick={() => menuFunction()}>
@@ -40,20 +40,15 @@ const Navber = () =>{
                               <nav className={styles.spNavigation}>
                                 <ul>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/page/about/">ABOUT</a>
-                                    <span>XXXXXXについて</span>
+                                    <a href="/about/">ABOUT</a>
+                                    <span>Techtonixについて</span>
                                   </li>
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/page/service/">SERVICE</a>
+                                    <a href="/service/">SERVICE</a>
                                     <span>サービス内容</span>
                                   </li>
-                              
                                   <li class="animate__animated animate__fadeInUp">
-                                    <a href="/page/news/">NEWS</a>
-                                    <span>ニュース</span>
-                                  </li>
-                                  <li class="animate__animated animate__fadeInUp">
-                                    <a href="/page/contact/">CONTACT</a>
+                                    <a href="/contact/">CONTACT</a>
                                     <span>お問い合わせ</span>
                                   </li>
                                 </ul>

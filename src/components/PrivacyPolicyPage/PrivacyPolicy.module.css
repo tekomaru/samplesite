@@ -1,6 +1,7 @@
 .PrivacyPolicyText_wrapper__ujXkN {
     margin-top: 40px;
     padding: 0 13%;
+    background:#fff;
 }
 .PrivacyPolicyText_wrapper__ujXkN h3 {
     font-family: Montserrat;
@@ -8,7 +9,7 @@
     font-size: 32px;
     line-height: 25px;
     letter-spacing: 1px;
-    color: #fbfbfb;
+    color: #333;
     margin-bottom: 10px;
 }
 .PrivacyPolicyText_wrapper__ujXkN span {

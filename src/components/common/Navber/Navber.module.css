@@ -8,13 +8,15 @@
     padding: 0 4%;
     font-family: Montserrat,sans-serif;
     margin-top: 42px;
+    background:#fff;
+
 }
 
 .navbarInner {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #f5f5f5;
+    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -51,7 +53,7 @@
 }
 
 .navbarInner a:after {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #db521f;
     bottom: 0;
     content: "";
     display: block;

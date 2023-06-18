@@ -14,21 +14,21 @@ export default function Footer(){
                     <span>MENU</span>
                     <ul>
                         <li><Link href="/" >HOME</Link></li>
-                        <li><Link href="/page/company/">ABOUT</Link></li>
-                        <li><Link href="/page/service/">SERVICE</Link></li>
-                        <li><Link href="/page/news/page/1/">NEWS</Link></li>
-                        <li><Link href="/page/contact/">CONTACT</Link></li>
+                        <li><Link href="/company/">ABOUT</Link></li>
+                        <li><Link href="/service/">SERVICE</Link></li>
+                        <li><Link href="/contact/">CONTACT</Link></li>
                     </ul>
                 </div>
                 <style jsx>{' .Footer_footerBox__MDesG ul li { color: rgb(245, 245, 245);} '}</style>
                 <div className={styles.Footer_footerBox__MDesG}>
                     <div>
                         <span>SOCIAL</span>
-                        <ul className={styles.Footer_snsWrapper__UNIgD}>
-                            <li><Link href="https://line.me/R/ti/p/@564hwchb"><Image src="/img/line.svg" alt="line" width={43} height={43} /></Link></li>
-                            <li><Link href="https://twitter.com/WorldHacks_Inc"><Image src="/img/twitter.svg" alt="twitter" width={43} height={43}/></Link></li>
-                            <li><Link href="https://www.facebook.com/worldhacks20220324"><Image src="/img/facebook.svg" alt="facebook" width={43} height={43}/></Link></li>
-                        </ul>
+                        <p>準備中...</p>
+                        {/* <ul className={styles.Footer_snsWrapper__UNIgD}>
+                            <li><Link href=""><Image src="" alt="line" width={43} height={43} /></Link></li>
+                            <li><Link href=""><Image src="" alt="twitter" width={43} height={43}/></Link></li>
+                            <li><Link href=""><Image src="" alt="facebook" width={43} height={43}/></Link></li>
+                        </ul> */}
                     </div>
                 </div>
                 <div className={styles.Footer_copyright__GHIKt}>
@@ -46,7 +46,6 @@ export default function Footer(){
                         <a href="/">HOME</a>
                         <a href="/company/">COMPANY</a>
                         <a href="/service/">SERVICE</a>
-                        <a href="/news/page/1/">NEWS</a>
                         <a href="/contact/">CONTACT</a>
                     <style jsx>{`
                     .Footer_spMenus__3e4s1 a {
@@ -58,14 +57,11 @@ export default function Footer(){
                 </div>
                 <div className={styles.Footer_spSocialWrapper___kSQT}>
                     <span>SOCIAL</span>
-                    <div className={styles.Footer_spSocials__QHJtd}>
-                        <a href="https://line.me/R/ti/p/@564hwchb">
-                            <img src="/img/line.svg" alt="line" /></a>
-                            <a href="https://twitter.com/WorldHacks_Inc">
-                            <img src="/img/twitter.svg" alt="twitter" /></a>
-                            <a href="https://www.facebook.com/worldhacks20220324">
-                            <img src="/img/facebook.svg" alt="facebook" /></a>
-                    </div>
+                    <p>準備中...</p>
+                    {/* <div className={styles.Footer_spSocials__QHJtd}>
+                        <a href="">
+                            <img src="/img/line.svg" alt="" /></a>
+                    </div> */}
                 </div>
                 <div className={styles.Footer_spImgAndPrivacyPolicy__rIuHW}>
                     <img src="/img/footerLogo.png" alt="worldHacks" />
@@ -79,7 +75,7 @@ export default function Footer(){
                         </span>
                     </div>
                     <div className={styles.Footer_spCopyright__5zZNi}>
-                        <span>© WorldHacks Corporation. All rights reserved.</span>
+                        <span>© Techtonix. All rights reserved.</span>
                         <style jsx>{`
                         .Footer_spCopyright__5zZNi span {
                             color:rgb(245, 245, 245);

@@ -13,19 +13,21 @@ export default function About() {
                 <div className={styles.PageTitle_wrapper__d3y0q}>
                     <h2 className={styles.PageTitle_gray__1L4xT}>ABOUT</h2>
                 </div>
-                <div className={styles.About_aboutContent__vJ5m0} ref={ref}>
+                <div className={styles.About_aboutContent} ref={ref}>
                     {inView &&(
-                    <><h3 className="animate__animated animate__fadeInUp">世界をハックするサービスを</h3>
-                    <p className="animate__animated animate__fadeInUp">納品して終わりの関係ではなくサービスの最初から最後までパートナーとしてビジネスの成長に貢献できるようユーザー目線も意識したご提案をさせて頂きます。不要機能をなるべく減らし、事業の変化に応じた要件変更にも対応できるような体制を整えております。</p>
-                    <p className="animate__animated animate__fadeInUp">私たちと一緒に世界をハックするサービスを生み出しましょう。</p></>
+                    <><p className="animate__animated animate__fadeInUp">Techtonixでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</p>
+                    <p className="animate__animated animate__fadeInUp">当社は少数精鋭のチームで、機動性の高いシステム開発事業に取り組んでいます。私たちの強みは、迅速かつ効率的なソフトウェア開発を実現することです。</p>
+                    <p className="animate__animated animate__fadeInUp">私たちの少数精鋭のチームは、熟練した開発者からなり、高い専門知識と経験を備えています。チーム全体で緊密に連携し、お客様のニーズに的確に応える柔軟性と迅速な対応が可能です。
+                    </p>
+                    </>
                     )}
                 </div>
             </div>
-            <div className={styles.About_loopWrap__xgNTZ}>
+            {/* <div className={styles.About_loopWrap__xgNTZ}>
                 <img src="/img/slick01.png"  alt="" />
                 <img src="/img/slick02.png" widthalt="" />
                 <img src="/img/slick03.png" alt="" />
-            </div>
+            </div> */}
         </div>
     )
 }

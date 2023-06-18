@@ -15,20 +15,22 @@ export default function Company(){
             <><span>COMPANY</span>
             <dl className="animate__animated animate__fadeInUp">
                 <dt>会社名</dt>
-                <dd>株式会社 <br className={styles.CompanyIntro_spNewLine__kYpIZ} />（WorldHacks Inc.）</dd>
-                <dt>設立</dt><dd>2022年月日</dd><dt>所在地</dt>
-                <dd>〒000-0000<br />
-                    <p className={styles.CompanyIntro_address__FKAGp}> <br className={styles.CompanyIntro_spNewLine__kYpIZ} />宮益坂ビルディング609</p></dd>
+                <dd>Techtonix株式会社</dd>
+                <dt>設立</dt><dd>2023年4月7日</dd>
+                <dt>所在地</dt>
+                <dd>〒020-0862<br />
+                    <p className={styles.CompanyIntro_address__FKAGp}> <br className={styles.CompanyIntro_spNewLine__kYpIZ} />岩手県盛岡市東仙北2丁目2-13</p></dd>
                 <dt>代表取締役</dt>
-                    <dd>テキスト</dd>
+                    <dd>内城 瑛</dd>
                 <dt>資本金</dt>
-                    <dd>1,000万円</dd>
+                    <dd>100万円</dd>
                 <dt>事業内容</dt>
                     <dd>
                         <ul>
-                            <li>・Webシステムの構築に関するコンサルティング、計、開発、運用</li>
-                            <li>・スマートフォンアプリに関するコンサルティング、設計、開発、運用(iOS,Android)</li>
-                            <li>・自社プロダクトの企画、開発、運用</li>
+                            <li>・コンピュータソフトウェア及びコンピュータシステムの規格、開発、分析、設計、制作、半場に、管理及び保守並びにそれらのコンサルティング</li>
+                            <li>・システムエンジニアリングサービスに関わる業務</li>
+                            <li>・ウェブサイト、ウェブコンテンツ及びホームページの企画</li>
+                            <li>広告の企画、制作及び配信並びに広告代理業務</li>
                         </ul>
                     </dd>
                 </dl></>

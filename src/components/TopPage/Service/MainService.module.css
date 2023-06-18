@@ -93,7 +93,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: Zen Kaku Gothic Antique;
-    color: #f5f5f5;
+    color: #333;
     font-weight: 600;
     font-size: 28px;
     line-height: 36px;
@@ -117,14 +117,14 @@
     margin-top: -58px;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_circleLastContent__7yHKD {
+.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_circleLastContent {
     width: 110%;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
     letter-spacing: .05em;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
 }
 
 .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:first-child {
@@ -148,7 +148,7 @@
     font-family: Zen Kaku Gothic Antique;
     font-size: 20px;
     letter-spacing: .07em;
-    color: #fff;
+    color: #333;
     position: relative;
     z-index: 1;
 }
@@ -163,14 +163,14 @@
     text-align: center;
     line-height: 88px;
     border-radius: 50%;
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     margin-right: 22px;
     transition: all .3s;
     animation-delay: .6s;
 }
 
 .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover {
-    border: .05em solid #fff;
+    border: .05em solid #db521f;
 }
 
 .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N {
@@ -182,11 +182,11 @@
     width: 2.7em;
     height: .05em;
     transform: rotate(-45deg);
-    background: #ce0606;
+    background: #db521f;
 }
 
 .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N:before {
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }

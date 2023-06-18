@@ -1,6 +1,7 @@
 .Footer_wrapper__RlMTC {
     padding: 0 10%;
     margin: 54px auto 0;
+    background:#fff;
 }
 .Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan {
     display: flex;
@@ -50,7 +51,7 @@
     font-size: 18px;
     line-height: 22px;
     letter-spacing: .01em;
-    color:#fff;
+    color:#333;
 }
 .Footer_wrapper__RlMTC .Footer_footerWrapper__MYxan .Footer_footerBox__MDesG span {
     padding-left: 50px;

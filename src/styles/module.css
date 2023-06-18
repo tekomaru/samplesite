@@ -20,6 +20,7 @@ html {
 body {
     margin: 0;
     line-height: inherit
+    
 }
 
 hr {
@@ -379,7 +380,7 @@ body,html {
     text-align: center;
     line-height: 88px;
     border-radius: 50%;
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     margin-right: 22px;
     transition: all .3s;
     animation-delay: .3s;
@@ -398,11 +399,11 @@ body,html {
     width: 2.7em;
     height: .05em;
     transform: rotate(-45deg);
-    background: #ce0606;
+    background: #db521f;
 }
 
 .Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz:before {
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }
@@ -1202,8 +1203,8 @@ body,html {
 }
 
 .Navbar_navbarInner__a7cPS img {
-    width: 298px;
-    height: 49px;
+    width: 300px;
+    height: 80px;
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -1229,7 +1230,7 @@ body,html {
 }
 
 .Navbar_navbarInner__a7cPS a:after {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #db521f;
     bottom: 0;
     content: "";
     display: block;
@@ -1574,7 +1575,7 @@ body,html {
     text-align: center;
     line-height: 88px;
     border-radius: 50%;
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     margin-right: 22px;
     transition: all .3s;
     z-index: 100;
@@ -1593,11 +1594,11 @@ body,html {
     width: 2.7em;
     height: .05em;
     transform: rotate(-45deg);
-    background: #ce0606;
+    background: #db521f;
 }
 
 .News_wrapper__twCjo .News_newsAbout__GdoLH .News_circle__TS7Oe:hover .News_arrow__bq51y:before {
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }
@@ -1893,7 +1894,7 @@ body,html {
     text-align: center;
     line-height: 88px;
     border-radius: 50%;
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     margin-right: 22px;
     transition: all .3s;
     animation-delay: .6s;
@@ -1912,11 +1913,11 @@ body,html {
     width: 2.7em;
     height: .05em;
     transform: rotate(-45deg);
-    background: #ce0606;
+    background: #db521f;
 }
 
 .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N:before {
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }

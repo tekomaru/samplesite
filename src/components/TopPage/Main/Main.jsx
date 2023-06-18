@@ -8,17 +8,15 @@ export default function Main() {
         <div className={styles.mainTitleSection}>
             <div className={styles.hacktheworld}>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp1}>XXXXX</span>
+                    <span className={styles.fadeUp1}>Develop</span>
                 </div>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp2}>XXXX</span>
+                    <span className={styles.fadeUp2}>for</span>
                 </div>
                 <div className={styles.titleBlock}>
-                    <span className={styles.fadeUp3}>XXXXX</span>
+                    <span className={styles.fadeUp3}>Fun</span>
                 </div>
-                <div className={styles.subTitle}>
-                <span className={styles.fadeUp4}>テキストテキストテキスト</span>
-                </div>
+               
             </div>
             <div className={styles.leftScroll}>
                 <Scroll to="about-us">SCROLL</Scroll>

@@ -3,17 +3,10 @@
     padding: 0 10%;
     margin: 150px auto 0;
     position: relative;
+    background:#fff;
+    
 }
 
-.Contact_wrapper__F1Fby .Contact_worldMap03__7I7Zp {
-    background: url(/_next/static/media/worldmap03.ddeefa3c.png);
-    height: 240%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: -3%;
-    background-repeat: no-repeat;
-}
 
 .Contact_wrapper__F1Fby .Contact_contactContent__5LDWC {
     display: flex;
@@ -26,13 +19,6 @@
     color: #545454;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 {
-    font-family: Montserrat;
-    font-size: 80px;
-    line-height: 64px;
-    letter-spacing: .01em;
-    margin-bottom: 38px;
-}
 
 .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 div:last-child {
     margin-left: 120px;
@@ -64,6 +50,7 @@
     line-height: 64px;
     letter-spacing: .01em;
     margin-bottom: 38px;
+    color:#333;
 }
 
 .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 div:last-child {
@@ -76,7 +63,7 @@
     font-size: 24px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #f5f5f5;
+    color: #333;
     width: auto;
     height: 114px;
     margin-top: 70px;

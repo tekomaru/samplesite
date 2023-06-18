@@ -46,7 +46,7 @@
     font-size: 18px;
     line-height: 27px;
     letter-spacing: .03em;
-    color: #f5f5f5;
+    color: #333;
 }
 
 .Company_wrapper___zoel .Company_companyWrapper___7XfP span {
@@ -90,7 +90,7 @@
     text-align: center;
     line-height: 88px;
     border-radius: 50%;
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     margin-right: 22px;
     transition: all .3s;
     animation-delay: .3s;
@@ -109,11 +109,11 @@
     width: 2.7em;
     height: .05em;
     transform: rotate(-45deg);
-    background: #ce0606;
+    background: #db521f;
 }
 
 .Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz:before {
-    border: .05em solid #ce0606;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }

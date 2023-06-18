@@ -32,12 +32,14 @@ export default function MainService() {
                 <img src="/Image/circleArrow.png" alt="" width={400} height={400} />
                     <div className={styles.Service_circleContent___sEfc}>
                         <div className={styles.Service_serviceContentTitle__ff_tR}>
-                            <div>System</div>
-                            <div>development</div>
+                            <div>Engineering</div>
+                            <div>Support</div>
                         </div>
-                        <p className={styles.Service_serviceContentName__ssJ1k}>Webシステム開発</p>
-                        <p className={styles.Service_circleLastContent__7yHKD}>Webシステムの構築に関する<br />
-                        コンサルティング、設計、開発、運用を行います。</p>
+                        <p className={styles.Service_serviceContentName__ssJ1k}>エンジニアリング支援</p>
+                        <p className={styles.Service_circleLastContent}>
+                        システムの構築に関する<br />
+                        コンサルティング、設計、開発、運用を行います。
+                        </p>
                     </div>
             </div>
             )}
@@ -46,11 +48,13 @@ export default function MainService() {
                             <img src="/Image/circleArrow.png" alt="" width={400} height={400} />
                                 <div className={styles.Service_circleContent___sEfc}>
                                     <div className={styles.Service_serviceContentTitle__ff_tR}>
-                                        <div>Application</div>
-                                        <div>development</div>
+                                        <div>Web advertising</div>
+                                        <div>Support</div>
                                         </div>
-                                        <p className={styles.Service_serviceContentName__ssJ1k}>アプリ開発</p>
-                                        <p className={styles.Service_circleLastContent__7yHKD}>iOS、Androidともに高品質なアプリをスピーディーに開発致します。</p>
+                                        <p className={styles.Service_serviceContentName__ssJ1k}>Web広告運用支援</p>
+                                        <p className={styles.Service_circleLastContent}>デジタル広告の領域での専門知識と経験を活かし、<br/>
+                                            クライアントの目標に合わせたカスタマイズされた戦略を策定し、<br />
+                                            効果的な広告キャンペーンの設計と最適化を支援します。</p>
                                     </div>
                                 </div>
             )}
@@ -63,7 +67,7 @@ export default function MainService() {
                                             </div>
                                             <p className={styles.Service_serviceContentName__ssJ1k}>自社サービス</p>
                                             <p className={styles.Service_serviceContentNameOwnService__hL8BZ}>の企画、開発</p>
-                                            <p className={styles.Service_circleLastContent__7yHKD}>自社サービスの企画、開発も行っております。</p>
+                                            <p className={styles.Service_circleLastContent}>自社サービスの企画、開発も行っております。</p>
                                             </div>
                                         </div>
             )}

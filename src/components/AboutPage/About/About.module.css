@@ -22,18 +22,19 @@
     animation-delay: .1s;
     animation-fill-mode: forwards;
 }
-.About_wrapper___P5b4 .About_aboutContent__vJ5m0 {
+.About_wrapper___P5b4 .About_aboutContent {
     margin: 80px auto 0;
     font-family: Zen Kaku Gothic Antique;
     letter-spacing: .02em;
     color: #545454;
+    padding-bottom:20px;
 }
-.About_wrapper___P5b4 .About_aboutContent__vJ5m0 h3 {
+.About_wrapper___P5b4 .About_aboutContent h3 {
     font-weight: 500;
     font-size: 36px;
     line-height: 27px;
 }
-.About_wrapper___P5b4 .About_aboutContent__vJ5m0 p {
+.About_wrapper___P5b4 .About_aboutContent p {
     margin-top: 33px;
     font-weight: 400;
     font-size: 18px;
@@ -75,10 +76,10 @@
     font-size: 60px;
     line-height: 50px;
 }
-.About_wrapper___P5b4 .About_aboutContent__vJ5m0 {
+.About_wrapper___P5b4 .About_aboutContent {
     margin: 26px auto 0;
 }
-.About_wrapper___P5b4 .About_aboutContent__vJ5m0 h3 {
+.About_wrapper___P5b4 .About_aboutContent h3 {
     font-weight: 600;
     font-size: 36px;
     line-height: 42px;
