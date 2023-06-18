@@ -2,6 +2,7 @@
     max-width: 1200px;
     width: 80vw;
     margin: 150px auto 0;
+    background:#fff;
 }
 .Headline_headline__tn7LE {
     font-family: Montserrat;
@@ -9,7 +10,7 @@
     font-size: 40px;
     line-height: 49px;
     letter-spacing: .01em;
-    color: #cf0606;
+    color: #db521f;
     color: transparent;
     margin-bottom: 119px;
     position: relative;
