@@ -11,7 +11,7 @@ export default function Service() {
 
         <div className={styles.ServiceMain_wrapper___yDuj}>
             <div className={styles.ServiceMain_serviceTitleWrapper__8xBUe}>
-                <img src="/img/serviceBackground.png" alt="" />
+                {/* <img src="/img/serviceBackground.png" alt="" /> */}
                     <h2 className={styles.ServiceMain_serviceTitle__DWIh0}>
                         <span>SERVICE</span>
                     </h2>
