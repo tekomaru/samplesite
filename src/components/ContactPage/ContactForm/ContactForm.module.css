@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
-    color: #e50112;
+    color: #db521f;
 }
 .ContactForm_wrapper .ContactForm_firstSpan {
     display: block;
@@ -55,14 +55,14 @@
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
-    color: #fff;
+    color: #333;
     margin-bottom: 5px;
     width: 90%;
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm span {
     font-family: Zen Kaku Gothic Antique;
     font-size: 18px;
-    color: #e50112;
+    color: #db521f;
     width: 45%;
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm select {
@@ -92,7 +92,7 @@
     font-family: Zen Kaku Gothic Antique;
     font-size: 16px;
     line-height: 30px;
-    color: #fff;
+    color: #333;
     width: 60%;
     margin: 48px auto;
     text-align: center;
@@ -105,8 +105,8 @@
     font-size: 18px;
     line-height: 36px;
     letter-spacing: .07em;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #333;
+    border: 1px solid #333;
     border-radius: 50px;
     padding: 10px;
     width: 60%;
@@ -137,7 +137,7 @@
     font-family: Zen Kaku Gothic Antique;
     font-size: 13px;
     line-height: 32px;
-    color: #fff;
+    color: #333;
 }
 @media screen and (max-width: 1200px){
 .ContactForm_wrapper {
