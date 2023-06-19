@@ -110,6 +110,7 @@
     height: .05em;
     transform: rotate(-45deg);
     background: #db521f;
+    opacity:0.7;
 }
 
 .Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz:before {

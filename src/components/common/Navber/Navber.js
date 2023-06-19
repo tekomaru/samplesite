@@ -13,7 +13,7 @@ const Navber = () =>{
        <div className={`${styles.oeail} animate__animated animate__fadeInUp`}>
                         <div className={styles.navbarInner}>
                             <Link className="imgLinkWrapper" href="/">
-                            <Image src="/techtonix_logo.jpg" alt="TechTonix" width={150} height={100}/>
+                            <Image src="/techtonix_logo.png" alt="TechTonix" width={150} height={100}/>
                             </Link>
                             <nav className={styles.pcNavigation}>
                                 <ul>
