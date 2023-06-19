@@ -76,7 +76,7 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .07em;
-    color: #fff;
+    color: #333;
 }
 
 .Company_wrapper___zoel .Company_companyAbout__jttEY div {
@@ -97,7 +97,7 @@
 }
 
 .Company_wrapper___zoel .Company_circle__QD60S:hover {
-    border: .05em solid #fff;
+    border: .05em solid #db521f;
 }
 
 .Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz {
@@ -127,7 +127,7 @@
     width: 2.7em;
     height: .06em;
     transform: rotate(-45deg);
-    background: #fff;
+    background: #db521f;
     transition: all .3s;
 }
 
@@ -135,7 +135,7 @@
     content: "";
     width: .75em;
     height: .75em;
-    border: .05em solid #fff;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
     transform: rotate(45deg);
@@ -154,7 +154,7 @@
 
     to {
         transform: translateY(0) rotate(0deg);
-        background: linear-gradient(90deg,#ed213a,#93291e 35.94%);
+        background:#db521f;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;

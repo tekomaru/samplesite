@@ -20,7 +20,6 @@ const Navber = () =>{
                                     <li><Link href="/">HOME</Link></li>
                                     <li><Link href="/about/">ABOUT</Link></li>
                                     <li><Link href="/service/">SERVICE</Link></li>
-                                    <li><Link href="/news/">NEWS</Link></li>
                                     <li><Link href="/contact/">CONTACT</Link></li>
                                 </ul>
                             </nav>

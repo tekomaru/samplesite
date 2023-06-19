@@ -22,7 +22,7 @@
 
 .Service_wrapper__re0Ps .Service_serviceTitle__D7CeL div:after {
     content: "";
-    border-bottom: 2px solid #ed213a;
+    border-bottom: 2px solid #db521f;
     width: 0;
     transition: all .6s;
 }
@@ -51,7 +51,7 @@
     font-family: Montserrat;
     font-size: 24px;
     letter-spacing: .02em;
-    color: #fff;
+    color: #333;
     position: relative;
     top: -25px;
 }
@@ -63,7 +63,7 @@
     left: 50%;
     width: 1px;
     height: 60px;
-    background: #fff;
+    background: #333;
     animation: Service_pathmove__8qmJr 1.4s ease-in-out infinite;
     opacity: 0;
 }
@@ -200,7 +200,7 @@
     width: 2.7em;
     height: .06em;
     transform: rotate(-45deg);
-    background: #fff;
+    background: #db521f;
     transition: all .3s;
 }
 
@@ -208,7 +208,7 @@
     content: "";
     width: .75em;
     height: .75em;
-    border: .05em solid #fff;
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
     transform: rotate(45deg);
@@ -256,7 +256,7 @@
 
     to {
         transform: translateY(0) rotate(0deg);
-        background: linear-gradient(90deg,#ed213a,#93291e 35.94%);
+        background: #db521f;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;

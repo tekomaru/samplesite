@@ -3,11 +3,11 @@
 }
 .ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe {
     position: relative;
-    height:485px;/* 背景画像の分です */
+    height:200px;/* 背景画像の分です */
 }
 .ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe img {
     width: 100vw;
-    height: 485px;
+    height: 200px;
     -o-object-fit: cover;
     object-fit: cover;  
 }
@@ -50,7 +50,7 @@
 .ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 .ServiceMain_scrollDown__7jqtz {
     height: 127px;
     width: 1px;
-    background-color: #f5f5f5;
+    background-color: #333;
     margin: 30px auto;
 }
 
@@ -60,7 +60,7 @@
     }
     100% {
         transform: translateX(0);
-        color: hsla(0,0%,100%,.2);
+        color: rgba(0,0,0,.1);
     }
 }
 

@@ -23,16 +23,17 @@ export default function Footer(){
                 <div className={styles.Footer_footerBox__MDesG}>
                     <div>
                         <span>SOCIAL</span>
+                        
+                        <ul className={styles.Footer_snsWrapper__UNIgD}>
                         <p>準備中...</p>
-                        {/* <ul className={styles.Footer_snsWrapper__UNIgD}>
-                            <li><Link href=""><Image src="" alt="line" width={43} height={43} /></Link></li>
+                            {/* <li><Link href=""><Image src="" alt="line" width={43} height={43} /></Link></li>
                             <li><Link href=""><Image src="" alt="twitter" width={43} height={43}/></Link></li>
-                            <li><Link href=""><Image src="" alt="facebook" width={43} height={43}/></Link></li>
-                        </ul> */}
+                            <li><Link href=""><Image src="" alt="facebook" width={43} height={43}/></Link></li> */}
+                        </ul>
                     </div>
                 </div>
                 <div className={styles.Footer_copyright__GHIKt}>
-                    <span>© WorldHacks Corporation. All rights reserved.</span>
+                    <span>© Techtonix All rights reserved.</span>
                     <span>
                         <Link href="/privacy_policy/">Privacy Policy</Link>
                     </span>
