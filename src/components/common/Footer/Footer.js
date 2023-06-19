@@ -65,7 +65,7 @@ export default function Footer(){
                     </div> */}
                 </div>
                 <div className={styles.Footer_spImgAndPrivacyPolicy__rIuHW}>
-                    <img src="/img/footerLogo.png" alt="worldHacks" />
+                    <img src="/techtonix_logo.png" alt="TechTonix"/>
                         <span>
                             <a href="/privacy_policy/">Privacy Policy</a>
                             <style jsx>{`
