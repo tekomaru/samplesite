@@ -21,24 +21,30 @@ export default function ServiceWeOffer() {
                 {inView &&(
                 <div className={styles.ServiceWeOffer_serviceWeOffers__eQUrZ}>
                     <div className={`${styles.ServiceWeOffer_offerContent__q4vdh} animate__animated animate__fadeInUp`}>
-                        <p>Webシステム開発</p>
-                        <p>System<br />development</p>
+                        <p>エンジニアリング支援</p>
+                        <p>Engineering Support</p>
                         <div className={styles.ServiceWeOffer_offerContentBox__iBCYe}>
-                            <p>お客様のニーズに合わせたサービスを企画、デザイン、開発、リリース後の保守運用までワンストップでご提供致します。既存のサービスの追加開発や保守運用も承っております。</p>
+                            <p>システムの構築に関する コンサルティング、設計、開発、運用を行います。<br/>
+                            <br />
+                            <br />
+                            <br/>
+                            </p>
                             {/* <Link href="/service/ServiceSystemDevelopment/">VIEW MORE</Link> */}
                         </div>
                     </div>
                     <div className={`${styles.ServiceWeOffer_offerContent__q4vdh} animate__animated animate__fadeInUp`} id="ServiceWeOffer_offerContent02__kLg_g">
-                        <p>アプリ開発</p>
-                        <p>Application<br />development</p>
+                        <p>Web広告運用支援</p>
+                        <p>Web advertising Support</p>
                         <div className={styles.ServiceWeOffer_offerContentBox__iBCYe}>
-                            <p>アプリ開発もお客様のニーズに合わせてiOS、Androidともに高品質なアプリをスピーディーに開発致します。アプリのみの開発も承っておりますのでお気軽にお問い合わせください。</p>
+                            <p>デジタル広告の領域での専門知識と経験を活かし、
+                                クライアントの目標に合わせたカスタマイズされた戦略を策定し、 効果的な広告キャンペーンの設計と最適化を支援します。</p>
                             {/* <Link href="/page/ServiceAppDevelopment/">VIEW MORE</Link> */}
                         </div>
                     </div>
                     <div className={`${styles.ServiceWeOffer_offerContent__q4vdh} animate__animated animate__fadeInUp`} id="ServiceWeOffer_offerContent03__vTnju">
-                        <p>自社サービス<br />企画・開発</p>
+                        <p>自社サービス企画・開発</p>
                         <p>Own Service</p>
+                        
                         <div className={styles.ServiceWeOffer_offerContentBox__iBCYe}>
                             <p>社内メンバーで自由にアイデアを出し合い、プロジェクトを立ち上げて事業化を目指します。現在もメンバーから挙がったアイデアを具体化しプロジェクトを立ち上げて開発を進めています。</p>
                             {/* <Link href="/service/ServiceOwnService/">VIEW MORE</Link> */}

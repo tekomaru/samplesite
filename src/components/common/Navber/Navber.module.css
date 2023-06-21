@@ -113,14 +113,14 @@
         display: block;
         width: 45px;
         height: 1px;
-        background: #fbfbfb;
+        background: #333;
     }
 
     .navbarInner .openHambugerMenu .bottomMenuBar {
         display: inline-block;
-        width: 29px;
+        width: 45px;
         height: 1px;
-        background: #fbfbfb;
+        background: #333;
     }
 
     .navbarInner .openHambugerMenu .blackMenuBar {
@@ -196,7 +196,7 @@
         font-size: 43px;
         line-height: 24px;
         letter-spacing: 5px;
-        color: #333;
+        color: #fff;
     }
 
     .navbarInner .spAllCover .spNavigation ul li a:after {

@@ -15,7 +15,7 @@ export default function Company(){
             <><span>COMPANY</span>
             <dl className="animate__animated animate__fadeInUp">
                 <dt>会社名</dt>
-                <dd>Techtonix株式会社</dd>
+                <dd>株式会社Techtonix</dd>
                 <dt>設立</dt><dd>2023年4月7日</dd>
                 <dt>所在地</dt>
                 <dd>〒020-0862

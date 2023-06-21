@@ -81,12 +81,13 @@
     font-style: normal;
     line-height: 36px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: .01em;
     color: #333;
 }
 .ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh p:first-child {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom:20px;
     letter-spacing: .05em;
 }
 .ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe {

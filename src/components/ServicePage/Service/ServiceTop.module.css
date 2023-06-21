@@ -20,6 +20,7 @@
     line-height: 220px;
     top: 0;
     left: 0;
+    color: transparent;
     animation-name: ServiceMain_fadeUpLeftAnime__kZBJm;
     animation-duration: 1.1s;
     animation-delay: .1s;
@@ -60,7 +61,7 @@
     }
     100% {
         transform: translateX(0);
-        color: rgba(0,0,0,.1);
+        color: #efefef;
     }
 }
 

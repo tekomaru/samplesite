@@ -71,7 +71,7 @@ export default function ContactForm(){
                             <span className={styles.ContactForm_errorMessage}></span>
                         </div>
                     </div>
-                    <p className={styles.ContactForm_contactFormText}>このフォームを送信することによりTechtonix株式会社のプライバシーポリシーに 同意することとします。</p>
+                    <p className={styles.ContactForm_contactFormText}>このフォームを送信することにより株式会社Techtonixのプライバシーポリシーに 同意することとします。</p>
                     <div className={styles.ContactForm_confirmButton}>
                         <button type="button">
                             <span>入力内容を確認する</span>

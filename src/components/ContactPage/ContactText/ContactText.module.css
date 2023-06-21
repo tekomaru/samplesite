@@ -30,7 +30,7 @@
     }
     100% {
         transform: translateX(0);
-        color: hsla(0,0%,100%,.2);
+        color: #efefef;
     }
 }
 @media screen and (max-width: 1200px){

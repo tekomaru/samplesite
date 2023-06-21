@@ -1,16 +1,16 @@
-.Service_wrapper__re0Ps {
+.Service_wrapper {
     padding: 0 10%;
     margin-top: 180px;
 }
 
-.Service_wrapper__re0Ps .Service_serviceTitle__D7CeL {
+.Service_wrapper .Service_serviceTitle {
     font-family: Montserrat;
     font-weight: 600;
     font-size: 60px;
     letter-spacing: .03em;
 }
 
-.Service_wrapper__re0Ps .Service_serviceTitle__D7CeL .Service_serviceHeadline__m8jZF {
+.Service_wrapper .Service_serviceTitle .Service_serviceHeadline {
     cursor: pointer;
     max-width: 300px;
     animation-name: Service_fadeUpAnime__3J3ZK;
@@ -20,14 +20,14 @@
     transform-origin: top left;
 }
 
-.Service_wrapper__re0Ps .Service_serviceTitle__D7CeL div:after {
+.Service_wrapper .Service_serviceTitle div:after {
     content: "";
     border-bottom: 2px solid #db521f;
     width: 0;
     transition: all .6s;
 }
 
-.Service_wrapper__re0Ps .Service_serviceTitle__D7CeL div:hover:after {
+.Service_wrapper .Service_serviceTitle div:hover:after {
     display: inline-block;
     position: absolute;
     bottom: -10%;
@@ -35,19 +35,19 @@
     width: 270px;
 }
 
-.Service_wrapper__re0Ps .Service_weMake__UTxD2 {
+.Service_wrapper .Service_weMake {
     margin-top: 84px;
     height: 150px;
     will-change: transform;
 }
 
-.Service_wrapper__re0Ps .Service_scrollDown__Kw0By {
+.Service_wrapper .Service_scrollDown {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.Service_wrapper__re0Ps .Service_scrollDown__Kw0By span {
+.Service_wrapper .Service_scrollDown span {
     font-family: Montserrat;
     font-size: 24px;
     letter-spacing: .02em;
@@ -56,7 +56,7 @@
     top: -25px;
 }
 
-.Service_wrapper__re0Ps .Service_scrollDown__Kw0By:after {
+.Service_wrapper .Service_scrollDown:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -68,30 +68,33 @@
     opacity: 0;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 {
+.Service_wrapper .Service_circleWrapper {
     display: flex;
+    height: 28vw;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y {
-    margin-right: -2.5vw;
+.Service_wrapper .Service_circleWrapper .Service_circle {
+    position:relative;
+    height: 30vw;
+    width: 30vw;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y img {
+.Service_wrapper .Service_circleWrapper .Service_circle img {
     height: 28vw;
     width: 28vw;
     animation: Service_business__rYwXF 50s linear 0s infinite normal forwards;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc {
+.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
-    position: absolute;
+    height: 250px;
+    position: relative;
     top: 44%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
     font-family: Zen Kaku Gothic Antique;
     color: #333;
     font-weight: 600;
@@ -100,48 +103,52 @@
     letter-spacing: .05em;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentTitle__ff_tR {
+.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentName__ssJ1k {
+.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
     white-space: nowrap;
     margin-top: -25px;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentNameOwnService__hL8BZ {
+.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
     white-space: nowrap;
     margin-top: -58px;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_circleLastContent {
-    width: 110%;
+.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
+    width: 60%;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
     letter-spacing: .05em;
     margin-bottom: -40px;
+    padding:5px;
+    border:3px solid #efefef;
+    background-color:#efefef;
+
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:first-child {
+.Service_wrapper .Service_circleWrapper .Service_circle:first-child {
     animation-delay: .1s;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:nth-child(2) {
+.Service_wrapper .Service_circleWrapper .Service_circle:nth-child(2) {
     animation-delay: .2s;
 }
 
-.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:last-child {
+.Service_wrapper .Service_circleWrapper .Service_circle:last-child {
     margin-right: 0;
     animation-delay: .3s;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ {
-    margin-top: 72px;
+.Service_wrapper .Service_serviceAbout {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,11 +160,11 @@
     z-index: 1;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ div {
+.Service_wrapper .Service_serviceAbout div {
     animation-delay: .6s;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y {
+.Service_wrapper .Service_serviceAbout .Service_circle {
     width: 95px;
     height: 95px;
     text-align: center;
@@ -169,11 +176,11 @@
     animation-delay: .6s;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover {
+.Service_wrapper .Service_serviceAbout .Service_circle:hover {
     border: .05em solid #db521f;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N {
+.Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -185,13 +192,13 @@
     background: #db521f;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N:before {
+.Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow:before {
     border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_arrow__v7E1N {
+.Service_wrapper .Service_serviceAbout .Service_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -204,7 +211,7 @@
     transition: all .3s;
 }
 
-.Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_arrow__v7E1N:before {
+.Service_wrapper .Service_serviceAbout .Service_arrow:before {
     content: "";
     width: .75em;
     height: .75em;
@@ -264,97 +271,97 @@
 }
 
 @media screen and (max-width: 992px) {
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y {
+    .Service_wrapper .Service_circleWrapper .Service_circle {
         margin-right:-1vw;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
         justify-content: space-around;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentTitle__ff_tR {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
         font-size: 14px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentName__ssJ1k {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
         font-size: 20px;
         margin-top: -14px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentNameOwnService__hL8BZ {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
         font-size: 20px;
         margin-top: -30px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_circleLastContent__7yHKD {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
         font-size: 12px;
         margin-bottom: -10px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .Service_wrapper__re0Ps {
+    .Service_wrapper {
         padding:0 10%;
         margin-top: 130px;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceTitle__D7CeL {
+    .Service_wrapper .Service_serviceTitle {
         font-size: 38px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 {
+    .Service_wrapper .Service_circleWrapper {
         flex-direction: column;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y img {
+    .Service_wrapper .Service_circleWrapper .Service_circle img {
         height: 100%;
         width: 100%;
         animation: Service_business__rYwXF 50s linear 0s infinite normal forwards;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
         top: 47%;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentTitle__ff_tR {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
         font-size: 18px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentName__ssJ1k {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
         font-size: 25px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_serviceContentNameOwnService__hL8BZ {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
         margin-top: -48px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y .Service_circleContent___sEfc .Service_circleLastContent__7yHKD {
+    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
         font-size: 12px;
     }
 
-    .Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:nth-child(2),.Service_wrapper__re0Ps .Service_circleWrapper__EJf19 .Service_circle__BGg6y:nth-child(3) {
+    .Service_wrapper .Service_circleWrapper .Service_circle:nth-child(2),.Service_wrapper .Service_circleWrapper .Service_circle:nth-child(3) {
         margin-top: -30px;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ {
+    .Service_wrapper .Service_serviceAbout {
         font-size: 17px;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y {
+    .Service_wrapper .Service_serviceAbout .Service_circle {
         width: 50px;
         height: 50px;
         line-height: 42px;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_circle__BGg6y:hover .Service_arrow__v7E1N {
+    .Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow {
         width: 2em;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_arrow__v7E1N {
+    .Service_wrapper .Service_serviceAbout .Service_arrow {
         width: 1.5em;
     }
 
-    .Service_wrapper__re0Ps .Service_serviceAbout__D5pD_ .Service_arrow__v7E1N:before {
+    .Service_wrapper .Service_serviceAbout .Service_arrow:before {
         width: .5em;
         height: .5em;
         top: 45%;

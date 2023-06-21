@@ -5,26 +5,26 @@ import styles from './Footer.module.css'
 export default function Footer(){
     return (
 
-        <footer className={styles.Footer_wrapper__RlMTC}>
-            <div className={styles.Footer_footerWrapper__MYxan}>
-                <div className={styles.Footer_footerBox__MDesG}>
-                    <Image src="/techtonix_logo.png" alt="TechTonix" className={styles.Footer_footerLogo__pfHjk} width={345} height={60} />
+        <footer className={styles.Footer_wrapper}>
+            <div className={styles.Footer_footerWrapper}>
+                <div className={styles.Footer_footerBox}>
+                    <Image src="/techtonix_logo.png" alt="TechTonix" className={styles.Footer_footerLogo} width={345} height={60} />
                 </div>
-                <div className={styles.Footer_footerBox__MDesG}>
+                <div className={styles.Footer_footerBox}>
                     <span>MENU</span>
                     <ul>
                         <li><Link href="/" >HOME</Link></li>
-                        <li><Link href="/company/">ABOUT</Link></li>
-                        <li><Link href="/service/">SERVICE</Link></li>
-                        <li><Link href="/contact/">CONTACT</Link></li>
+                        <li><Link href="/ABOUT/">ABOUT</Link></li>
+                        <li><Link href="/SERVICE/">SERVICE</Link></li>
+                        <li><Link href="/CONTACT/">CONTACT</Link></li>
                     </ul>
                 </div>
-                <style jsx>{' .Footer_footerBox__MDesG ul li { color: rgb(245, 245, 245);} '}</style>
-                <div className={styles.Footer_footerBox__MDesG}>
+                <style jsx>{' .Footer_footerBox ul li { color: rgb(245, 245, 245);} '}</style>
+                <div className={styles.Footer_footerBox}>
                     <div>
                         <span>SOCIAL</span>
                         
-                        <ul className={styles.Footer_snsWrapper__UNIgD}>
+                        <ul className={styles.Footer_snsWrapper}>
                         <p>準備中...</p>
                             {/* <li><Link href=""><Image src="" alt="line" width={43} height={43} /></Link></li>
                             <li><Link href=""><Image src="" alt="twitter" width={43} height={43}/></Link></li>
@@ -32,53 +32,53 @@ export default function Footer(){
                         </ul>
                     </div>
                 </div>
-                <div className={styles.Footer_copyright__GHIKt}>
+                <div className={styles.Footer_copyright}>
                     <span>© Techtonix All rights reserved.</span>
                     <span>
                         <Link href="/privacy_policy/">Privacy Policy</Link>
                     </span>
                 </div>
-                <style jsx>{'.Footer_copyright__GHIKt {color: rgb(245, 245, 245);} '}</style>
+                <style jsx>{'.Footer_copyright {color: rgb(245, 245, 245);} '}</style>
             </div>
-            <div className={styles.Footer_spFooterWrapper__cclRy}>
-                <div className={styles.Footer_spMenuWrapper__NM_bo}>
+            <div className={styles.Footer_spFooterWrapper}>
+                <div className={styles.Footer_spMenuWrapper}>
                     <span>MENU</span>
-                    <div className={styles.Footer_spMenus__3e4s1}>
+                    <div className={styles.Footer_spMenus}>
                         <a href="/">HOME</a>
-                        <a href="/company/">COMPANY</a>
-                        <a href="/service/">SERVICE</a>
-                        <a href="/contact/">CONTACT</a>
+                        <a href="/ABOUT/">ABOUT</a>
+                        <a href="/SERVICE/">SERVICE</a>
+                        <a href="/CONTACT/">CONTACT</a>
                     <style jsx>{`
-                    .Footer_spMenus__3e4s1 a {
+                    .Footer_spMenus a {
                         color:rgb(245, 245, 245);
                     }
                     `}
                     </style>
                     </div>
                 </div>
-                <div className={styles.Footer_spSocialWrapper___kSQT}>
+                <div className={styles.Footer_spSocialWrapper}>
                     <span>SOCIAL</span>
                     <p>準備中...</p>
-                    {/* <div className={styles.Footer_spSocials__QHJtd}>
+                    {/* <div className={styles.Footer_spSocials}>
                         <a href="">
                             <img src="/img/line.svg" alt="" /></a>
                     </div> */}
                 </div>
-                <div className={styles.Footer_spImgAndPrivacyPolicy__rIuHW}>
+                <div className={styles.Footer_spImgAndPrivacyPolicy}>
                     <img src="/techtonix_logo.png" alt="TechTonix"/>
                         <span>
                             <a href="/privacy_policy/">Privacy Policy</a>
                             <style jsx>{`
-                            .Footer_spImgAndPrivacyPolicy__rIuHW span {
+                            .Footer_spImgAndPrivacyPolicy span {
                                 color:rgb(245, 245, 245);
                             }`}
                             </style>
                         </span>
                     </div>
-                    <div className={styles.Footer_spCopyright__5zZNi}>
+                    <div className={styles.Footer_spCopyright}>
                         <span>© Techtonix. All rights reserved.</span>
                         <style jsx>{`
-                        .Footer_spCopyright__5zZNi span {
+                        .Footer_spCopyright span {
                             color:rgb(245, 245, 245);
                         }`}
                         </style>
