@@ -49,10 +49,10 @@ export default function MainService() {
                                         <div>Web advertising</div>
                                         <div>Support</div>
                                         </div>
-                                        <br />
+                                        
                                         <p className={styles.Service_serviceContentName}>Web広告運用支援</p>
-                                        <p className={styles.Service_circleLastContent}>デジタル広告の領域での専門知識と経験を活かし、<br/>
-                                            クライアントの目標に合わせたカスタマイズされた戦略を策定し、
+                                        <p className={styles.Service_circleLastContent}>デジタル広告の領域での専門知識と経験を活かし、
+                                            {/* クライアントの目標に合わせたカスタマイズされた戦略を策定し、 */}
                                             効果的な広告キャンペーンの設計と最適化を支援します。</p>
                                     </div>
                                 </div>
