@@ -70,57 +70,43 @@
 
 .Service_wrapper .Service_circleWrapper {
     display: flex;
-    height: 28vw;
+    margin-top:10vw;
+    width:100%;
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle {
-    position:relative;
-    height: 30vw;
-    width: 30vw;
-}
-
-.Service_wrapper .Service_circleWrapper .Service_circle img {
-    height: 28vw;
-    width: 28vw;
-    animation: Service_business__rYwXF 50s linear 0s infinite normal forwards;
-}
-
-.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 250px;
-    position: relative;
-    top: 44%;
-    /* left: 50%; */
-    /* transform: translate(-50%,-50%); */
     font-family: Zen Kaku Gothic Antique;
     color: #333;
     font-weight: 600;
     font-size: 28px;
     line-height: 36px;
     letter-spacing: .05em;
+    
+    
 }
-
-.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentTitle {
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentName {
     white-space: nowrap;
     margin-top: -25px;
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentNameOwnService {
     white-space: nowrap;
     margin-top: -58px;
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_circleLastContent {
     width: 60%;
     font-weight: 400;
     font-size: 18px;
@@ -135,21 +121,23 @@
     
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle:first-child {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper:first-child {
     animation-delay: .1s;
+    width:calc(100%/3);
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle:nth-child(2) {
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(2) {
     animation-delay: .2s;
+    width:calc(100%/3);
 }
 
-.Service_wrapper .Service_circleWrapper .Service_circle:last-child {
-    margin-right: 0;
+.Service_wrapper .Service_circleWrapper .Service_contentWrapper:last-child {
+    line-height:1.2rem;
     animation-delay: .3s;
+    width:calc(100%/3);
 }
 
 .Service_wrapper .Service_serviceAbout {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,13 +147,14 @@
     color: #333;
     position: relative;
     z-index: 1;
+    margin-top:10vw;
 }
 
 .Service_wrapper .Service_serviceAbout div {
     animation-delay: .6s;
 }
 
-.Service_wrapper .Service_serviceAbout .Service_circle {
+.Service_wrapper .Service_serviceAbout .Service_link {
     width: 95px;
     height: 95px;
     text-align: center;
@@ -177,11 +166,11 @@
     animation-delay: .6s;
 }
 
-.Service_wrapper .Service_serviceAbout .Service_circle:hover {
+.Service_wrapper .Service_serviceAbout .Service_link:hover {
     border: .05em solid #db521f;
 }
 
-.Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow {
+.Service_wrapper .Service_serviceAbout .Service_link:hover .Service_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -193,7 +182,7 @@
     background: #db521f;
 }
 
-.Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow:before {
+.Service_wrapper .Service_serviceAbout .Service_link:hover .Service_arrow:before {
     border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
@@ -272,31 +261,36 @@
 }
 
 @media screen and (max-width: 992px) {
-    .Service_wrapper .Service_circleWrapper .Service_circle {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper {
         margin-right:-1vw;
+        margin:0 auto;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent {
         justify-content: space-around;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentTitle {
         font-size: 14px;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentName {
         font-size: 20px;
-        margin-top: -14px;
+        margin-top: -5px;
+        line-height:1.3rem;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentNameOwnService {
         font-size: 20px;
         margin-top: -30px;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
-        font-size: 12px;
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_circleLastContent {
+        font-size: 13px;
         margin-bottom: -10px;
+    }
+    .Service_wrapper .Service_serviceAbout{
+        margin-top:10vw;
     }
 }
 
@@ -314,47 +308,40 @@
         flex-direction: column;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle img {
-        height: 100%;
-        width: 100%;
-        animation: Service_business__rYwXF 50s linear 0s infinite normal forwards;
-    }
-
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent {
         top: 47%;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentTitle {
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentTitle {
         font-size: 18px;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentName {
+    .Service_wrapper .Service_circleWrapper .SService_contentWrapper .Service_circleContent .Service_serviceContentName {
         font-size: 25px;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_serviceContentNameOwnService {
-        margin-top: -48px;
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_circleLastContent {
+        font-size: 13px;
+        width:120%;
     }
 
-    .Service_wrapper .Service_circleWrapper .Service_circle .Service_circleContent .Service_circleLastContent {
-        font-size: 12px;
-    }
-
-    .Service_wrapper .Service_circleWrapper .Service_circle:nth-child(2),.Service_wrapper .Service_circleWrapper .Service_circle:nth-child(3) {
-        margin-top: -30px;
+    .Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(2),.Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(3) {
+        margin-top: 30px;
     }
 
     .Service_wrapper .Service_serviceAbout {
         font-size: 17px;
+
     }
 
-    .Service_wrapper .Service_serviceAbout .Service_circle {
+    .Service_wrapper .Service_serviceAbout .Service_link {
         width: 50px;
         height: 50px;
         line-height: 42px;
+        
     }
 
-    .Service_wrapper .Service_serviceAbout .Service_circle:hover .Service_arrow {
+    .Service_wrapper .Service_serviceAbout .Service_link:hover .Service_arrow {
         width: 2em;
     }
 

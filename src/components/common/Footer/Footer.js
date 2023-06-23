@@ -8,7 +8,7 @@ export default function Footer(){
         <footer className={styles.Footer_wrapper}>
             <div className={styles.Footer_footerWrapper}>
                 <div className={styles.Footer_footerBox}>
-                    <Image src="/techtonix_logo.png" alt="TechTonix" className={styles.Footer_footerLogo} width={345} height={60} />
+                    <Image src="/techtonix_logo_white.png" alt="TechTonix" className={styles.Footer_footerLogo} width={345} height={60} />
                 </div>
                 <div className={styles.Footer_footerBox}>
                     <span>MENU</span>
@@ -65,7 +65,7 @@ export default function Footer(){
                     </div> */}
                 </div>
                 <div className={styles.Footer_spImgAndPrivacyPolicy}>
-                    <img src="/techtonix_logo.png" alt="TechTonix"/>
+                    <img src="/techtonix_logo_white.png" alt="TechTonix"/>
                         <span>
                             <a href="/privacy_policy/">Privacy Policy</a>
                             <style jsx>{`
