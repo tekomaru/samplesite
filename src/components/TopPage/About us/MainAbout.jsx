@@ -12,24 +12,24 @@ export default function MainAbout() {
       });
 
 return (
-        <section id='about-us' className={styles.Company_wrapper___zoel}  ref={ref}>
+        <section id='about-us' className={styles.Company_wrapper}  ref={ref}>
         {inView && (
-        <div className={styles.Company_companyTitle__hHkdJ}>
-        <div className={styles.Company_companyHeadline__A55LA}>ABOUT US</div>
+        <div className={styles.Company_companyTitle}>
+        <div className={styles.Company_companyHeadline}>ABOUT US</div>
         </div>
         )}
-        <div className={styles.Company_companyWrapper___7XfP} ref={ref}>
+        <div className={styles.Company_companyWrapper} ref={ref}>
             {inView && (
-            <div className={`${styles.Company_companyText__kqkJK} animate__animated animate__fadeInUp`}>
+            <div className={`${styles.Company_companyText} animate__animated animate__fadeInUp`}>
                 <span>Techtonixでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</span>
                 <span>当社は少数精鋭のチームで、機動性の高いシステム開発事業に取り組んでいます。私たちの強みは、迅速かつ効率的なソフトウェア開発を実現することです。</span>
                 <span>私たちの少数精鋭のチームは、熟練した開発者からなり、高い専門知識と経験を備えています。チーム全体で緊密に連携し、お客様のニーズに的確に応える柔軟性と迅速な対応が可能です。</span>
             </div>
             )}
         </div>
-                <div className={`${styles.Company_companyAbout__jttEY} animate__animated animate__fadeInUp`}>
-                    <Link className={styles.Company_circle__QD60S} href="/company/">
-                        <span className={styles.Company_arrow__fhvtz}></span>
+                <div className={`${styles.Company_companyAbout} animate__animated animate__fadeInUp`}>
+                    <Link className={styles.Company_circle} href="/company/">
+                        <span className={styles.Company_arrow}></span>
                         </Link>
                         <div>会社について</div>
                 </div>

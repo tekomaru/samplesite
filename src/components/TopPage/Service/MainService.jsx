@@ -19,7 +19,7 @@ export default function MainService() {
             <div className={styles.Service_serviceHeadline}>SERVICE</div>
         </div>
         )}
-        <div className={styles.Service_weMake__UTxD2} ref={ref}>
+        <div className={styles.Service_weMake} ref={ref}>
                 <div className={styles.Service_scrollDown}>
                 {inView &&(
                 <span className="animate__animated animate__fadeInUp">We Make</span>

@@ -4,7 +4,7 @@ import ContactForm from "@/components/ContactPage/ContactForm/ContactForm";
 import { BreadCrumb } from "@/components/common/BreadCrumb/BreadCrumb";
 
 
-export default function contact(){
+export default function CONTACT(){
     return(
         <Layout>
             <BreadCrumb />

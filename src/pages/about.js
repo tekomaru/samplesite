@@ -6,7 +6,7 @@ import { BreadCrumb } from '@/components/common/BreadCrumb/BreadCrumb';
 import Contact from '@/components/common/Contact/Contact';
 
 
-export default function about() {
+export default function ABOUT() {
   return (
     <Layout>
       <BreadCrumb />

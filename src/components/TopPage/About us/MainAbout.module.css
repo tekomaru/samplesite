@@ -1,8 +1,8 @@
-.Company_wrapper___zoel {
+.Company_wrapper {
     padding: 100px 10% 0;
 }
 
-.Company_wrapper___zoel .Company_companyTitle__hHkdJ {
+.Company_wrapper .Company_companyTitle {
     margin-bottom: 130px;
     font-family: Montserrat;
     font-weight: 600;
@@ -11,7 +11,7 @@
     letter-spacing: .03em;
 }
 
-.Company_wrapper___zoel .Company_companyTitle__hHkdJ .Company_companyHeadline__A55LA {
+.Company_wrapper .Company_companyTitle .Company_companyHeadline {
     cursor: pointer;
     display: inline-block;
     animation-name: Company_fadeUpAnime__TNnMh;
@@ -21,14 +21,14 @@
     transform-origin: top left;
 }
 
-.Company_wrapper___zoel .Company_companyTitle__hHkdJ div:after {
+.Company_wrapper .Company_companyTitle div:after {
     content: "";
     border-bottom: 2px solid #ed213a;
     width: 0;
     transition: all .6s;
 }
 
-.Company_wrapper___zoel .Company_companyTitle__hHkdJ div:hover:after {
+.Company_wrapper .Company_companyTitle div:hover:after {
     display: inline-block;
     position: absolute;
     bottom: -10%;
@@ -36,7 +36,7 @@
     width: 330px;
 }
 
-.Company_wrapper___zoel .Company_companyWrapper___7XfP {
+.Company_wrapper .Company_companyWrapper {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -49,21 +49,21 @@
     color: #333;
 }
 
-.Company_wrapper___zoel .Company_companyWrapper___7XfP span {
+.Company_wrapper .Company_companyWrapper span {
     display: inline-block;
     margin-bottom: 40px;
 }
 
-.Company_wrapper___zoel .Company_companyWrapper___7XfP span:last-child {
+.Company_wrapper .Company_companyWrapper span:last-child {
     animation-delay: .2s;
 }
 
-.Company_wrapper___zoel .Company_companyWrapper___7XfP .Company_companyText__kqkJK {
+.Company_wrapper .Company_companyWrapper .Company_companyText {
     font-size: 22px;
     line-height: 40px;
 }
 
-.Company_wrapper___zoel .Company_companyAbout__jttEY {
+.Company_wrapper .Company_companyAbout {
     font-family: Zen Kaku Gothic Antique;
     margin-top: 80px;
     margin-left: auto;
@@ -79,11 +79,11 @@
     color: #333;
 }
 
-.Company_wrapper___zoel .Company_companyAbout__jttEY div {
+.Company_wrapper .Company_companyAbout div {
     animation-delay: .3s;
 }
 
-.Company_wrapper___zoel .Company_circle__QD60S {
+.Company_wrapper .Company_circle {
     display: inline-block;
     width: 95px;
     height: 95px;
@@ -94,13 +94,15 @@
     margin-right: 22px;
     transition: all .3s;
     animation-delay: .3s;
+
 }
 
-.Company_wrapper___zoel .Company_circle__QD60S:hover {
+.Company_wrapper .Company_circle:hover {
     border: .05em solid #db521f;
+    
 }
 
-.Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz {
+.Company_wrapper .Company_circle:hover .Company_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -110,16 +112,17 @@
     height: .05em;
     transform: rotate(-45deg);
     background: #db521f;
-    opacity:0.7;
+    
 }
 
-.Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz:before {
+.Company_wrapper .Company_circle:hover .Company_arrow:before {
     border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
+    
 }
 
-.Company_wrapper___zoel .Company_arrow__fhvtz {
+.Company_wrapper .Company_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -132,7 +135,7 @@
     transition: all .3s;
 }
 
-.Company_wrapper___zoel .Company_arrow__fhvtz:before {
+.Company_wrapper .Company_arrow:before {
     content: "";
     width: .75em;
     height: .75em;
@@ -163,7 +166,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Company_wrapper___zoel .Company_companyWrapper___7XfP {
+    .Company_wrapper .Company_companyWrapper {
         max-width:100%;
         text-align: center;
         margin-left: 0;
@@ -172,42 +175,42 @@
         width: 100%;
     }
 
-    .Company_wrapper___zoel .Company_companyWrapper___7XfP .Company_companyText__kqkJK {
+    .Company_wrapper .Company_companyWrapper .Company_companyText {
         text-align: left;
         font-size: 18px;
         line-height: 30px;
     }
 
-    .Company_wrapper___zoel .Company_companyWrapper___7XfP span {
+    .Company_wrapper .Company_companyWrapper span {
         margin-bottom: 35px;
     }
 
-    .Company_wrapper___zoel .Company_companyTitle__hHkdJ {
+    .Company_wrapper .Company_companyTitle {
         font-size: 38px;
         margin-bottom: 90px;
     }
 
-    .Company_wrapper___zoel .Company_companyAbout__jttEY {
+    .Company_wrapper .Company_companyAbout {
         margin-top: 70px;
         font-size: 17px;
     }
 
-    .Company_wrapper___zoel .Company_circle__QD60S {
+    .Company_wrapper .Company_circle {
         width: 50px;
         height: 50px;
         text-align: center;
         line-height: 42px;
     }
 
-    .Company_wrapper___zoel .Company_circle__QD60S:hover .Company_arrow__fhvtz {
+    .Company_wrapper .Company_circle:hover .Company_arrow {
         width: 2em;
     }
 
-    .Company_wrapper___zoel .Company_arrow__fhvtz {
+    .Company_wrapper .Company_arrow {
         width: 1.5em;
     }
 
-    .Company_wrapper___zoel .Company_arrow__fhvtz:before {
+    .Company_wrapper .Company_arrow:before {
         width: .5em;
         height: .5em;
         top: 45%;

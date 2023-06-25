@@ -7,7 +7,7 @@ export default function ContactForm(){
         <div className={styles.ContactForm_wrapper}>
             <span className={styles.ContactForm_firstSpan}>※印の項目は必須項目です。</span>
             <div className={styles.ContactForm_contactFormWrapper}>
-                <form name="contact" method="POST"　data-netlify="true">
+                <form name="contact" method="POST"　data-netlify="true"　netlify-honeypot="bot-field" data-netlify-recaptcha="true">
                 <input type="hidden" name="form-name" value="contact" />
                     <div className={styles.ContactForm_rowFormWrapper}>
                         <div className={styles.ContactForm_rowForm}>
@@ -18,7 +18,6 @@ export default function ContactForm(){
                             <select name="subject">
                                 <option >選択してください</option>
                                 <option value="開発・お仕事のご相談">開発・お仕事のご相談</option>
-                                <option value="採用について">採用について</option>
                                 <option value="広報・取材について">広報・取材について</option>
                                 <option value="その他">その他</option>
                             </select>
@@ -41,7 +40,7 @@ export default function ContactForm(){
                                 <label for="telphone">電話番号(半角英数)</label>
                                 <span>※</span>
                             </div>
-                            <input type="tel" placeholder="03000000000" name="telphone"  />
+                            <input type="tel" placeholder="00000000000" name="telphone"  />
                             <span className={styles.ContactForm_errorMessage}>電話番号を入力してください。</span>
                         </div>
                         <div className={styles.ContactForm_rowForm}>

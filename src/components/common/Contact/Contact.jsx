@@ -12,7 +12,7 @@ export default function Contact() {
                             <div>Conversation!</div>
                         </div>
                         <div className={styles.Contact_companyIntroduction__ygv1K}>
-                            <p>Webサービスやアプリ開発のご相談、協業パートナーや取材などその他のお問い合わせはこちらから。</p>
+                            <p>Webサービスやアプリ開発のご相談、協業パートナーなどその他のお問い合わせはこちらから。</p>
                         </div>
                     </div>
                     <div>

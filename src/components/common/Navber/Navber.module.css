@@ -67,7 +67,7 @@
     width: 100%;
 }
 
-.navbarInner nav .navbarLink__I6OJa {
+.navbarInner nav .navbarLink {
     color: #2d2c2c!important;
 }
 
@@ -124,7 +124,7 @@
     }
 
     .navbarInner .openHambugerMenu .blackMenuBar {
-        background: #000;
+        background: #333;
     }
     .navbarInner .spAllCover {
         display:none;

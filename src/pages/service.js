@@ -4,7 +4,7 @@ import Contact from '../components/common/Contact/Contact'
 import Layout from '../components/common/Layout'
 import { BreadCrumb } from '@/components/common/BreadCrumb/BreadCrumb'
 
-export default function service() {
+export default function SERVICE() {
     return (
         <Layout>
         <BreadCrumb />

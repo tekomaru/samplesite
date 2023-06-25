@@ -1,7 +1,16 @@
-.canvas__HD016 {
+.mainvisual {
     position: relative;
     outline: none;
     overflow: hidden;
+    width:600px;
+    height:718px;
+    margin-left:auto;
+}
+.mainvisual img {
+    position:absolute;
+    top:30%;
+    left:-10%;
+
 }
 .mainTitleSection {
     text-align: left;
@@ -10,7 +19,7 @@
     top: 230px;
     left: 10%;
 }
-.hacktheworld {
+.DevelopForFun {
     font-family: DIN Alternate;
     font-style: normal;
     font-weight: 700;
@@ -118,7 +127,7 @@
     animation: 1.4s ease-in-out infinite;
 }
 @media screen and (max-width: 768px) {
-    .Main_canvas__HD016 {
+    .mainvisual {
         top:50%;
         margin-top: 150px;
     }
@@ -127,7 +136,7 @@
         top: 120px;
     }
 
-    .mainTitleSection .hacktheworld {
+    .mainTitleSection .DevelopForFun {
         margin-left: -10px;
         font-size: 80px;
         line-height: 55px;
@@ -149,21 +158,20 @@
         margin-top: 10px;
         margin-left: 0;
     }
-
-    .leftScroll {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 576px) {
-    .mainTitleSection .hacktheworld {
+    .mainTitleSection .DevelopForFun {
         font-size:80px;
         line-height: 60px;
     }
 }
 
 @media screen and (max-width: 390px) {
-    .mainTitleSection .hacktheworld {
+    .mainvisual img {
+        width:80%;
+    }
+    .mainTitleSection .DevelopForFun {
         font-size:70px;
         line-height: 45px;
     }
