@@ -18,8 +18,7 @@ export function BreadCrumb() {
       <div className={styles.Breadcrumb_breadcrumb}>
     <div className={styles.container}>
       {/* Homeのリンク */}
-      <a href={"/"} />
-        <a className={styles.link}>HOME</a>
+        <a href="/" className={styles.link}>HOME</a>
       {paths.map((x, i) => (
         <>
           {/* サブページのリンク */}

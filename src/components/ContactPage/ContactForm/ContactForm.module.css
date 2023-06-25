@@ -73,6 +73,7 @@
     outline: none;
     color:#333;
     background-color:#fff;
+    border:1px solid #9d9999;
 }
 
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm .ContactForm_errorMessage {
@@ -125,10 +126,8 @@
 }
 
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm .ContactForm_refForm label {
-    background: url(/_next/static/media/refFile.7f096cc7.png) no-repeat;
     width: 100%;
-    font-size: 20px;
-    display: flex;
+    font-size: 15px;
     align-items: center;
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper .ContactForm_rowFormWrapper .ContactForm_rowForm .ContactForm_refForm label span {
