@@ -7,7 +7,8 @@ export default function ContactForm(){
         <div className={styles.ContactForm_wrapper}>
             <span className={styles.ContactForm_firstSpan}>※印の項目は必須項目です。</span>
             <div className={styles.ContactForm_contactFormWrapper}>
-                <form name="contact" method="post"　data-netlify="true">
+                <form name="contact" method="POST"　data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
                     <div className={styles.ContactForm_rowFormWrapper}>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>
@@ -74,7 +75,7 @@ export default function ContactForm(){
                     <p className={styles.ContactForm_contactFormText}>このフォームを送信することにより株式会社Techtonixのプライバシーポリシーに 同意することとします。</p>
                     <div className={styles.ContactForm_confirmButton}>
                         <button type="submit">
-                            <span>入力内容を確認する</span>
+                            <span>送信する</span>
                         </button>
                     </div>
                 </form>

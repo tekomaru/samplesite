@@ -9,8 +9,8 @@ export default function Company(){
       });
     return (
 
-    <div className={styles.CompanyIntro_wrapper__WwW7C}>
-        <div className={styles.CompanyIntro_companyIntroWrapper__oi3zs} ref={ref}>
+    <div className={styles.CompanyIntro_wrapper}>
+        <div className={styles.CompanyIntro_companyIntroWrapper} ref={ref}>
             {inView && (
             <><span>COMPANY</span>
             <dl className="animate__animated animate__fadeInUp">
@@ -19,7 +19,7 @@ export default function Company(){
                 <dt>設立</dt><dd>2023年4月7日</dd>
                 <dt>所在地</dt>
                 <dd>〒020-0862
-                    <p className={styles.CompanyIntro_address__FKAGp}> <br className={styles.CompanyIntro_spNewLine__kYpIZ} />岩手県盛岡市東仙北2丁目2-13</p></dd>
+                    <p className={styles.CompanyIntro_address}> <br className={styles.CompanyIntro_spNewLine} />岩手県盛岡市東仙北2丁目2-13</p></dd>
                 <dt>代表取締役</dt>
                     <dd>内城 瑛</dd>
                 <dt>資本金</dt>

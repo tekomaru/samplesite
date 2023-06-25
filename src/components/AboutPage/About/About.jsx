@@ -8,10 +8,10 @@ export default function About() {
         triggerOnce: true, // 最初の一度だけ実行
       });
     return (
-        <div className={styles.About_wrapper___P5b4}>
-            <div className={styles.About_background__4_MBK}>
-                <div className={styles.PageTitle_wrapper__d3y0q}>
-                    <h2 className={styles.PageTitle_gray__1L4xT}>ABOUT</h2>
+        <div className={styles.About_wrapper}>
+            <div className={styles.About_background}>
+                <div className={styles.PageTitle_wrapper}>
+                    <h2 className={styles.PageTitle_gray}>ABOUT</h2>
                 </div>
                 <div className={styles.About_aboutContent} ref={ref}>
                     {inView &&(
