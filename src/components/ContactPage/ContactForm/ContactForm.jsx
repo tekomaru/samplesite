@@ -7,7 +7,7 @@ export default function ContactForm(){
         <div className={styles.ContactForm_wrapper}>
             <span className={styles.ContactForm_firstSpan}>※印の項目は必須項目です。</span>
             <div className={styles.ContactForm_contactFormWrapper}>
-                <form enctype="multipart/form-data" method="post">
+                <form name="contact" method="post"　data-netlify="true">
                     <div className={styles.ContactForm_rowFormWrapper}>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>

@@ -98,7 +98,7 @@
 
     .navbarInner img {
         width: auto;
-        height: 32px;
+        height: 50px;
         -o-object-fit: cover;
         object-fit: cover;
     }
@@ -132,9 +132,9 @@
     .navbarInner .open{
         background: linear-gradient(144.85deg,#222 12.38%,#262626 37.36%,#272727 37.37%,#404040 87.13%);
         width: 100%;
-        height: 110vh;
+        height: 100vh;
         position: absolute;
-        top: -120%;
+        top: 0;
         left: 0;
         z-index: 9999;
         display:block;
@@ -148,7 +148,9 @@
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper {
         cursor: pointer;
     }
-
+    .navbarInner .spAllCover .spNavbar .closeMenuWrapper span {
+        color:#fff;
+    }
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper .closeMenuBar {
         display: inline-block;
         width: 29px;

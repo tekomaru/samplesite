@@ -30,7 +30,7 @@ const Navber = () =>{
                             <div className={`${ styles.spAllCover} ${openMenu? styles.open: undefined} animate__animated animate__fadeInLeft`}>
                               <div className={styles.spNavbar}>
                                 <a href="/">
-                                <img src="/img/worldHacksLogo.png" alt="WorldHacks" /></a>
+                                <img src="/techtonix_logo_white.png" alt="Techtonix" /></a>
                                 <div className={styles.closeMenuWrapper} onClick={() => menuFunction()}>
                                   <span>CLOSE</span>
                                   <span className={styles.closeMenuBar}></span>

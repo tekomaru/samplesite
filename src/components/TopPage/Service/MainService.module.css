@@ -322,7 +322,8 @@
 
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_circleLastContent {
         font-size: 13px;
-        width:120%;
+        width:60vw;
+        height:12vh;
     }
 
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(2),.Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(3) {
