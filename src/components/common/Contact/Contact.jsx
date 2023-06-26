@@ -16,7 +16,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div>
-                        <Link className={styles.Contact_contactCircle__0vuZB} href="">
+                        <Link className={styles.Contact_contactCircle__0vuZB} href="/CONTACT/">
                             <span>CONTACT</span>
                         </Link>
                     </div>
