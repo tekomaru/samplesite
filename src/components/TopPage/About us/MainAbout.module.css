@@ -1,8 +1,8 @@
-.Company_wrapper {
+.About_wrapper {
     padding: 100px 10% 0;
 }
 
-.Company_wrapper .Company_companyTitle {
+.About_wrapper .About_AboutTitle {
     margin-bottom: 130px;
     font-family: Montserrat;
     font-weight: 600;
@@ -11,24 +11,17 @@
     letter-spacing: .03em;
 }
 
-.Company_wrapper .Company_companyTitle .Company_companyHeadline {
-    cursor: pointer;
+.About_wrapper .About_AboutTitle .About_AboutHeadline {
     display: inline-block;
-    animation-name: Company_fadeUpAnime__TNnMh;
+    animation-name: About_fadeUpAnime__TNnMh;
     animation-duration: 1.1s;
     animation-delay: .1s;
     animation-fill-mode: forwards;
     transform-origin: top left;
 }
 
-.Company_wrapper .Company_companyTitle div:after {
-    content: "";
-    border-bottom: 2px solid #ed213a;
-    width: 0;
-    transition: all .6s;
-}
 
-.Company_wrapper .Company_companyTitle div:hover:after {
+.About_wrapper .About_AboutTitle div:hover:after {
     display: inline-block;
     position: absolute;
     bottom: -10%;
@@ -36,7 +29,7 @@
     width: 330px;
 }
 
-.Company_wrapper .Company_companyWrapper {
+.About_wrapper .About_AboutWrapper {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -49,21 +42,21 @@
     color: #333;
 }
 
-.Company_wrapper .Company_companyWrapper span {
+.About_wrapper .About_AboutWrapper span {
     display: inline-block;
     margin-bottom: 40px;
 }
 
-.Company_wrapper .Company_companyWrapper span:last-child {
+.About_wrapper .About_AboutWrapper span:last-child {
     animation-delay: .2s;
 }
 
-.Company_wrapper .Company_companyWrapper .Company_companyText {
+.About_wrapper .About_AboutWrapper .About_AboutText {
     font-size: 22px;
     line-height: 40px;
 }
 
-.Company_wrapper .Company_companyAbout {
+.About_wrapper .About_AboutAbout {
     font-family: Zen Kaku Gothic Antique;
     margin-top: 80px;
     margin-left: auto;
@@ -79,11 +72,11 @@
     color: #333;
 }
 
-.Company_wrapper .Company_companyAbout div {
+.About_wrapper .About_AboutAbout div {
     animation-delay: .3s;
 }
 
-.Company_wrapper .Company_circle {
+.About_wrapper .About_circle {
     display: inline-block;
     width: 95px;
     height: 95px;
@@ -97,12 +90,12 @@
 
 }
 
-.Company_wrapper .Company_circle:hover {
+.About_wrapper .About_circle:hover {
     border: .05em solid #db521f;
     
 }
 
-.Company_wrapper .Company_circle:hover .Company_arrow {
+.About_wrapper .About_circle:hover .About_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -115,14 +108,14 @@
     
 }
 
-.Company_wrapper .Company_circle:hover .Company_arrow:before {
+.About_wrapper .About_circle:hover .About_arrow:before {
     border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
     
 }
 
-.Company_wrapper .Company_arrow {
+.About_wrapper .About_arrow {
     display: inline-block;
     vertical-align: middle;
     color: #333;
@@ -134,10 +127,10 @@
     background: #db521f;
     transition: all .3s;
 }
-.Company_wrapper .Company_arrow:hover {
+.About_wrapper .About_arrow:hover {
     width:2.7em;
 }
-.Company_wrapper .Company_arrow:before {
+.About_wrapper .About_arrow:before {
     content: "";
     width: .75em;
     height: .75em;
@@ -153,9 +146,9 @@
     transition: all .3s;
 }
 
-@keyframes Company_fadeUpAnime__TNnMh {
+@keyframes About_fadeUpAnime__TNnMh {
     0% {
-        transform: translateY(10px) rotate(40deg) rotateX(150deg);
+        transform: translateX(10px) rotate(40deg) rotateY(150deg);
     }
 
     to {
@@ -168,7 +161,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Company_wrapper .Company_companyWrapper {
+    .About_wrapper .About_AboutWrapper {
         max-width:100%;
         text-align: center;
         margin-left: 0;
@@ -177,42 +170,42 @@
         width: 100%;
     }
 
-    .Company_wrapper .Company_companyWrapper .Company_companyText {
+    .About_wrapper .About_AboutWrapper .About_AboutText {
         text-align: left;
         font-size: 18px;
         line-height: 30px;
     }
 
-    .Company_wrapper .Company_companyWrapper span {
+    .About_wrapper .About_AboutWrapper span {
         margin-bottom: 35px;
     }
 
-    .Company_wrapper .Company_companyTitle {
+    .About_wrapper .About_AboutTitle {
         font-size: 38px;
         margin-bottom: 90px;
     }
 
-    .Company_wrapper .Company_companyAbout {
+    .About_wrapper .About_AboutAbout {
         margin-top: 70px;
         font-size: 17px;
     }
 
-    .Company_wrapper .Company_circle {
+    .About_wrapper .About_circle {
         width: 50px;
         height: 50px;
         text-align: center;
         line-height: 42px;
     }
 
-    .Company_wrapper .Company_circle:hover .Company_arrow {
+    .About_wrapper .About_circle:hover .About_arrow {
         width: 2em;
     }
 
-    .Company_wrapper .Company_arrow {
+    .About_wrapper .About_arrow {
         width: 1.5em;
     }
 
-    .Company_wrapper .Company_arrow:before {
+    .About_wrapper .About_arrow:before {
         width: .5em;
         height: .5em;
         top: 45%;
