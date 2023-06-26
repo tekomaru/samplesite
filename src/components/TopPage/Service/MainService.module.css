@@ -314,7 +314,7 @@
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_circleLastContent {
         font-size: 13px;
         width:60vw;
-        height:12vh;
+        height:17vh;
     }
 
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(2),.Service_wrapper .Service_circleWrapper .Service_contentWrapper:nth-child(3) {

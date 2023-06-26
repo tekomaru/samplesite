@@ -1,30 +1,28 @@
-.Contact_wrapper__F1Fby {
+.Contact_wrapper {
     max-width: 1600px;
-    padding: 0 10%;
-    margin: 150px auto 0;
+    padding:5% 10%;
+    margin: 130px auto 0;
     position: relative;
-    background:#fff;
-    
+    background:#efefef;
 }
 
 
-.Contact_wrapper__F1Fby .Contact_contactContent__5LDWC {
+.Contact_wrapper .Contact_contactContent {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 200px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O {
+.Contact_wrapper .Contact_contactLeftContentCompany {
     color: #333;
 }
 
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 div:last-child {
+.Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle div:last-child {
     margin-left: 120px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K {
+.Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
     margin-left: 180px;
     font-family: Zen Kaku Gothic Antique;
     font-size: 24px;
@@ -32,19 +30,19 @@
     letter-spacing: .01em;
     color: #333;
     width: auto;
-    height: 114px;
+    height:120px;
     margin-top: 70px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K p:first-child,.Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K p:last-child {
+.Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction p:first-child,.Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction p:last-child {
     animation-delay: .2s;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY {
+.Contact_wrapper .Contact_contactLeftContent {
     color: #f5f5f5;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 {
+.Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
     font-family: Montserrat;
     font-size: 80px;
     line-height: 64px;
@@ -53,11 +51,11 @@
     color:#333;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 div:last-child {
+.Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle div:last-child {
     margin-left: 120px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K {
+.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
     margin-left: 180px;
     font-family: Zen Kaku Gothic Antique;
     font-size: 24px;
@@ -65,15 +63,15 @@
     letter-spacing: .01em;
     color: #333;
     width: auto;
-    height: 114px;
+    height: 80px;
     margin-top: 70px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K p:first-child,.Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K p:last-child {
+.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:first-child,.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:last-child {
     animation-delay: .2s;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB {
+.Contact_wrapper .Contact_contactCircleCompany {
     background: #545454;
     width: 278px;
     height: 278px;
@@ -85,7 +83,7 @@
     margin-bottom: 30px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB span {
+.Contact_wrapper .Contact_contactCircleCompany span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,12 +95,12 @@
     color: #333;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB:hover {
+.Contact_wrapper .Contact_contactCircleCompany:hover {
     transform: scale(1.3);
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB {
-    background: #f5f5f5;
+.Contact_wrapper .Contact_contactCircle {
+    background: #fff;
     width: 278px;
     height: 278px;
     border-radius: 50%;
@@ -113,7 +111,7 @@
     margin-bottom: 30px;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB span {
+.Contact_wrapper .Contact_contactCircle span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,39 +123,39 @@
     color: #2d2c2c;
 }
 
-.Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB:hover {
+.Contact_wrapper .Contact_contactCircle:hover {
     transform: scale(1.3);
 }
 
-.Contact_wrapper__F1Fby .Contact_arrow__2IyRu {
+.Contact_wrapper .Contact_arrow__2IyRu {
     margin-left: -60%;
 }
 
-.Contact_wrapper__F1Fby .Contact_arrow__2IyRu .Contact_arrowImage__3H_My {
+.Contact_wrapper .Contact_arrow__2IyRu .Contact_arrowImage {
     width: 204px;
     height: 32px;
 }
 
 @media screen and (max-width: 1200px) {
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
         font-size:60px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
         margin-left: 60px;
         margin-top: 30px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
         font-size: 60px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
         margin-left: 60px;
         margin-top: 30px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB,.Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB {
+    .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
         width: 210px;
         height: 210px;
         margin-bottom: 60px;
@@ -166,27 +164,27 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Contact_wrapper__F1Fby {
+    .Contact_wrapper {
         margin-top:144px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_worldMap03__7I7Zp {
+    .Contact_wrapper .Contact_worldMap03 {
         display: none;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactContent__5LDWC {
+    .Contact_wrapper .Contact_contactContent {
         flex-direction: column;
         text-align: center;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
         font-size: 35px;
         line-height: 39px;
         margin-bottom: 38px;
         margin-left: -65px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
         font-size: 18px;
         line-height: 30px;
         height: 133px;
@@ -195,13 +193,13 @@
         margin-top: 0;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
         font-size: 35px;
         line-height: 39px;
         margin-left: -65px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
         font-size: 18px;
         line-height: 30px;
         height: 133px;
@@ -210,81 +208,81 @@
         margin-top: 0;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB {
+    .Contact_wrapper .Contact_contactCircleCompany {
         width: 119px;
         height: 119px;
         margin-left: 80%;
         margin-bottom: 0;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB span {
+    .Contact_wrapper .Contact_contactCircleCompany span {
         font-size: 18px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB {
+    .Contact_wrapper .Contact_contactCircle {
         width: 119px;
         height: 119px;
         margin-left: 80%;
         margin-bottom: 0;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB span {
+    .Contact_wrapper .Contact_contactCircle span {
         font-size: 18px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_arrow__2IyRu {
+    .Contact_wrapper .Contact_arrow {
         margin-left: -80%;
         margin-top: -20%;
     }
 
-    .Contact_wrapper__F1Fby .Contact_arrow__2IyRu .Contact_arrowImage__3H_My {
+    .Contact_wrapper .Contact_arrow .Contact_arrowImage {
         width: 113px;
         height: 18px;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .Contact_wrapper__F1Fby .Contact_contactContent__5LDWC {
-        margin-bottom:100px;
+    .Contact_wrapper .Contact_contactContent {
+        margin-bottom:10px;
     }
 }
 
 @media screen and (max-width: 390px) {
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
         font-size:28px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_contactTitle__fuoH7 div:last-child {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle div:last-child {
         margin-left: 90px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContentCompany__U0S_O .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
         width: -moz-fit-content;
         width: fit-content;
         margin-top: -20px;
         font-size: 16px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
         font-size: 28px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_contactTitle__fuoH7 div:last-child {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle div:last-child {
         margin-left: 90px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactLeftContent__WJ1dY .Contact_companyIntroduction__ygv1K {
+    .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
         width: -moz-fit-content;
         width: fit-content;
         margin-top: -20px;
         font-size: 16px;
     }
 
-    .Contact_wrapper__F1Fby .Contact_contactCircleCompany__bbhbB,.Contact_wrapper__F1Fby .Contact_contactCircle__0vuZB {
+    .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
         margin-left: 50%;
     }
 
-    .Contact_wrapper__F1Fby .Contact_arrow__2IyRu {
+    .Contact_wrapper .Contact_arrow__2IyRu {
         margin-left: -50%;
     }
 }
