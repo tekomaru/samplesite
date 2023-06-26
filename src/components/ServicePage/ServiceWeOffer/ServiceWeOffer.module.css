@@ -1,10 +1,10 @@
-.ServiceWeOffer_wrapper__tN43d {
+.ServiceWeOffer_wrapper {
     max-width: 1200px;
     width: 80vw;
     margin: 150px auto 0;
     background:#fff;
 }
-.Headline_headline__tn7LE {
+.Headline_headline {
     font-family: Montserrat;
     font-weight: 600;
     font-size: 40px;
@@ -15,7 +15,7 @@
     margin-bottom: 119px;
     position: relative;
 }
-.Headline_headline__tn7LE span {
+.Headline_headline span {
     font-family: Zen Kaku Gothic Antique;
     font-weight: 300;
     font-size: 18px;
@@ -31,7 +31,7 @@
     transform-origin: top left;
     opacity: 0;
 }
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+.Headline_headline .Headline_mainHeadline {
     cursor: pointer;
     white-space: nowrap;
     display: inline-block;
@@ -42,13 +42,13 @@
     transform-origin: top left;
     position: relative;
 }
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA:after {
+.Headline_headline .Headline_mainHeadline:after {
     content: "";
     border-bottom: 1px solid #db521f;
     width: 0;
     transition: all .6s;
 }
-.Headline_headline__tn7LE span {
+.Headline_headline span {
     font-family: Zen Kaku Gothic Antique;
     font-weight: 300;
     font-size: 18px;
@@ -64,11 +64,11 @@
     transform-origin: top left;
     opacity: 0;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers {
     display: flex;
     gap: 30px;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent {
     background: url(/_next/static/media/serviceWeOffer01.966cf71b.png);
     width: 393.14px;
     padding: 24px 15px;
@@ -85,42 +85,42 @@
     letter-spacing: .01em;
     color: #333;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh p:first-child {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
     margin-top: 20px;
     margin-bottom:20px;
     letter-spacing: .05em;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox {
     background: hsla(0,0%,96%,.4);
     padding: 8px;
     animation-delay: .2s;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe p {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-weight: 400;
     font-size: 20px;
     margin-top: 16px;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe a {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox a {
     display: inline-block;
     font-family: Montserrat;
     font-size: 20px;
     line-height: 22px;
     margin-top: 20px;
-    color: #cf0606;
+    color: #db521f;
     padding-bottom: 4px;
     border-bottom: 2px solid;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ #ServiceWeOffer_offerContent02__kLg_g {
-    background: url(/_next/static/media/serviceWeOffer02.13c20efc.png);
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers #ServiceWeOffer_offerContent02 {
+    background: url();
     animation-delay: .2s;
     background-size: cover;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ #ServiceWeOffer_offerContent03__vTnju {
-    background: url(/_next/static/media/serviceWeOffer03.b66db426.png);
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers #ServiceWeOffer_offerContent03 {
+    background: url();
     animation-delay: .3s;
     background-size: cover;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh p:first-child {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
     margin-top: 30px;
     letter-spacing: .05em;
 }
@@ -148,54 +148,54 @@
     }
 }
 @media screen and (max-width: 1200px){
-.ServiceWeOffer_wrapper__tN43d {
+.ServiceWeOffer_wrapper {
     margin: 150px 10% 0;
 }
 }
 
 @media screen and (max-width: 992px){
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers {
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent {
     width: 100%;
 }
 }
 @media screen and (max-width: 768px){
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+.Headline_headline .Headline_mainHeadline {
     font-size: 24px;
 }
-.Headline_headline__tn7LE span {
+.Headline_headline span {
     font-size: 14px;
     left: 140px;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh p:first-child {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
     font-size: 24px;
     margin-top: 15px;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh p:nth-child(2) {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:nth-child(2) {
     margin: 22px 0;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe p {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-size: 16px;
     line-height: 27px;
     margin-top: 5px;
 }
-.ServiceWeOffer_wrapper__tN43d .ServiceWeOffer_serviceWeOffers__eQUrZ .ServiceWeOffer_offerContent__q4vdh .ServiceWeOffer_offerContentBox__iBCYe a {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox a {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 }
 @media screen and (max-width: 576px){
-.Headline_headline__tn7LE {
+.Headline_headline {
     margin-bottom: 19px;
 }
-.Headline_headline__tn7LE .Headline_mainHeadline__GKrWA {
+.Headline_headline .Headline_mainHeadline {
     font-size: 20px;
 }
-.Headline_headline__tn7LE span {
+.Headline_headline span {
     font-size: 12px;
     top: -25%;
     left: 0;

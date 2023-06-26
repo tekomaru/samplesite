@@ -108,7 +108,7 @@
     margin-bottom: -40px;
     padding:10px;
     border:3px solid #efefef;
-    background-color:#efefef;
+    background-color: rgba(245, 245, 245, 0.4); 
     height:150px;
     
 }
