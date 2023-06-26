@@ -9,8 +9,6 @@
     font-family: Montserrat,sans-serif;
     padding-top:42px;
     background:rgba(255, 255, 255, 0.8);
-    
-
 }
 
 .navbarInner {
@@ -52,21 +50,9 @@
     padding: 0 0 5px;
     text-decoration: none;
 }
-
-.navbarInner a:after {
-    border-bottom: 2px solid #db521f;
-    bottom: 0;
-    content: "";
-    display: block;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    width: 0;
-}
-
 .navbarInner a:hover:after {
     width: 100%;
 }
-
 .navbarInner nav .navbarLink {
     color: #2d2c2c!important;
 }
@@ -83,6 +69,15 @@
 .navbarInner ul li a {
     font-size: 18px;
     font-weight: 400;
+}
+.navbarInner ul li a:after {
+    border-bottom: 2px solid #db521f;
+    bottom: 0;
+    content: "";
+    display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 0;
 }
 .navbarInner .spAllCover {
     display:none;

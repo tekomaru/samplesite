@@ -1,9 +1,9 @@
-.PrivacyPolicyText_wrapper__ujXkN {
+.PrivacyPolicyText_wrapper {
     margin-top: 40px;
     padding: 0 13%;
     background:#fff;
 }
-.PrivacyPolicyText_wrapper__ujXkN h3 {
+.PrivacyPolicyText_wrapper h3 {
     font-family: Montserrat;
     font-weight: 600;
     font-size: 32px;
@@ -12,21 +12,21 @@
     color: #333;
     margin-bottom: 10px;
 }
-.PrivacyPolicyText_wrapper__ujXkN span {
+.PrivacyPolicyText_wrapper span {
     font-family: Zen Kaku Gothic Antique;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
-    color: #fbfbfb;
+    color: #333;
 }
-.PrivacyPolicyText_wrapper__ujXkN .PrivacyPolicyText_privacyPolicyWrapper__KU8SI {
+.PrivacyPolicyText_wrapper .privacyPolicyWrapper {
     margin-top: 30px;
     margin-bottom: 120px;
 }
-.PrivacyPolicyText_wrapper__ujXkN p {
+.PrivacyPolicyText_wrapper p {
     font-family: Zen Kaku Gothic Antique;
     font-size: 16px;
     line-height: 27px;
     letter-spacing: .03em;
-    color: #fff;
+    color: #333;
 }

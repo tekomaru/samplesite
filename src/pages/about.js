@@ -13,7 +13,6 @@ export default function ABOUT() {
       <div>
         <About />
         <Company />
-        <CEOMessage />
         <Contact />
       </div>
     </Layout>

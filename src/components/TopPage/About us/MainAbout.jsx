@@ -28,7 +28,7 @@ return (
             )}
         </div>
                 <div className={`${styles.Company_companyAbout} animate__animated animate__fadeInUp`}>
-                    <Link className={styles.Company_circle} href="/company/">
+                    <Link className={styles.Company_circle} href="/ABOUT/">
                         <span className={styles.Company_arrow}></span>
                         </Link>
                         <div>会社について</div>

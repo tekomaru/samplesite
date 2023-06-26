@@ -3,22 +3,20 @@ import {useInView} from 'react-intersection-observer'
 import 'animate.css'
 import styles from './PrivacyPolicy.module.css'
 
-export default function PrivacyPlicyPage() {
+export default function PrivacyPolicyPage() {
     const { ref, inview } = useInView({
         rootMargin: '-160px',
         triggerOnce: true
     })
     return (
-        <>
-        <div className={styles.PrivacyPolicyText_wrapper__ujXkN} ref={ref}>
-            {inview && (
-    
+        
+        <div className={styles.PrivacyPolicyText_wrapper}>
                 <div className="animate__animated animate__fadeInUp">
                     <h3>PRIVACY POLICY</h3>
                     <span>プライバシーポリシー</span>
-                    <div className={styles.PrivacyPolicyText_privacyPolicyWrapper__KU8SI}>
+                    <div className={styles.privacyPolicyWrapper}>
                         <p>個人情報の取扱いについて<br />
-                            株式会社WorldHacksは、以下の保護方針に基づき個人情報の適切な取り扱いを実現いたします。<br />
+                            株式会社Techtonixは、以下の保護方針に基づき個人情報の適切な取り扱いを実現いたします。<br />
                             1. 個人情報の取得・利用・提供について<br />
                             個人情報は適法かつ公正な手段によってのみ取得し、利用目的の達成に必要な範囲内で利用いたします。取得目的外による個人情報の利用はいたしません。また、個人情報を本人の同意なくして第三者に提供をいたしません。ただし、法令により開示を求められた場合、または裁判所・警察などの公的機関から開示を求められた場合は、本人の同意なく個人情報を提供することがあります。<br /><br />
                             2. 法令等の順守について<br />
@@ -30,7 +28,7 @@ export default function PrivacyPlicyPage() {
                             5. クッキー（Cookie）について<br />
                             当サイトでは、一部のコンテンツについてcookieを使用して、アスセスログの収集、分析をおこなっています。cookieを通じて収集した情報は、当サイトにアクセスいただいた方々の、ご関心に合わせたサービス、情報を提供するために利用します。なお、個人情報(氏名、メールアドレス等)をご提供いただいている場合は、個人を識別した上で利用する場合があります。<br /><br />
                             6. アクセスログの使用 アクセスログの収集、分析をおこなうツールは以下の通りです。<br />
-                            ツール名：Google アナリティクス（提供者名：Google LLC）※Googleアナリティクスが統計情報を収集し処理する仕組みにつきましては、こちらをご覧ください。<br /><br />
+                            ツール名：Google アナリティクス（提供者名：Google LLC）<br /><br />
                             7. 当社サイトからのリンク<br />
                             当社のサイトからリンクした外部のサイトにおける個人情報の保護については責任を負いません。リンク先の個人情報保護方針をご確認ください。<br /><br />
                             8. 当社サイトへのお問い合わせの対応<br />
@@ -38,8 +36,7 @@ export default function PrivacyPlicyPage() {
                         </p>
                     </div>
                 </div>
-            )}
         </div>
-        </>
+       
     )
 }

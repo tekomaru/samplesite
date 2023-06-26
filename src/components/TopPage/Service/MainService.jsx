@@ -73,7 +73,7 @@ export default function MainService() {
             )}
         </div>
             <div className={styles.Service_serviceAbout}>
-                <a className={`${styles.Service_link} animate__animated animate__fadeInUp`} href="/service/">
+                <a className={`${styles.Service_link} animate__animated animate__fadeInUp`} href="/SERVICE/">
                     <span className={styles.Service_arrow}></span>
                  </a>
             <div className={`${styles.undefined} animate__animated animate__fadeInUp`}>詳しく見る</div>

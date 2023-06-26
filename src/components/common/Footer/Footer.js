@@ -35,7 +35,7 @@ export default function Footer(){
                 <div className={styles.Footer_copyright}>
                     <span>© Techtonix All rights reserved.</span>
                     <span>
-                        <Link href="/privacy_policy/">Privacy Policy</Link>
+                        <Link href="/privacypolicy/">Privacy Policy</Link>
                     </span>
                 </div>
                 <style jsx>{'.Footer_copyright {color: rgb(245, 245, 245);} '}</style>
@@ -67,7 +67,7 @@ export default function Footer(){
                 <div className={styles.Footer_spImgAndPrivacyPolicy}>
                     <img src="/techtonix_logo_white.png" alt="TechTonix"/>
                         <span>
-                            <a href="/privacy_policy/">Privacy Policy</a>
+                            <Link href="/privacypolicy/">Privacy Policy</Link>
                             <style jsx>{`
                             .Footer_spImgAndPrivacyPolicy span {
                                 color:rgb(245, 245, 245);

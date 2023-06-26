@@ -108,9 +108,9 @@
     color: #333;
     line-height: 1;
     position: relative;
-    width: 2.7em;
+    width: 3.5em;
     height: .05em;
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
     background: #db521f;
     
 }
@@ -134,7 +134,9 @@
     background: #db521f;
     transition: all .3s;
 }
-
+.Company_wrapper .Company_arrow:hover {
+    width:2.7em;
+}
 .Company_wrapper .Company_arrow:before {
     content: "";
     width: .75em;

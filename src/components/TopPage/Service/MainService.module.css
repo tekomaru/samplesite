@@ -176,9 +176,9 @@
     color: #333;
     line-height: 1;
     position: relative;
-    width: 2.7em;
+    width: 3.5em;
     height: .05em;
-    transform: rotate(-45deg);
+    transform: rotate(0deg);
     background: #db521f;
 }
 
