@@ -14,7 +14,7 @@ export default function ServiceWeOffer() {
         <div className={styles.ServiceWeOffer_wrapper} ref={ref}>
             {inView && (
             <div className={styles.Headline_headline}>
-                <div className={styles.Headline_mainHeadline__GKrWA}>Service we offer</div>
+                <div className={styles.Headline_mainHeadline}>Service we offer</div>
                     <span>提供サービス</span>
                 </div>
             )}
@@ -27,6 +27,7 @@ export default function ServiceWeOffer() {
                             <p>システムの構築に関する コンサルティング、設計、開発、運用を行います。<br/>
                             <br />
                             <br />
+                            <br/>
                             <br/>
                             </p>
                             {/* <Link href="/service/ServiceSystemDevelopment/">VIEW MORE</Link> */}
