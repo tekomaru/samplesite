@@ -59,7 +59,7 @@
     }
     100% {
         transform: translateX(0);
-        color: rgba(0,0,0,.1);
+        color: #e6e6e6;
     }
 }
 @media screen and (max-width: 1200px){
