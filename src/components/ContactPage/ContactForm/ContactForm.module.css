@@ -110,14 +110,14 @@
     border: 1px solid #333;
     border-radius: 50px;
     padding: 10px;
-    width: 60%;
+    width: 40%;
     display: inline-block;
     text-align: center;
     background-color:#000;
 }
-.ContactForm_wrapper button:hover span {
+.ContactForm_wrapper button:hover {
     display: inline-block;
-    transform: rotateX(1turn);
+    opacity:0.7;
 }
 .ContactForm_wrapper button span {
     display: inline-block;

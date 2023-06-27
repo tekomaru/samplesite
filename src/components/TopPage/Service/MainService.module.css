@@ -301,6 +301,7 @@
 
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent {
         top: 47%;
+        height:300px;
     }
 
     .Service_wrapper .Service_circleWrapper .Service_contentWrapper .Service_circleContent .Service_serviceContentTitle {

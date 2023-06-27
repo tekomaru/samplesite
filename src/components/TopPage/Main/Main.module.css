@@ -2,13 +2,13 @@
     position: relative;
     outline: none;
     overflow: hidden;
-    width:600px;
+    width:800px;
     height:718px;
     margin-left:auto;
 }
 .mainvisual img {
     position:absolute;
-    top:30%;
+    top:25%;
     left:-10%;
 
 }
@@ -126,12 +126,27 @@
     background: #fff;
     animation: 1.4s ease-in-out infinite;
 }
+@media screen and (max-width: 992px) {
+    .mainvisual {
+        top:60%;
+        margin-top:400px;
+    }
+    .mainvisual img {
+        left:-15%;
+    }
+    .mainTitleSection {
+        top: 150px;
+    }
+}
 @media screen and (max-width: 768px) {
     .mainvisual {
         top:50%;
         margin-top: 150px;
     }
-
+    .mainvisual img {
+        left:-5%;
+        width:600px;
+    }
     .mainTitleSection {
         top: 120px;
     }
@@ -161,6 +176,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .mainvisual img {
+        width:60%;
+    }
     .mainTitleSection .DevelopForFun {
         font-size:80px;
         line-height: 60px;
@@ -169,7 +187,7 @@
 
 @media screen and (max-width: 390px) {
     .mainvisual img {
-        width:80%;
+        width:50%;
     }
     .mainTitleSection .DevelopForFun {
         font-size:70px;

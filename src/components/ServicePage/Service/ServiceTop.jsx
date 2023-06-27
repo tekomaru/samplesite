@@ -9,17 +9,17 @@ export default function Service() {
       });
     return (
 
-        <div className={styles.ServiceMain_wrapper___yDuj}>
-            <div className={styles.ServiceMain_serviceTitleWrapper__8xBUe}>
+        <div className={styles.ServiceMain_wrapper}>
+            <div className={styles.ServiceMain_serviceTitleWrapper}>
                 {/* <img src="/img/serviceBackground.png" alt="" /> */}
-                    <h2 className={styles.ServiceMain_serviceTitle__DWIh0}>
+                    <h2 className={styles.ServiceMain_serviceTitle}>
                         <span>SERVICE</span>
                     </h2>
             </div>
-            <div className={styles.ServiceMain_serviceMainContent__uxOt6} ref={ref}>
+            <div className={styles.ServiceMain_serviceMainContent} ref={ref}>
                 {inView &&(
                 <><p className="animate__animated animate__fadeInUp">お客様のパートナーとしての開発を</p>
-                    <div className={`${styles.ServiceMain_scrollDown__7jqtz} animate__animated animate__fadeInUp`}></div>
+                    <div className={`${styles.ServiceMain_scrollDown} animate__animated animate__fadeInUp`}></div>
                        </>
                 )}
             </div>

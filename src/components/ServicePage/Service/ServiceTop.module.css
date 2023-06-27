@@ -1,17 +1,17 @@
-.ServiceMain_wrapper___yDuj {
+.ServiceMain_wrapper {
     margin-top: 80px;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper {
     position: relative;
     height:200px;/* 背景画像の分です */
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe img {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper img {
     width: 100vw;
     height: 200px;
     -o-object-fit: cover;
     object-fit: cover;  
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe .ServiceMain_serviceTitle__DWIh0 {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper .ServiceMain_serviceTitle {
     position: absolute;
     font-weight: 800;
     font-size: 190px;
@@ -26,12 +26,12 @@
     animation-delay: .1s;
     animation-fill-mode: forwards;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent {
     margin: 82px auto 0;
     max-width: 1200px;
     color: #333;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:first-child {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p:first-child {
     font-family: Zen Kaku Gothic Antique;
     font-style: normal;
     font-weight: 600;
@@ -40,7 +40,7 @@
     letter-spacing: .02em;
     text-align: center;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:last-child {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p:last-child {
     font-family: Zen Kaku Gothic Antique;
     font-style: normal;
     font-weight: 400;
@@ -48,7 +48,7 @@
     line-height: 40px;
     letter-spacing: .03em;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 .ServiceMain_scrollDown__7jqtz {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent .ServiceMain_scrollDown {
     height: 127px;
     width: 1px;
     background-color: #333;
@@ -66,42 +66,42 @@
 }
 
 @media screen and (max-width: 1200px){
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe .ServiceMain_serviceTitle__DWIh0 {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper .ServiceMain_serviceTitle {
     font-size: 140px;
     padding: 0 10%;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:last-child {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p:last-child {
     margin: 0 10%;
 }
 }
 @media screen and (max-width: 768px){
-.ServiceMain_wrapper___yDuj {
+.ServiceMain_wrapper {
     margin-top: 30px;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe img {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper img {
     height: 230px;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe .ServiceMain_serviceTitle__DWIh0 {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper .ServiceMain_serviceTitle {
     font-size: 60px;
     line-height: 220px;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:first-child {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p:first-child {
     font-size: 27px;
     padding: 0 10%;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 .ServiceMain_scrollDown__7jqtz {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent .ServiceMain_scrollDown {
     height: 118px;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceMainContent__uxOt6 p:last-child {
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p:last-child {
     font-size: 16px;
     line-height: 27px;
 }
 }
 @media screen and (max-width: 390px){
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper {
     width: auto;
 }
-.ServiceMain_wrapper___yDuj .ServiceMain_serviceTitleWrapper__8xBUe .ServiceMain_serviceTitle__DWIh0 {
+.ServiceMain_wrapper .ServiceMain_serviceTitleWrapper .ServiceMain_serviceTitle {
     padding: 0 8%;
     font-size: 50px;
 }

@@ -53,6 +53,9 @@
     letter-spacing: .01em;
     color:#fff;
 }
+.Footer_wrapper .Footer_footerWrapper .Footer_footerBox ul li a:hover{
+    opacity:0.7;
+}
 .Footer_wrapper .Footer_footerWrapper .Footer_copyright {
     height: 100%;
     width: 100%;
