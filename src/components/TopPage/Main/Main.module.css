@@ -3,7 +3,7 @@
     outline: none;
     overflow: hidden;
     width:800px;
-    height:718px;
+    height:750px;
     margin-left:auto;
 }
 .mainvisual img {
@@ -129,7 +129,9 @@
 @media screen and (max-width: 992px) {
     .mainvisual {
         top:60%;
-        margin-top:400px;
+        margin-top:380px;
+        left:15%;
+        height:800px;
     }
     .mainvisual img {
         left:-15%;
@@ -141,7 +143,9 @@
 @media screen and (max-width: 768px) {
     .mainvisual {
         top:50%;
-        margin-top: 150px;
+        margin-top: 300px;
+        left:5%;
+        height:600px;
     }
     .mainvisual img {
         left:-5%;
@@ -176,6 +180,12 @@
 }
 
 @media screen and (max-width: 576px) {
+    .mainvisual {
+        top:50%;
+        margin-top: 250px;
+        left:5%;
+        height:500px;
+    }
     .mainvisual img {
         width:60%;
     }
@@ -186,8 +196,13 @@
 }
 
 @media screen and (max-width: 390px) {
+    .mainvisual {
+        left:10%;
+        margin-top:250px;
+        height:400px;
+    }
     .mainvisual img {
-        width:50%;
+        width:45%;
     }
     .mainTitleSection .DevelopForFun {
         font-size:70px;
