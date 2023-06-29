@@ -85,27 +85,26 @@
     letter-spacing: .01em;
     color: #333;
 }
-.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
-    margin-top: 20px;
-    margin-bottom:20px;
-    letter-spacing: .05em;
-}
+
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox {
     background: hsla(0,0%,96%,.4);
     padding: 8px;
     animation-delay: .2s;
     border:3px solid #e6e6e6;
+    height:20rem;
 }
+
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-weight: 400;
-    font-size: 20px;
-    margin-top: 16px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: initial;
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox a {
     display: inline-block;
     font-family: Montserrat;
     font-size: 20px;
-    line-height: 22px;
+    line-height: 20px;
     margin-top: 20px;
     color: #db521f;
     padding-bottom: 4px;
@@ -122,7 +121,7 @@
     background-size: cover;
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
-    margin-top: 30px;
+    margin-top: 20px;
     letter-spacing: .05em;
 }
 
@@ -179,10 +178,14 @@
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:nth-child(2) {
     margin: 22px 0;
 }
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox {
+    height:15rem;
+}
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 28px;
     margin-top: 5px;
+    padding:10px;
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox a {
     margin-top: 20px;
