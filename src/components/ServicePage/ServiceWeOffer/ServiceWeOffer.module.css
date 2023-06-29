@@ -204,4 +204,8 @@
     top: -25%;
     left: 0;
 }
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
+    font-size:16px;
+    line-height:20px;
+}
 }
