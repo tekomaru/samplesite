@@ -171,10 +171,7 @@
     font-size: 14px;
     left: 140px;
 }
-.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
-    font-size: 24px;
-    margin-top: 15px;
-}
+
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:nth-child(2) {
     margin: 22px 0;
 }
@@ -183,7 +180,7 @@
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 22px;
     margin-top: 5px;
     padding:10px;
 }
