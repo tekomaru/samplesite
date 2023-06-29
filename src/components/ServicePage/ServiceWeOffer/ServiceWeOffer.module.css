@@ -69,7 +69,6 @@
     gap: 30px;
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent {
-    
     width: 393.14px;
     padding: 24px 15px;
     text-align: center;
@@ -120,7 +119,7 @@
     animation-delay: .3s;
     background-size: cover;
 }
-.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p:first-child {
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p {
     margin-top: 20px;
     letter-spacing: .05em;
 }
@@ -204,8 +203,13 @@
     top: -25%;
     left: 0;
 }
+.ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent p {
+    font-size:18px;
+
+}
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-size:16px;
     line-height:20px;
 }
+
 }
