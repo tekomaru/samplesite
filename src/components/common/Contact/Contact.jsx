@@ -8,11 +8,10 @@ export default function Contact() {
                 <div className={styles.Contact_contactContent}>
                     <div className={styles.Contact_contactLeftContent}>
                         <div className={styles.Contact_contactTitle}>
-                            <div>Let's Have a</div>
-                            <div>Conversation!</div>
+                            <div>Contact us</div>
                         </div>
                         <div className={styles.Contact_companyIntroduction}>
-                            <p>Webサービスやアプリ開発のご相談、協業パートナーなどその他のお問い合わせはこちらから。</p>
+                            <p>開発のご相談、その他のお問い合わせはこちらから。</p>
                         </div>
                     </div>
                     <div>

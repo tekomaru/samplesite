@@ -5,7 +5,6 @@
     background-color: #e6e6e6;
 }
 
-
 .Contact_wrapper .Contact_contactContent {
     display: flex;
     align-items: center;
@@ -51,19 +50,17 @@
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle div:last-child {
-    margin-left: 120px;
+    text-align:center;
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
-    margin-left: 180px;
     font-family: Zen Kaku Gothic Antique;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
     color: #333;
     width: auto;
     height: 80px;
-    margin-top: 70px;
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:first-child,.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:last-child {
