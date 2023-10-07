@@ -137,17 +137,11 @@
         font-size:60px;
     }
 
-    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
-        margin-left: 60px;
-        margin-top: 30px;
-    }
-
     .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
         font-size: 60px;
     }
 
     .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
-        margin-left: 60px;
         margin-top: 30px;
     }
 
@@ -155,7 +149,6 @@
         width: 210px;
         height: 210px;
         margin-bottom: 60px;
-        margin-left: 20px;
     }
 }
 
@@ -226,7 +219,10 @@
         width: -moz-fit-content;
         width: fit-content;
         margin-top: -20px;
-        font-size: 16px;
+    }
+    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction p{
+        font-size:16px;
+        line-height:1.2rem;
     }
     .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
         margin:0 auto;
