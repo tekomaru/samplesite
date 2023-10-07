@@ -14,8 +14,6 @@
 .Contact_wrapper .Contact_contactLeftContentCompany {
     color: #333;
 }
-
-
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle div:last-child {
     margin-left: 120px;
 }
@@ -157,11 +155,6 @@
         margin-top:0;
         padding-top:10%;
     }
-
-    .Contact_wrapper .Contact_worldMap03 {
-        display: none;
-    }
-
     .Contact_wrapper .Contact_contactContent {
         flex-direction: column;
         text-align: center;
@@ -175,7 +168,7 @@
 
     .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 28px;
         height: 133px;
         text-align: left;
         margin-left: 0;
