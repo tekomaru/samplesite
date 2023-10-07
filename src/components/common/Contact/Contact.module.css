@@ -218,6 +218,6 @@
         line-height:1.2rem;
     }
     .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
-        margin:0 auto;
+        margin:20px auto;
     }
 }
