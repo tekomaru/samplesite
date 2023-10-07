@@ -11,8 +11,7 @@ export default function Contact() {
                             <div>Contact us</div>
                         </div>
                         <div className={styles.Contact_companyIntroduction}>
-                            <p>開発のご相談、その他のお問い合わせはこちらから。<br />
-                            お気軽にお問い合わせください。</p>
+                            <p>開発のご相談、その他のお問い合わせはこちらから。</p>
                         </div>
                     </div>
                     <div>
