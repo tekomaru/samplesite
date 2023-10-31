@@ -72,7 +72,7 @@ export default function ContactForm(){
                         </div>
                     </div>
                     <p className={styles.ContactForm_contactFormText}>このフォームを送信することにより株式会社Techtonixのプライバシーポリシーに 同意することとします。</p>
-                    <div v-show="false"><label for="message">スパムでない場合は空欄</label>
+                    <div v-show="false"><label for="message"> </label>
                     <input type="text" name="bot-field" />
                     </div>
                     <div className={styles.ContactForm_confirmButton}>
