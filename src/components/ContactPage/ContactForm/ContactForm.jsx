@@ -7,7 +7,7 @@ export default function ContactForm(){
         <div className={styles.ContactForm_wrapper}>
             <span className={styles.ContactForm_firstSpan}>※印の項目は必須項目です。</span>
             <div className={styles.ContactForm_contactFormWrapper}>
-                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                     <div className={styles.ContactForm_rowFormWrapper}>
                         <div className={styles.ContactForm_rowForm}>
