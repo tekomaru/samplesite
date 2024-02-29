@@ -110,7 +110,7 @@
     color: var(--black--);
     position: relative;
     z-index: 1;
-    animation-delay: 1.5s;
+    animation-delay: 1.2s;
 }
 
 .top_service_wrapper .top_service_about div {
