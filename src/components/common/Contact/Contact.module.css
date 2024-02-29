@@ -1,18 +1,22 @@
 .Contact_wrapper {
-    padding:5% 10%;
-    margin: 0 auto 0;
+    padding:3%;
+    margin: 5% auto;
     position: relative;
-    background-color: #e6e6e6;
+    background-color: var(--bg-color);
+    width:80%;
+    border-radius: 30px;
 }
 
 .Contact_wrapper .Contact_contactContent {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
 }
-
+/* .Contact_contactContent div {
+    width:30%;
+} */
 .Contact_wrapper .Contact_contactLeftContentCompany {
-    color: #333;
+    color: var(--black--);
 }
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle div:last-child {
     margin-left: 120px;
@@ -21,10 +25,10 @@
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
     margin-left: 180px;
     font-family: Zen Kaku Gothic Antique;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
     width: auto;
     height:120px;
     margin-top: 70px;
@@ -40,11 +44,11 @@
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
     font-family: Montserrat;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 64px;
     letter-spacing: .01em;
     margin-bottom: 38px;
-    color:#333;
+    color:var(--black--);
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle div:last-child {
@@ -56,7 +60,7 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
     width: auto;
     height: 80px;
 }
@@ -86,7 +90,7 @@
     font-size: 32px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
 }
 
 .Contact_wrapper .Contact_contactCircleCompany:hover {
@@ -95,14 +99,14 @@
 
 .Contact_wrapper .Contact_contactCircle {
     background: #fff;
-    width: 278px;
-    height: 278px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: relative;
     cursor: pointer;
     transition: all .3s;
-    display: inline-block;
-    margin-bottom: 30px;
+    display:block;
+    margin:0 auto;
 }
 
 .Contact_wrapper .Contact_contactCircle span {
@@ -111,23 +115,22 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: Montserrat;
-    font-size: 32px;
+    font-size: 50px;
     line-height: 36px;
     letter-spacing: .01em;
     color: #2d2c2c;
 }
+.contact_link {
+    transition: 0.3s;
+}
 
-.Contact_wrapper .Contact_contactCircle:hover {
+.contact_link:hover .Contact_contactCircle {
     transform: scale(1.3);
 }
 
-.Contact_wrapper .Contact_arrow__2IyRu {
-    margin-left: -60%;
-}
-
-.Contact_wrapper .Contact_arrow__2IyRu .Contact_arrowImage {
-    width: 204px;
-    height: 32px;
+.contact_image img {
+    max-width:100%;
+    width:300px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -136,23 +139,19 @@
     }
 
     .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
-        font-size: 60px;
+        font-size: 38px;
     }
 
     .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
-        margin-top: 30px;
+        margin-top: 0;
     }
 
-    .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
-        width: 210px;
-        height: 210px;
-        margin-bottom: 60px;
-    }
+   
 }
 
 @media screen and (max-width: 768px) {
     .Contact_wrapper {
-        margin-top:0;
+        margin-top:100px;;
         padding-top:10%;
     }
     .Contact_wrapper .Contact_contactContent {
@@ -160,17 +159,16 @@
         text-align: center;
     }
 
-    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
-        font-size: 35px;
+    .Contact_wrapper .Contact_contactTitle {
+        font-size: 20px;
         line-height: 39px;
-        margin-bottom: 38px;
+      
     }
 
-    .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
-        font-size: 18px;
+    .Contact_wrapper .Contact_companyIntroduction p {
+        font-size: 16px;
         line-height: 28px;
         height: 133px;
-        text-align: left;
         margin-left: 0;
         margin-top: 0;
     }
@@ -187,8 +185,8 @@
     }
 
     .Contact_wrapper .Contact_contactCircle {
-        width: 119px;
-        height: 119px;
+        width: 50px;
+        height: 50px;
         margin:0 auto;
         
     }
@@ -206,7 +204,7 @@
 
 @media screen and (max-width: 390px) {
     .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
-        font-size:28px;
+        font-size:20px;
     }
     .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
         width: -moz-fit-content;
@@ -218,6 +216,6 @@
         line-height:1.2rem;
     }
     .Contact_wrapper .Contact_contactCircleCompany,.Contact_wrapper .Contact_contactCircle {
-        margin:20px auto;
+        margin:0px auto;
     }
 }

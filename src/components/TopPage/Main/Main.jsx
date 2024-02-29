@@ -1,5 +1,4 @@
 import styles from './Main.module.css'
-import { Link as Scroll } from 'react-scroll';
 
 export default function Main() {
     return (
@@ -20,10 +19,8 @@ export default function Main() {
                 </div>
                
             </div>
-            {/* <div className={styles.leftScroll}>
-                <Scroll to="about-us">SCROLL</Scroll>
-            </div> */}
         </div>
+        <p><span className={styles.scroll}>SCROLL</span></p>
         </>
     );
 }

@@ -9,10 +9,12 @@ export default function About() {
       });
     return (
         <div className={styles.About_wrapper}>
-            <div className={styles.About_background}>
+           
                 <div className={styles.PageTitle_wrapper}>
                     <h2 className={styles.PageTitle_gray}>ABOUT</h2>
                 </div>
+            <div className={styles.About_background}>
+
                 <div className={styles.About_aboutContent} ref={ref}>
                     {inView &&(
                     <><p className="animate__animated animate__fadeInUp">Techtonixでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</p>
@@ -23,11 +25,6 @@ export default function About() {
                     )}
                 </div>
             </div>
-            {/* <div className={styles.About_loopWrap__xgNTZ}>
-                <img src="/img/slick01.png"  alt="" />
-                <img src="/img/slick02.png" widthalt="" />
-                <img src="/img/slick03.png" alt="" />
-            </div> */}
         </div>
     )
 }

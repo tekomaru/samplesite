@@ -10,9 +10,9 @@ const Navber = () =>{
   }
   return ( 
     <>
-       <div className={`${styles.oeail} animate__animated animate__fadeInUp`}>
+       <div className={`${styles.header} animate__animated animate__fadeInUp`}>
                         <div className={styles.navbarInner}>
-                            <Link className="imgLinkWrapper" href="/">
+                            <Link className="mainvisual_img" href="/">
                             <Image src="/techtonix_logo.png" alt="TechTonix" width={150} height={100}/>
                             </Link>
                             <nav className={styles.pcNavigation}>
@@ -20,7 +20,7 @@ const Navber = () =>{
                                     <li><Link href="/">HOME</Link></li>
                                     <li><Link href="/ABOUT/">ABOUT</Link></li>
                                     <li><Link href="/SERVICE/">SERVICE</Link></li>
-                                    <li><Link href="/CONTACT/">CONTACT</Link></li>
+                                    <li><Link className={styles.contact_button} href="/CONTACT/">CONTACT</Link></li>
                                 </ul>
                             </nav>
                             <div className={styles.openHambugerMenu} onClick={() => menuFunction()}>
@@ -44,7 +44,7 @@ const Navber = () =>{
                                   </li>
                                   <li className="animate__animated animate__fadeInUp">
                                     <a href="/SERVICE/">SERVICE</a>
-                                    <span>サービス内容</span>
+                                    <span>サービスについて</span>
                                   </li>
                                   <li className="animate__animated animate__fadeInUp">
                                     <a href="/CONTACT/">CONTACT</a>

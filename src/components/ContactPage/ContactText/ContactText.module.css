@@ -1,11 +1,11 @@
-.ContactText_wrapper__c2KJe {
-    margin-top: 30px;
+.ContactText_wrapper {
+    margin-top: 60px;
     padding: 0 13%;
 }
-.PageTitle_wrapper__d3y0q .PageTitle_transparent__FD1Cq {
+.PageTitle_wrapper .PageTitle_transparent {
     animation-name: PageTitle_fadeUpLeftAnime__Mjq9a;
 }
-.PageTitle_wrapper__d3y0q h2 {
+.PageTitle_wrapper h2 {
     font-style: normal;
     font-weight: 800;
     font-size: 190px;
@@ -16,7 +16,7 @@
     animation-delay: .1s;
     animation-fill-mode: forwards;
 }
-.ContactText_wrapper__c2KJe p {
+.ContactText_wrapper p {
     margin-top: 40px;
     font-family: Zen Kaku Gothic Antique;
     font-size: 18px;
@@ -34,13 +34,13 @@
     }
 }
 @media screen and (max-width: 1200px){
-.PageTitle_wrapper__d3y0q h2 {
+.PageTitle_wrapper h2 {
     font-size: 140px;
 }
 }
 
 @media screen and (max-width: 768px){
-.PageTitle_wrapper__d3y0q h2 {
+.PageTitle_wrapper h2 {
     font-size: 60px;
     line-height: 50px;
 }

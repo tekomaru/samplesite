@@ -1,6 +1,6 @@
 .ServiceWeOffer_wrapper {
     max-width: 1200px;
-    width: 80vw;
+    /* width: 80vw; */
     margin: 150px auto 100px;
     background:#fff;
 }
@@ -67,9 +67,12 @@
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers {
     display: flex;
     gap: 30px;
+   align-items: center;
+   height:100vh;
+
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent {
-    width: 393.14px;
+    width: 50%;
     padding: 24px 15px;
     text-align: center;
     -o-object-fit: cover;
@@ -86,17 +89,18 @@
 }
 
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox {
-    background: hsla(0,0%,96%,.4);
+    /* background: hsla(0,0%,96%,.4); */
     padding: 8px;
     animation-delay: .2s;
-    border:3px solid #e6e6e6;
-    height:20rem;
+    /* border:3px solid #e6e6e6; */
+    height:100%;
+   
 }
 
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox p {
     font-weight: 400;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent .ServiceWeOffer_offerContentBox a {
@@ -157,6 +161,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height:auto;
 }
 .ServiceWeOffer_wrapper .ServiceWeOffer_serviceWeOffers .ServiceWeOffer_offerContent {
     width: 100%;
@@ -190,6 +195,7 @@
 }
 @media screen and (max-width: 576px){
 .ServiceWeOffer_wrapper {
+    margin:0 10% 0;
     margin-bottom:15%;
 }
 .Headline_headline {
@@ -213,3 +219,10 @@
 }
 
 }
+/* .Service_image {
+    width:50%;
+    position:sticky;
+    top: 45%;
+    left: 0;
+    z-index: 1;
+} */

@@ -1,11 +1,12 @@
 .ServiceMain_wrapper {
-    margin-top: 80px;
+    margin-top: 13px;
     margin-bottom:5%;
 }
 .ServiceMain_wrapper .ServiceMain_serviceTitleWrapper {
     position: relative;
     height:200px;/* 背景画像の分です */
 }
+
 .ServiceMain_wrapper .ServiceMain_serviceTitleWrapper img {
     width: 100vw;
     height: 200px;
@@ -27,34 +28,26 @@
     animation-delay: .1s;
     animation-fill-mode: forwards;
 }
+.ServiceMain_wrapper p {
+    width:960px;
+    margin:50px auto;
+    font-size:20px;
+}
 .ServiceMain_wrapper .ServiceMain_serviceMainContent {
-    margin: 82px auto 0;
+    margin: 20px auto 0;
     max-width: 1200px;
     color: #333;
 }
-.ServiceMain_wrapper .ServiceMain_serviceMainContent p:first-child {
+
+.ServiceMain_wrapper .ServiceMain_serviceMainContent p {
     font-family: Zen Kaku Gothic Antique;
     font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 36px;
-    letter-spacing: .02em;
-    text-align: center;
-}
-.ServiceMain_wrapper .ServiceMain_serviceMainContent p:last-child {
-    font-family: Zen Kaku Gothic Antique;
-    font-style: normal;
+    margin-top: 33px;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
-    letter-spacing: .03em;
+    font-size: 18px;
+    line-height: 31px;
 }
-.ServiceMain_wrapper .ServiceMain_serviceMainContent .ServiceMain_scrollDown {
-    height: 127px;
-    width: 1px;
-    background-color: #333;
-    margin: 30px auto;
-}
+
 
 @keyframes ServiceMain_fadeUpLeftAnime__kZBJm {
     0% {
@@ -81,6 +74,10 @@
 }
 .ServiceMain_wrapper .ServiceMain_serviceTitleWrapper img {
     height: 230px;
+}
+.ServiceMain_wrapper p {
+    width:90%;
+    margin:10px auto;
 }
 .ServiceMain_wrapper .ServiceMain_serviceTitleWrapper .ServiceMain_serviceTitle {
     font-size: 60px;
