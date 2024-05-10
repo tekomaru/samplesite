@@ -1,5 +1,5 @@
 {
-  "name": "smooth-scroll-v2",
+  "name": "samplesite",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,10 +12,10 @@
     "@splidejs/splide": "^4.1.4",
     "animate.css": "^4.1.1",
     "jQuery": "^1.7.4",
-    "next": "^14.1.0",
+    "next": "^14.2.3",
     "next-app": "^0.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.4.3",
     "react-modal": "^3.16.1",
     "react-scroll": "^1.8.9",
