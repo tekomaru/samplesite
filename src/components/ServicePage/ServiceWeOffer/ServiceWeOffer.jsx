@@ -12,12 +12,7 @@ export default function ServiceWeOffer() {
     return (
 
         <div className={styles.ServiceWeOffer_wrapper} ref={ref}>
-            {inView && (
-            <div className={styles.Headline_headline}>
-                <div className={styles.Headline_mainHeadline}>Service we offer</div>
-                    <span>提供サービス</span>
-                </div>
-            )}
+        
                 {inView &&(
                 <div className={styles.ServiceWeOffer_serviceWeOffers}>
                     <div className={`${styles.ServiceWeOffer_offerContent} animate__animated animate__fadeInUp`}>

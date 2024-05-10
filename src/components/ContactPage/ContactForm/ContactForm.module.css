@@ -38,7 +38,7 @@
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper .ContactForm_rowFormWrapper .ContactForm_rowForm input,
 .ContactForm_wrapper .ContactForm_contactFormWrapper .ContactForm_rowFormWrapper .ContactForm_rowForm textarea {
-    padding: 20px 30px;
+    padding: 10px;
     width: 100%;
     background: #fff;
     border: 1px solid #9d9999;

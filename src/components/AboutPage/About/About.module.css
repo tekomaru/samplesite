@@ -1,13 +1,16 @@
 .About_wrapper {
     width: 100vw;
-    background: #fff;
     overflow: hidden;
 }
 .About_wrapper .About_background {
-    padding: 160px 13% 0;
+    padding: 60px 13% 0;
     max-width: 1600px;
     margin: 0 auto;
+    background:url("/about_image.png") no-repeat;
+    background-size: contain;
+    background-position:right bottom;
 }
+
 .PageTitle_wrapper .PageTitle_gray {
     animation-name: PageTitle_fadeUpLeftAnimeGray__Acz_S;
 }
@@ -27,7 +30,7 @@
     font-family: Zen Kaku Gothic Antique;
     letter-spacing: .02em;
     color: #545454;
-    padding-bottom:20px;
+    /* padding:20px 40px; */
 }
 .About_wrapper .About_aboutContent h3 {
     font-weight: 500;

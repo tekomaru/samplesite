@@ -20,10 +20,8 @@ export default function Main() {
                 </div>
                
             </div>
-            {/* <div className={styles.leftScroll}>
-                <Scroll to="about-us">SCROLL</Scroll>
-            </div> */}
         </div>
+        <p><span className={styles.scroll}>SCROLL</span></p>
         </>
     );
 }

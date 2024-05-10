@@ -1,5 +1,5 @@
 
-.oeail {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,14 +7,14 @@
     width: 100%;
     padding: 0 4%;
     font-family: Montserrat,sans-serif;
-    padding-top:42px;
+    padding-top:20px;
     background:rgba(255, 255, 255, 0.8);
 }
 
 .navbarInner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #333;
     margin: 0;
     padding: 0;
@@ -33,21 +33,22 @@
 
 .navbarInner ul {
     display: flex;
+    align-items: center;
     padding-top: 10px;
 }
 
-.imgLinkWrapper {
+.mainvisual_img {
     display: inline;
 }
 
-.imgLinkWrapper:after {
+.mainvisual_img:after {
     border-bottom: none;
     content: "";
 }
 
 .navbarInner a {
     display: block;
-    padding: 0 0 5px;
+    padding:5px;
     text-decoration: none;
 }
 .navbarInner a:hover:after {
@@ -69,6 +70,7 @@
 .navbarInner ul li a {
     font-size: 18px;
     font-weight: 400;
+    line-height:18px;
 }
 .navbarInner ul li a:after {
     border-bottom: 2px solid #db521f;
@@ -79,6 +81,23 @@
     -webkit-transition: all .3s ease;
     width: 0;
 }
+.navbarInner ul li a:last-child:after {
+    border-bottom:none;
+}
+.navbarInner .contact_button {
+    border:2px solid #FAAB34;
+    background-color:transparent;
+    
+    border-radius: 30px;
+    padding:16px 32px;
+    font-weight:bold;
+    transition: 0.3s;
+}
+.navbarInner .contact_button:hover {
+    transform: scale(1.2);
+    background-color: #FAAB34;
+    border:2px solid transparent;
+}
 .navbarInner .spAllCover {
     display:none;
 }
@@ -86,11 +105,9 @@
     .navbarInner nav {
         margin-left:0;
     }
-
     .navbarInner .pcNavigation {
         display: none;
     }
-
     .navbarInner img {
         width: auto;
         height: 50px;

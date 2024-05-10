@@ -23,11 +23,6 @@ export default function About() {
                     )}
                 </div>
             </div>
-            {/* <div className={styles.About_loopWrap__xgNTZ}>
-                <img src="/img/slick01.png"  alt="" />
-                <img src="/img/slick02.png" widthalt="" />
-                <img src="/img/slick03.png" alt="" />
-            </div> */}
         </div>
     )
 }

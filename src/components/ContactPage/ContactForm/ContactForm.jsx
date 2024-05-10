@@ -18,13 +18,12 @@ export default function ContactForm(){
                             <select name="subject">
                                 <option >選択してください</option>
                                 <option value="開発・お仕事のご相談">開発・お仕事のご相談</option>
-                                <option value="広報・取材について">広報・取材について</option>
                                 <option value="その他">その他</option>
                             </select>
                             <span className={styles.ContactForm_errorMessage}>お問い合わせの種類を入力してください。</span>
                         </div>
                         <div className={styles.ContactForm_rowForm}>
-                            <label for="company" className={styles.ContactForm_companyLabel}>貴社名</label>
+                            <label for="company" className={styles.ContactForm_companyLabel}>会社名</label>
                             <input type="text" placeholder="株式会社●●●" name="company"  />
                         </div>
                         <div className={styles.ContactForm_rowForm}>
@@ -33,7 +32,7 @@ export default function ContactForm(){
                                 <span>※</span>
                             </div>
                             <input type="text" placeholder="山田太郎" name="name" />
-                            <span className={styles.ContactForm_errorMessage}>ユーザー名を入力してください。</span>
+                            <span className={styles.ContactForm_errorMessage}>名前を入力してください。</span>
                         </div>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>
@@ -56,7 +55,7 @@ export default function ContactForm(){
                                 <label for="message" className={styles.ContactForm_message}>お問い合わせ内容</label>
                                 <span className={styles.ContactForm_messageSpan}>※</span>
                             </div>
-                            <textarea name="message" placeholder="開発についてご相談させてください"></textarea>
+                            <textarea name="message" placeholder="テキストを入力します"></textarea>
                             <span className={styles.ContactForm_errorMessage}>お問い合わせ内容を入力してください。</span>
                         </div>
                         <div className={styles.ContactForm_rowForm}>
@@ -64,7 +63,7 @@ export default function ContactForm(){
                             <div className={styles.ContactForm_refForm}>
                                 <label>
                                     <input type="file" name="theFiles" />
-                                        <span className={styles.ContactForm_refFormSpan}>参考資料がある場合は添付してください</span>
+                                        <span className={styles.ContactForm_refFormSpan}>資料がある場合は添付してください</span>
                                 </label>
                                 <div className={styles.ContactForm_fileNameWrapper}></div>
                             </div>

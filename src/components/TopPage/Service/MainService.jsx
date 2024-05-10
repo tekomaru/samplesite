@@ -1,8 +1,10 @@
-import styles from './MainService.module.css'
-import 'animate.css'
+import styles from './MainService.module.css';
+import 'animate.css';
 import { useInView } from 'react-intersection-observer';
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 export default function MainService() {
     const { ref, inView } = useInView({
@@ -13,30 +15,19 @@ export default function MainService() {
 
     return(
 
-<section className={styles.Service_wrapper} ref={ref}>
+<section className={styles.top_service_wrapper} ref={ref}>
         {inView && (
-        <div className={styles.Service_serviceTitle}>
-            <div className={styles.Service_serviceHeadline}>SERVICE</div>
+        <div className={styles.top_service_title}>
+            <div className={styles.top_service_headline}>SERVICE</div>
         </div>
         )}
-        <div className={styles.Service_weMake} ref={ref}>
-                <div className={styles.Service_scrollDown}>
-                {inView &&(
-                <span className="animate__animated animate__fadeInUp">We Make</span>
-                   )}   
-                </div>
-        </div>
-        <div className={styles.Service_circleWrapper} ref={ref}>
+        <div ref={ref}>
             {inView &&(
-            <div className={`${styles.Service_contentWrapper} animate__animated animate__fadeInUp`}>
-                <div className={styles.Service_circleContent}>
-                    <Image src="/engineering_support.png" alt="icon" width={40} height={40}></Image>
-                        {/* <div className={styles.Service_serviceContentTitle}>
-                            <div>Engineering</div>
-                            <div>Support</div>
-                        </div> */}
-                        <p className={styles.Service_serviceContentName}>エンジニアリング支援</p>
-                        <p className={styles.Service_circleLastContent}>
+            <div className={`${styles.top_service_contentWrapper} animate__animated animate__bounceIn`}>
+                  <Image src="/image1.png" alt="icon" width={200} height={200}></Image>
+                <div className={styles.top_service_content}>
+                        <p className={styles.top_service_contentName}>エンジニアリング支援</p>
+                        <p className={styles.top_service_LastContent}>
                         システムの構築に関する
                         コンサルティング、設計、開発、運用を行います。
                         </p>
@@ -44,40 +35,39 @@ export default function MainService() {
             </div>
             )}
             {inView &&(
-            <div className={`${styles.Service_contentWrapper} animate__animated animate__fadeInUp`}>
-                <div className={styles.Service_circleContent}>
-                    <Image src="/WEB.png" alt="icon" width={40} height={40}></Image>
-                            {/* <div className={styles.Service_serviceContentTitle}>
-                                <div>Web advertising</div>
-                                <div>Support</div>
-                                </div> */}
-                                <p className={styles.Service_serviceContentName}>Web広告運用支援</p>
-                                    <p className={styles.Service_circleLastContent}>デジタル広告の領域での専門知識と経験を活かし、
+            <div className={`${styles.top_service_contentWrapper} animate__animated animate__bounceIn`}>
+                <Image src="/image2.png" alt="icon" width={200} height={200}></Image>
+                <div className={styles.top_service_content}>
+                                <p className={styles.top_service_contentName}>Web広告運用支援</p>
+                                    <p className={styles.top_service_LastContent}>デジタル広告の領域での専門知識と経験を活かし、
                                             {/* クライアントの目標に合わせたカスタマイズされた戦略を策定し、 */}
                                             効果的な広告キャンペーンの設計と最適化を支援します。</p>
                 </div>
             </div>
             )}
             {inView && (
-            <div className={`${styles.Service_contentWrapper} animate__animated animate__fadeInUp`}>
-                <div className={styles.Service_circleContent}>
-                    <Image src="/own_service.png" alt="icon" width={40} height={40}></Image>
-                            {/* <div className={styles.Service_serviceContentTitle}>
-                                <div>Own Service</div>
-                                </div> */}
-                                 <p className={styles.Service_serviceContentName}>自社サービス<br/>の企画、開発</p>
+            <div className={`${styles.top_service_contentWrapper} animate__animated animate__bounceIn`}>
+                  <Image src="/image3.png" alt="icon" width={250} height={250}></Image>
+                <div className={styles.top_service_content}>
+                  
+                                 <p className={styles.top_service_contentName}>自社サービス<br/>の企画、開発</p>
                                             {/* <p className={styles.Service_serviceContentNameOwnService}>の企画、開発</p> */}
-                                <p className={styles.Service_circleLastContent}>自社サービスの企画、開発も行っております。</p>
+                                <p className={styles.top_service_LastContent}>自社サービスの企画、開発も行っております。</p>
                 </div>
             </div>
             )}
         </div>
-            <div className={styles.Service_serviceAbout}>
-                <a className={`${styles.Service_link} animate__animated animate__fadeInUp`} href="/SERVICE/">
-                    <span className={styles.Service_arrow}></span>
-                 </a>
-            <div className={`${styles.undefined} animate__animated animate__fadeInUp`}>詳しく見る</div>
+        <div className={styles.top_service_contentsp}>
+      
+        </div>
+        {inView && (
+            <div className={`${styles.top_service_about} animate__animated animate__fadeInUp`}>
+            <Link className={styles.button} href="/ABOUT/">
+                        <span>詳しく見る</span>
+                        <span className={styles.arrow}></span>
+                        </Link>
             </div>
+        )}
             </section>
 )
 }

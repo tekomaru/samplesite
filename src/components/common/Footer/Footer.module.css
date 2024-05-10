@@ -92,36 +92,37 @@
 .Footer_wrapper .Footer_spFooterWrapper .Footer_spMenuWrapper {
     padding-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .Footer_wrapper .Footer_spFooterWrapper .Footer_spMenuWrapper span {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: .01em;
     color: #f5f5f5;
 }
 .Footer_wrapper .Footer_spFooterWrapper .Footer_spMenuWrapper .Footer_spMenus {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    -moz-column-gap: 8px;
-    column-gap: 8px;
-    row-gap: 8px;
+    display: flex;
+    flex-direction: column;
     font-family: Montserrat;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: .01em;
     color: #fff;
 }
+.Footer_wrapper .Footer_spFooterWrapper .Footer_spMenuWrapper .Footer_spMenus a {
+    margin-bottom:8px;
+}
 .Footer_wrapper .Footer_spFooterWrapper .Footer_spSocialWrapper {
     padding-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
 .Footer_wrapper .Footer_spFooterWrapper .Footer_spSocialWrapper span {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     line-height: 13px;
     letter-spacing: .01em;

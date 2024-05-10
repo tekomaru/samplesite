@@ -18,8 +18,8 @@ export default function Company(){
                 <dd>株式会社Techtonix</dd>
                 <dt>設立</dt><dd>2023年4月7日</dd>
                 <dt>所在地</dt>
-                <dd>〒020-0862
-                    <p className={styles.CompanyIntro_address}> <br className={styles.CompanyIntro_spNewLine} />岩手県盛岡市東仙北2丁目2-13</p></dd>
+                <dd>〒020-0862<br />
+                    岩手県盛岡市東仙北2丁目2-13</dd>
                 <dt>代表取締役</dt>
                     <dd>内城 瑛</dd>
                 <dt>資本金</dt>

@@ -18,8 +18,8 @@ export default function Service() {
             </div>
             <div className={styles.ServiceMain_serviceMainContent} ref={ref}>
                 {inView &&(
-                <><p className="animate__animated animate__fadeInUp">お客様のパートナーとしての開発を</p>
-                    <div className={`${styles.ServiceMain_scrollDown} animate__animated animate__fadeInUp`}></div>
+                <><p className="animate__animated animate__fadeInUp"></p>
+                   
                        </>
                 )}
             </div>
