@@ -1,5 +1,4 @@
 import styles from './Main.module.css'
-import { Link as Scroll } from 'react-scroll';
 
 export default function Main() {
     return (

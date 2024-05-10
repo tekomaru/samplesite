@@ -3,7 +3,7 @@
     outline: none;
     overflow: hidden;
     width:800px;
-    height:750px;
+    height:100vh;
     margin-left:auto;
 }
 .mainvisual img {
@@ -23,8 +23,8 @@
     font-family: DIN Alternate;
     font-style: normal;
     font-weight: 700;
-    font-size: 9.3rem;
-    line-height: 115px;
+    font-size: 9.2rem;
+    line-height: 120px;
     transform: scaleY(1.128);
     text-align: left;
     letter-spacing: .03em;
@@ -126,6 +126,12 @@
     height: 60px;
     background: #fff;
     animation: 1.4s ease-in-out infinite;
+}
+@media screen and (max-width: 1280px) {
+    .DevelopForFun {
+        font-size: 9.2rem;
+    }
+
 }
 @media screen and (max-width: 992px) {
     .mainvisual {

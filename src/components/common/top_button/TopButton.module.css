@@ -1,0 +1,47 @@
+.top_button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 5;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background: var(--main-color2);
+    z-index: 98;
+    border-radius: 50%;
+    border: 1px var(--main-color2) solid;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    cursor: pointer;
+}
+.top_button::after {
+    content:"↑";
+    position: absolute;
+    top:10px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.top_button:hover {
+    background-color:rgba(219, 82 , 31, 0.7);
+}
+@media screen and (max-width: 768px)  {
+    .top_button {
+        bottom:12px;
+        right:10px;
+        width:50px;
+        height:50px;
+        font-size:12px;
+        padding-bottom:7px;
+    }
+    .top_button::after {
+        top:8px;
+    }
+}

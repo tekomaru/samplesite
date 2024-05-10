@@ -3,6 +3,7 @@ import ServiceWeOffer from '../components/ServicePage/ServiceWeOffer/ServiceWeOf
 import Contact from '../components/common/Contact/Contact'
 import Layout from '../components/common/Layout'
 import { BreadCrumb } from '@/components/common/BreadCrumb/BreadCrumb'
+import ServiceSlider from '../components/ServicePage/ServiceWeOffer/ServiceSlider/ServiceSlider'
 
 export default function SERVICE() {
     return (
@@ -10,6 +11,7 @@ export default function SERVICE() {
         <BreadCrumb />
         <main>
         <ServiceTop />
+        {/* <ServiceSlider /> */}
         <ServiceWeOffer />
         <Contact />
         </main>

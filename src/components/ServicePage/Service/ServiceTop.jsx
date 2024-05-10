@@ -15,6 +15,7 @@ export default function Service() {
                     <h2 className={styles.ServiceMain_serviceTitle}>
                         <span>SERVICE</span>
                     </h2>
+                 
             </div>
             <div className={styles.ServiceMain_serviceMainContent} ref={ref}>
                 {inView &&(

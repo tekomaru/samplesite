@@ -16,7 +16,7 @@
     width:30%;
 } */
 .Contact_wrapper .Contact_contactLeftContentCompany {
-    color: #333;
+    color: var(--black--);
 }
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle div:last-child {
     margin-left: 120px;
@@ -28,7 +28,7 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
     width: auto;
     height:120px;
     margin-top: 70px;
@@ -48,7 +48,7 @@
     line-height: 64px;
     letter-spacing: .01em;
     margin-bottom: 38px;
-    color:#333;
+    color:var(--black--);
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle div:last-child {
@@ -60,7 +60,7 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
     width: auto;
     height: 80px;
 }
@@ -90,7 +90,7 @@
     font-size: 32px;
     line-height: 36px;
     letter-spacing: .01em;
-    color: #333;
+    color: var(--black--);
 }
 
 .Contact_wrapper .Contact_contactCircleCompany:hover {
@@ -120,8 +120,11 @@
     letter-spacing: .01em;
     color: #2d2c2c;
 }
+.contact_link {
+    transition: 0.3s;
+}
 
-.Contact_wrapper .Contact_contactCircle:hover {
+.contact_link:hover .Contact_contactCircle {
     transform: scale(1.3);
 }
 

@@ -73,7 +73,7 @@
     line-height:18px;
 }
 .navbarInner ul li a:after {
-    border-bottom: 2px solid #db521f;
+    border-bottom: 2px solid var(--main-color);
     bottom: 0;
     content: "";
     display: block;
@@ -125,18 +125,18 @@
         display: block;
         width: 45px;
         height: 1px;
-        background: #333;
+        background: var(--black--);
     }
 
     .navbarInner .openHambugerMenu .bottomMenuBar {
         display: inline-block;
         width: 45px;
         height: 1px;
-        background: #333;
+        background: var(--black--);
     }
 
     .navbarInner .openHambugerMenu .blackMenuBar {
-        background: #333;
+        background: var(--black--);
     }
     .navbarInner .spAllCover {
         display:none;
@@ -161,7 +161,7 @@
         cursor: pointer;
     }
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper span {
-        color:#fff;
+        color:var(--white--);
     }
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper .closeMenuBar {
         display: inline-block;
@@ -215,7 +215,7 @@
 
     .navbarInner .spAllCover .spNavigation ul li a:after {
         content: "";
-        border-bottom: 2px solid #db521f;
+        border-bottom: 2px solid var(--main-color);
         padding-bottom: 2px;
         bottom: 0;
         display: block;

@@ -45,7 +45,7 @@
     font-size: 18px;
     line-height: 27px;
     letter-spacing: .03em;
-    color: #333;
+    color:var(--black--);
 }
 
 .top_about_wrapper .top_about_inner span {
@@ -76,7 +76,7 @@
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .07em;
-    color: #333;
+    color: var(--black--);
 }
 
 .top_about_wrapper .top_about_about div {
@@ -138,7 +138,7 @@
     content: "";
     width: .75em;
     height: .75em;
-    border: .05em solid #db521f;
+    border: .05em solid var(--main-color2);
     border-left: 0;
     border-bottom: 0;
     transform: rotate(45deg);

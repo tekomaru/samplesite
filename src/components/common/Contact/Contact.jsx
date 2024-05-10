@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Contact() {
     return (
         <div className={styles.Contact_wrapper}>
-            <div className={`${styles.animate__animated} animate__fadeInUp}`}>
+            <Link href="/contact/" className={styles.contact_link}>
                 <div className={styles.Contact_contactContent}>
                     <div className={styles.Contact_contactLeftContent}>
                         <div className={styles.Contact_contactTitle}>
@@ -23,7 +23,7 @@ export default function Contact() {
                         </Link>
                     </div>
                 </div>
-            </div>
+                </Link>
         </div>
         )
         }
