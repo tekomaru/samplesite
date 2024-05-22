@@ -44,7 +44,7 @@
     align-items: center;
     width:60%;
     height: 250px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     color: var(--black--);
     font-weight: 600;
     font-size: 28px;
@@ -52,7 +52,7 @@
     letter-spacing: .05em;
 }
 .top_service_wrapper .top_service_contentWrapper .top_service_content .top_service_content_title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 22px;
     text-align: center;
@@ -65,7 +65,7 @@
 
 .top_service_wrapper .top_service_contentWrapper .top_service_content .top_service_LastContent {
     width: 60%;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     text-align: center;
     letter-spacing: .05em;
@@ -96,13 +96,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 20px;
     letter-spacing: .07em;
     color: var(--black--);
     position: relative;
     z-index: 1;
     animation-delay: 1.5s;
+    font-weight: 500;
 }
 
 .top_service_wrapper .top_service_about div {

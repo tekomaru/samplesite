@@ -24,7 +24,7 @@
 
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
     margin-left: 180px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
@@ -56,13 +56,14 @@
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
     color: var(--black--);
     width: auto;
     height: 80px;
+    font-weight: 500;
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:first-child,.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:last-child {

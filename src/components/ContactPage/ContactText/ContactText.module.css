@@ -18,10 +18,11 @@
 }
 .ContactText_wrapper p {
     margin-top: 40px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 18px;
     line-height: 28px;
     color: #333;
+    font-weight: 500;
 }
 
 @keyframes PageTitle_fadeUpLeftAnime__Mjq9a {
