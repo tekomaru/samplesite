@@ -11,10 +11,10 @@
     justify-content: center;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background: var(--main-color2);
+    background:#db521f;
     z-index: 98;
     border-radius: 50%;
-    border: 1px var(--main-color2) solid;
+    border: 1px #db521f solid;
     font-family: "Montserrat",sans-serif;
     font-weight: 600;
     font-size: 14px;

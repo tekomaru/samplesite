@@ -63,7 +63,7 @@ export default function MainService() {
         {inView && (
             <div className={`${styles.top_service_about} animate__animated animate__fadeInUp`}>
             <Link className={styles.button} href="/ABOUT/">
-                        <span>詳しく見る</span>
+                        <span>サービスについて</span>
                         <span className={styles.arrow}></span>
                         </Link>
             </div>

@@ -35,7 +35,7 @@ return (
         </div>
                 <div className={`${styles.top_about_about} animate__animated animate__fadeInUp`}>
                     <Link className={styles.button} href="/about/">
-                        <span>詳しく見る</span>
+                        <span>Techtonixについて</span>
                         <span className={styles.arrow}></span>
                         </Link>
                     
