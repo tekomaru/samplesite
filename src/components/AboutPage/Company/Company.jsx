@@ -11,7 +11,7 @@ export default function Company(){
     <div className={styles.CompanyIntro_wrapper}>
         <div className={styles.CompanyIntro_companyIntroWrapper}>
             <><span>COMPANY</span>
-            <dl className="animate__animated animate__fadeInUp">
+            <dl>
                 <dt>会社名</dt>
                 <dd>株式会社Techtonix</dd>
                 <dt>設立</dt><dd>2023年4月7日</dd>
