@@ -1,18 +1,19 @@
 .About_wrapper {
     width: 100vw;
     overflow: hidden;
-}
-.About_wrapper .About_background {
     padding: 60px 13% 0;
     max-width: 1600px;
     margin: 0 auto;
-    background:url("/about_image.png") no-repeat;
-    background-size: contain;
-    background-position:right bottom;
 }
+.About_wrapper .About_background {
+    height:50vh;
+    background:url("/team-work-isometric.png") no-repeat;
+    background-size:contain;
+    background-position:right bottom;
+    }
 
 .PageTitle_wrapper .PageTitle_gray {
-    animation-name: PageTitle_fadeUpLeftAnimeGray__Acz_S;
+    animation-name: PageTitle_fadeUpLeftAnime;
 }
 .PageTitle_wrapper h2 {
     font-style: normal;
@@ -56,7 +57,7 @@
     height: 100%;
 }
 
-@keyframes PageTitle_fadeUpLeftAnimeGray__Acz_S {
+@keyframes PageTitle_fadeUpLeftAnime {
     0% {
         transform: translateX(-250px);
     }

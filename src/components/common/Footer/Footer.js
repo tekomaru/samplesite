@@ -22,10 +22,10 @@ export default function Footer(){
                 <style jsx>{' .Footer_footerBox ul li { color: rgb(245, 245, 245);} '}</style>
                 <div className={styles.Footer_footerBox}>
                     <div>
-                        <span>SOCIAL</span>
+                        {/* <span>SNS</span> */}
                         
                         <ul className={styles.Footer_snsWrapper}>
-                        <p>準備中...</p>
+                       
                             {/* <li><Link href=""><Image src="" alt="line" width={43} height={43} /></Link></li>
                             <li><Link href=""><Image src="" alt="twitter" width={43} height={43}/></Link></li>
                             <li><Link href=""><Image src="" alt="facebook" width={43} height={43}/></Link></li> */}
