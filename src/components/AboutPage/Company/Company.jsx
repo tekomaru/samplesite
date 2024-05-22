@@ -10,8 +10,7 @@ export default function Company(){
     return (
 
     <div className={styles.CompanyIntro_wrapper}>
-        <div className={styles.CompanyIntro_companyIntroWrapper} ref={ref}>
-            {inView && (
+        <div className={styles.CompanyIntro_companyIntroWrapper}>
             <><span>COMPANY</span>
             <dl className="animate__animated animate__fadeInUp">
                 <dt>会社名</dt>
@@ -34,7 +33,6 @@ export default function Company(){
                         </ul>
                     </dd>
                 </dl></>
-            )}
         </div>
     </div>
         )
