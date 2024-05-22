@@ -8,7 +8,6 @@ export default function Company(){
         triggerOnce: true, // 最初の一度だけ実行
       });
     return (
-
     <div className={styles.CompanyIntro_wrapper}>
         <div className={styles.CompanyIntro_companyIntroWrapper}>
             <><span>COMPANY</span>
