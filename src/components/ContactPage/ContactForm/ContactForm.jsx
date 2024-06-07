@@ -59,7 +59,13 @@ export default function ContactForm(){
                         </div>
                         <div className={styles.ContactForm_rowForm}>
                             <label></label>
-           
+                            <div className={styles.ContactForm_refForm}>
+                                <label>
+                                    <input type="file" name="theFiles" />
+                                        <span className={styles.ContactForm_refFormSpan}>参考資料がある場合は添付してください</span>
+                                </label>
+                                <div className={styles.ContactForm_fileNameWrapper}></div>
+                            </div>
                             <span className={styles.ContactForm_errorMessage}></span>
                         </div>
                     </div>
