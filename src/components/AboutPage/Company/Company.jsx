@@ -17,7 +17,7 @@ export default function Company(){
                 <dt>設立</dt><dd>2023年4月7日</dd>
                 <dt>所在地</dt>
                 <dd>〒020-0862<br />
-                    岩手県盛岡市東仙北2丁目2-13</dd>
+                    岩手県盛岡市中央通1-7-35　コアフィールドモリオカ1階</dd>
                 <dt>代表取締役</dt>
                     <dd>内城 瑛</dd>
                 <dt>資本金</dt>
