@@ -157,7 +157,6 @@
     }
     .mainvisual img {
         left:-5%;
-        width:600px;
     }
     .mainTitleSection {
         top: 120px;
@@ -246,7 +245,7 @@
         height:500px;
     }
     .mainvisual img {
-        width:60%;
+     
         top:0;
     }
     .mainTitleSection {
@@ -267,9 +266,6 @@
         left:8%;
         margin-top:320px;
         height:400px;
-    }
-    .mainvisual img {
-        width:45%;
     }
     .mainTitleSection .DevelopForFun {
         font-size:70px;
