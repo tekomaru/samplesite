@@ -13,7 +13,7 @@
     }
 
 .PageTitle_wrapper .PageTitle_gray {
-    animation-name: PageTitle_fadeUpLeftAnimeGray__Acz_S;
+    animation-name: PageTitle_fadeUpLeftAnime;
 }
 .PageTitle_wrapper h2 {
     font-style: normal;
@@ -57,7 +57,7 @@
     height: 100%;
 }
 
-@keyframes PageTitle_fadeUpLeftAnimeGray__Acz_S {
+@keyframes PageTitle_fadeUpLeftAnime {
     0% {
         transform: translateX(-250px);
     }

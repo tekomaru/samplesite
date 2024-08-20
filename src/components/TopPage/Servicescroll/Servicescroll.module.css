@@ -1,0 +1,109 @@
+.works {
+    background-color: #fff;
+    color: #333;
+  }
+  .works__contents {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .works__scroll__bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    width: 1px;
+    height: 0;
+    z-index: 100;
+    background-color: #fff;
+    transition: height 1.9s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .works__left {
+    position: relative;
+    width: 50%;
+  }
+  .works__left__item {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+  }
+  .works__left__item h3 {
+    font-size: 2.8rem;
+    line-height: 4.3rem;
+    letter-spacing: 0.02em;
+  }
+  .works__left__item h3 span {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .works__right {
+    width: 50%;
+  }
+  .works__right #works__right__js {
+    height: 100vh;
+  }
+  .works__right__inner {
+    width: 100%;
+    height: 100vh;
+  }
+  .works__right ul {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .works__right ul li {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: transform 1.9s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 1.9s cubic-bezier(0.215, 0.61, 0.355, 1), z-index 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .works__right ul li.js-active {
+    opacity: 1;
+    z-index: 1;
+  }
+  .works__right ul li img {
+    width: 25vw;
+    height: auto;
+  }
+  
+  .footer {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+  }
+  .footer__inner {
+    height: 100%;
+  }
+  .footer p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .footer p img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
