@@ -125,18 +125,18 @@
         display: block;
         width: 45px;
         height: 1px;
-        background: var(--black--);
+        background: #333;
     }
 
     .navbarInner .openHambugerMenu .bottomMenuBar {
         display: inline-block;
         width: 45px;
         height: 1px;
-        background: var(--black--);
+        background: #333;
     }
 
     .navbarInner .openHambugerMenu .blackMenuBar {
-        background: var(--black--);
+        background: #333;
     }
     .navbarInner .spAllCover {
         display:none;
@@ -161,7 +161,7 @@
         cursor: pointer;
     }
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper span {
-        color:var(--white--);
+        color:#fff;
     }
     .navbarInner .spAllCover .spNavbar .closeMenuWrapper .closeMenuBar {
         display: inline-block;
