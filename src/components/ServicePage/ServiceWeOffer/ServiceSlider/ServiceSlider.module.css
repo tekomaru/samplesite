@@ -1,0 +1,19 @@
+.slideWrapper {
+  display:none;
+    max-width: 100%;
+   width:100vw;
+  }
+
+  .slideImage {
+    object-fit: contain;
+    /* transform:rotate(22deg); */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .slideWrapper {
+      display: block;
+    }
+    .slideImage {
+      aspect-ratio: initial;
+    }
+  }
