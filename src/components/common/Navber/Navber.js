@@ -3,11 +3,12 @@ import styles from './Navber.module.css'
 import Image from 'next/image'
 import { useState } from 'react'
 
-const Navber = () =>{
-  const[openMenu,setOpenMenu] = useState(false);
+const Navber = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+  
   const menuFunction = () => {
-    setOpenMenu(!openMenu);
-  }
+    setOpenMenu(prevState => !prevState);
+  };
   return ( 
     <>
        <div className={`${styles.header} animate__animated animate__fadeInUp`}>

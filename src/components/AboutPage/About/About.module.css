@@ -6,7 +6,7 @@
     margin: 0 auto;
 }
 .About_wrapper .About_background {
-    height:50vh;
+    /* height:50vh; */
     background:url("/team-work-isometric.png") no-repeat;
     background-size:contain;
     background-position:right bottom;
