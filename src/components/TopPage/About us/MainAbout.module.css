@@ -39,9 +39,9 @@
 .top_about_wrapper .top_about_inner {
     
     width: 100%;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: .03em;
@@ -59,20 +59,20 @@
 
 .top_about_wrapper .top_about_inner .top_about_text {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 40px;
     width:70%;
     padding:8px;
 }
 
 .top_about_wrapper .top_about_about {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .07em;
@@ -89,14 +89,15 @@
     height: 80px;
     text-align: center;
     line-height: 80px;
-    border: .05em solid var(--main-color);
+    border: .05em solid #db521f;
+    margin-right: 22px;
     transition: all .3s;
     animation-delay: .3s;
 
 }
 
 .top_about_wrapper .button:hover {
-    border: .05em solid var(--main-color2);
+    border: .05em solid #db521f;
 }
 
 .top_about_wrapper .button:hover .arrow {
@@ -107,12 +108,12 @@
     position: relative;
     height: .04em;
     transform: translateX(10px);
-    background: var(--main-color2);
+    background: #db521f;
     
 }
 
 .top_about_wrapper .button:hover .arrow:before {
-    border: .05em solid var(--main-color2);
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
     
@@ -127,7 +128,7 @@
     width: 2.7em;
     height: .04em;
     margin-left:16px;
-    background: var(--main-color2);
+    background: #db521f;
     transition: all .3s;
 }
 .top_about_wrapper .arrow:hover {
@@ -137,7 +138,7 @@
     content: "";
     width: .75em;
     height: .75em;
-    border: .05em solid var(--main-color2);
+    border: .05em solid #db521f;
     border-left: 0;
     border-bottom: 0;
     transform: rotate(45deg);
@@ -155,7 +156,7 @@
     }
     to {
         transform: translateX(10px) rotateY(0);
-        color:var(--main-color);
+        color:#db521f;
         /* -webkit-background-clip: text; */
         /* -webkit-text-fill-color: transparent; */
         background-clip: text;

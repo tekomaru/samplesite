@@ -7,7 +7,7 @@ export default function ContactForm(){
         <div className={styles.ContactForm_wrapper}>
             <span className={styles.ContactForm_firstSpan}>※印の項目は必須項目です。</span>
             <div className={styles.ContactForm_contactFormWrapper}>
-                <form name="contact" method="POST"　data-netlify="true"　netlify-honeypot="bot-field">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                     <div className={styles.ContactForm_rowFormWrapper}>
                         <div className={styles.ContactForm_rowForm}>
@@ -31,8 +31,7 @@ export default function ContactForm(){
                                 <label for="name">お名前</label>
                                 <span>※</span>
                             </div>
-                            <input type="text" placeholder="山田太郎" name="name" />
-                            <span className={styles.ContactForm_errorMessage}>名前を入力してください。</span>
+                            <input type="text" placeholder="" name="name" />
                         </div>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>
@@ -40,15 +39,15 @@ export default function ContactForm(){
                                 <span>※</span>
                             </div>
                             <input type="tel" placeholder="00000000000" name="telphone"  />
-                            <span className={styles.ContactForm_errorMessage}>電話番号を入力してください。</span>
+                
                         </div>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>
                                 <label for="email">メールアドレス</label>
                                 <span>※</span>
                             </div>
-                            <input type="email" placeholder="xxxxxxxxxx@zzz.jp" name="email"  />
-                            <span className={styles.ContactForm_errorMessage}>メールアドレスを入力してください。</span>
+                            <input type="email" placeholder="xxxxxxxxxx@co.jp" name="email"  />
+                         
                         </div>
                         <div className={styles.ContactForm_rowForm}>
                             <div className={styles.ContactForm_labelSpanWrapper}>
@@ -63,7 +62,7 @@ export default function ContactForm(){
                             <div className={styles.ContactForm_refForm}>
                                 <label>
                                     <input type="file" name="theFiles" />
-                                        <span className={styles.ContactForm_refFormSpan}>資料がある場合は添付してください</span>
+                                        <span className={styles.ContactForm_refFormSpan}>参考資料がある場合は添付してください</span>
                                 </label>
                                 <div className={styles.ContactForm_fileNameWrapper}></div>
                             </div>

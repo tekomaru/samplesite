@@ -18,9 +18,9 @@ const Navber = () =>{
                             <nav className={styles.pcNavigation}>
                                 <ul>
                                     <li><Link href="/">HOME</Link></li>
-                                    <li><Link href="/ABOUT/">ABOUT</Link></li>
-                                    <li><Link href="/SERVICE/">SERVICE</Link></li>
-                                    <li><Link className={styles.contact_button} href="/CONTACT/">CONTACT</Link></li>
+                                    <li><Link href="/about/">ABOUT</Link></li>
+                                    <li><Link href="/service/">SERVICE</Link></li>
+                                    <li><Link className={styles.contact_button} href="/contact/">CONTACT</Link></li>
                                 </ul>
                             </nav>
                             <div className={styles.openHambugerMenu} onClick={() => menuFunction()}>

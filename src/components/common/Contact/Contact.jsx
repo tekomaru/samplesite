@@ -18,9 +18,9 @@ export default function Contact() {
                         <Image src="/contact_image.png" alt="" width={400} height={400}/>
                     </div>
                     <div>
-                        <div className={styles.Contact_contactCircle}>
+                        <Link className={styles.Contact_contactCircle} href="/CONTACT/">
                             <span>→</span>
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 </Link>

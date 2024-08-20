@@ -13,6 +13,7 @@ export default function ServiceWeOffer() {
     return (
 
         <div className={styles.ServiceWeOffer_wrapper} ref={ref}>
+        
                 {inView &&(
                 <div className={styles.ServiceWeOffer_serviceWeOffers}>
                     <div className={styles.Service_image}>

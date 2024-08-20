@@ -50,17 +50,17 @@
     display: flex;
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm label {
-    font-family: Zen Kaku Gothic Antique;
-    font-weight: 600;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 1px;
     color: #333;
     margin-bottom: 5px;
-    width: 90%;
+    width: 65%;
 }
 .ContactForm_wrapper .ContactForm_contactFormWrapper form .ContactForm_rowFormWrapper .ContactForm_rowForm span {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 18px;
     color: #db521f;
     width: 45%;
@@ -90,19 +90,20 @@
 .ContactForm_wrapper .ContactForm_contactFormText {
     border-top: 1px solid #6b6b6b;
     padding-top: 40px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 16px;
     line-height: 30px;
     color: #333;
     width: 60%;
     margin: 48px auto;
     text-align: center;
+    font-weight: 500;
 }
 .ContactForm_wrapper .ContactForm_confirmButton {
     text-align: center;
 }
 .ContactForm_wrapper button {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: .07em;
@@ -133,7 +134,7 @@
 .ContactForm_wrapper .ContactForm_contactFormWrapper .ContactForm_rowFormWrapper .ContactForm_rowForm .ContactForm_refForm label span {
     width: auto;
     margin-left: 30px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 13px;
     line-height: 32px;
     color: #333;

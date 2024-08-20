@@ -2,7 +2,7 @@
     padding:3%;
     margin: 5% auto;
     position: relative;
-    background-color: var(--bg-color);
+    background-color: #e6e6e6;
     width:80%;
     border-radius: 30px;
 }
@@ -24,7 +24,7 @@
 
 .Contact_wrapper .Contact_contactLeftContentCompany .Contact_companyIntroduction {
     margin-left: 180px;
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
@@ -39,7 +39,7 @@
 }
 
 .Contact_wrapper .Contact_contactLeftContent {
-    color: #f5f5f5;
+    color: #333;
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_contactTitle {
@@ -56,13 +56,14 @@
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: .01em;
     color: var(--black--);
     width: auto;
     height: 80px;
+    font-weight: 500;
 }
 
 .Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:first-child,.Contact_wrapper .Contact_contactLeftContent .Contact_companyIntroduction p:last-child {
@@ -132,7 +133,6 @@
     max-width:100%;
     width:300px;
 }
-
 @media screen and (max-width: 1200px) {
     .Contact_wrapper .Contact_contactLeftContentCompany .Contact_contactTitle {
         font-size:60px;
@@ -158,7 +158,9 @@
         flex-direction: column;
         text-align: center;
     }
-
+    .Contact_contactContent div {
+        width:100%;
+    }
     .Contact_wrapper .Contact_contactTitle {
         font-size: 20px;
         line-height: 39px;

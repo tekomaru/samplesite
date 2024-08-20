@@ -8,9 +8,9 @@
 }
 .mainvisual img {
     position:absolute;
-    top:20%;
-    right:15%;
-    width:80%;
+    top:15%;
+    left:-5%;
+
 }
 .mainTitleSection {
     text-align: left;
@@ -70,7 +70,7 @@
     transform-origin: top left;
 }
 .subTitle {
-    font-family: Zen Kaku Gothic Antique;
+    font-family: "Noto Sans JP", sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 28px;

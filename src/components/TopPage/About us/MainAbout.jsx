@@ -23,19 +23,19 @@ return (
             <div className={styles.top_about_inner}>   
             
             <div className={`${styles.top_about_text} animate__animated animate__fadeInUp`}>
-            <span>Techtonixは、新しいプロジェクトの開発、既存サービスのアップデートやメンテナンス、そして独自サービスの企画開発に取り組んでいます。</span>
-            <span>私たちは、少ない人数でも高い機動力を持ったシステム開発を行うことに特化しており、迅速かつ効果的なソフトウェア開発が特長です。</span>
-            <span>チームは経験豊富な開発者で構成され、専門知識と経験を生かして、お客様の要望に柔軟にかつ速やかに応えることができる環境を整えています。</span>
+                <span>Techtonixでは新規サービスの受託開発、既存サービスの追加開発や保守運用、自社サービスの企画開発を行っております。</span>
+                <span>当社は少数精鋭のチームで、機動性の高いシステム開発事業に取り組んでいます。私たちの強みは、迅速かつ効率的なソフトウェア開発を実現することです。</span>
+                <span>私たちの少数精鋭のチームは、熟練した開発者からなり、高い専門知識と経験を備えています。チーム全体で緊密に連携し、お客様のニーズに的確に応える柔軟性と迅速な対応が可能です。</span>
             </div>
                 <div className={`${styles.top_about_image} animate__animated animate__fadeInUp`}>
-                    <img src="/engineering_team.png" alt='' />
+                    <img src="/about_image.png" alt='' />
                 </div>
             </div>
              )}
         </div>
                 <div className={`${styles.top_about_about} animate__animated animate__fadeInUp`}>
                     <Link className={styles.button} href="/about/">
-                        <span>詳しく見る</span>
+                        <span>Techtonixについて</span>
                         <span className={styles.arrow}></span>
                         </Link>
                     
