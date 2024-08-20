@@ -2,7 +2,7 @@
     position: relative;
     outline: none;
     overflow: hidden;
-    width:800px;
+    width:100%;
     height:100vh;
     margin-left:auto;
 }
@@ -142,6 +142,7 @@
     }
     .mainvisual img {
         left:-15%;
+        width:100%;
     }
     .mainTitleSection {
         top: 150px;
