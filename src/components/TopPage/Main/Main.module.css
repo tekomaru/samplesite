@@ -32,7 +32,7 @@
 }
 .titleBlock {
     padding-top: 24px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .fadeUp1 {
     display: inline-block;
